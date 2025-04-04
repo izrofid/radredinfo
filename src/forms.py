@@ -1,7 +1,7 @@
 FORM_SUFFIXES = [
     "Alola",
     "Galar",
-    "Hisuian",
+    "Hisui",
     "Paldea",
 ]
 

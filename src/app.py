@@ -4,10 +4,14 @@ from forms import strip_form_suffix
 
 # Load data
 df = pd.read_csv("flat_encounters.csv")
-pokemon_df = pd.read_csv("pokemon.csv")
+
+pokemon_df = pd.read_csv("pokemondata.csv")
 pokemon_names = sorted(pokemon_df["Name"].unique())
 
-
+levelcap_df= pd.read_csv("levelcap.csv", keep_default_na=False)
+levelcap_df.columns = levelcap_df.columns.str.strip()
+levelcap_df['Level Cap'] = levelcap_df['Level Cap'].astype(int)
+level_caps = levelcap_df.set_index('Point')['Level Cap'].to_dict()
 
 # Prepare level range as a combined string
 df["LevelRange"] = df["MinLevel"].astype(str) + "–" + df["MaxLevel"].astype(str)
@@ -64,10 +68,18 @@ df["Method"] = df["Method"].str.strip()
 water_methods = sorted([m for m in df["Method"].unique() if m != "Grass"])
 method_options = ["All"] + water_methods
 
-if location_type == "Land":
-    selected_method = st.selectbox("Method", "Grass")
-else:
-    selected_method = st.selectbox("Method", method_options, index=0)
+
+col5, col6 = st.columns(2)
+
+with col5:
+    if location_type == "Land":
+        selected_method = st.selectbox("Method", "Grass")
+    else:
+        selected_method = st.selectbox("Method", method_options, index=0)
+with col6:
+    selected_label = st.selectbox("Level Cap", list(level_caps.keys()))
+    selected_level_cap = level_caps[selected_label]
+
 
 # Filter data
 df["BasePokemon"] = df["Pokemon"].apply(strip_form_suffix)
@@ -86,6 +98,10 @@ if selected_method == "All":
     filtered = filtered[filtered["Method"].isin(water_methods)]
 else:
     filtered = filtered[filtered["Method"] == selected_method]
+
+if selected_level_cap != 0:
+    filtered = filtered[filtered["MaxLevel"] <= selected_level_cap]
+
 
 
 
