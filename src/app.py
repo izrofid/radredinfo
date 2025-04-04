@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
-from forms import strip_form_suffix
+from utils import strip_form_suffix
+import render as rn
 
 # Load data
 df = pd.read_csv("flat_encounters.csv")
@@ -14,7 +15,11 @@ levelcap_df['Level Cap'] = levelcap_df['Level Cap'].astype(int)
 level_caps = levelcap_df.set_index('Point')['Level Cap'].to_dict()
 
 # Prepare level range as a combined string
-df["LevelRange"] = df["MinLevel"].astype(str) + "–" + df["MaxLevel"].astype(str)
+df["LevelRange"] = df.apply(
+    lambda row: str(row["MinLevel"]) if row["MinLevel"] == row["MaxLevel"] 
+    else f"{row['MinLevel']}–{row['MaxLevel']}",
+    axis=1
+)
 
 # Page title
 st.title("Radical Red Pokemon Locations")
@@ -65,20 +70,22 @@ with col4:
         )
 
 df["Method"] = df["Method"].str.strip()
-water_methods = sorted([m for m in df["Method"].unique() if m != "Grass"])
-all_methods = sorted([m for m in df["Method"].unique()])
-method_options = ["All"] + water_methods
-all_method_options = ["All"] + all_methods
+land_methods = ["Grass", "Game Corner"]
+land_options = ["All"] + land_methods
+water_methods = sorted([m for m in df["Method"].unique() if m not in land_methods])
+all_methods = sorted(df["Method"].unique())
+water_options = ["All"] + land_methods + water_methods
+method_options = ["All"] + all_methods
 
 col5, col6 = st.columns(2)
 
 with col5:
     if location_type == "Land":
-        selected_method = st.selectbox("Method", "Grass")
+        selected_method = st.selectbox("Method", land_options, index=0)
     elif location_type == "Water":
-        selected_method = st.selectbox("Method", method_options, index=0)
+        selected_method = st.selectbox("Method", water_options, index=0)
     else:
-        selected_method = st.selectbox("Method", all_method_options, index=0)
+        selected_method = st.selectbox("Method", method_options, index=0)
 
 with col6:
     selected_label = st.selectbox("Level Cap", list(level_caps.keys()))
@@ -102,6 +109,8 @@ if selected_method == "All" and location_type == "Water":
     filtered = filtered[filtered["Method"].isin(water_methods)]
 elif selected_method == "All" and location_type =="Both":
     filtered = filtered[filtered["Method"].isin(all_methods)]
+elif selected_method == "All" and location_type =="Land":
+    filtered = filtered[filtered["Method"].isin(land_methods)]
 else:
     filtered = filtered[filtered["Method"] == selected_method]
 
@@ -117,117 +126,35 @@ filtered = filtered[["Pokemon", "Location", "LevelRange", "Time", "Method"]].dro
 # Check if any results
 if filtered.empty:
     st.warning("No encounters found. Try adjusting your search.")
+
 # Show Results
+grouped = filtered.groupby("Pokemon") #Group by pokemon to consolidate encounters
 
-elif time_choice == "All" and selected_method == 'Grass' and location_type != 'Water':
-    # 🌓 COMBINED LAYOUT
-    # 1. Group Day and Night separately
-    day_grouped = (
-        filtered[filtered["Time"] == "Day"]
-        .groupby("Pokemon", as_index=False)
-        .apply(lambda x: pd.Series({
-            "DayEncounters": list(zip(x["Location"], x["LevelRange"]))
-        }))
-        .reset_index(drop=True)
-    )
+for pokemon, group in grouped:
+    times = set(group["Time"].unique())
 
-    night_grouped = (
-        filtered[filtered["Time"] == "Night"]
-        .groupby("Pokemon", as_index=False)
-        .apply(lambda x: pd.Series({
-            "NightEncounters": list(zip(x["Location"], x["LevelRange"]))
-        }))
-        .reset_index(drop=True)
-    )
-
-
-    all_grouped = (
-        filtered[filtered["Time"] == "All"]
-        .groupby("Pokemon", as_index=False)
-        .apply(lambda x: pd.Series({
-            "NightEncounters": list(zip(x["Location"], x["LevelRange"]))
-        }))
-        .reset_index(drop=True)
-    )
-
-    grouped = pd.merge(day_grouped, night_grouped, on="Pokemon", how="outer").fillna("")
-
-
-    for _, row in grouped.iterrows():
-        pokemon = row["Pokemon"]
-        day_list = row.get("DayEncounters", [])
-        night_list = row.get("NightEncounters", [])
-
-        # HTML for each encounter list
-        def render_encounter_list(encounters):
-            if not encounters:
-                return "<p style='color: #888;'>—</p>"
-            html = "<ul style='margin: 0.5em 0; padding-left: 1.2em;'>"
-            for loc, lvl in encounters:
-                html += f"<li><strong>{loc}</strong> — Level {lvl}</li>"
-            html += "</ul>"
-            return html
-
-        left = render_encounter_list(day_list)
-        right = render_encounter_list(night_list)
-
-        st.markdown(f"""
-            <div style="
-                background-color: #2b2b2b;
-                border: 1px solid #444;
-                border-radius: 6px;
-                padding: 1.2em;
-                margin-bottom: 1.2em;
-                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-                color: #f0f0f0;
-                font-family: 'Segoe UI', sans-serif;
-            ">
-                <h4 style="margin-bottom: 1em; color: #ffffff; font-size: 1.2em;">{pokemon}</h4>
-                <div style="display: flex; gap: 2em;">
-                    <div style="flex: 1;">
-                        <h5 style="margin: 0 0 0.5em;">☀️ Day</h5>
-                        {left}
-                    </div>
-                    <div style="width: 2px; background-color: #555;"></div>
-                    <div style="flex: 1;">
-                        <h5 style="margin: 0 0 0.5em;">🌙 Night</h5>
-                        {right}
-                    </div>
-                </div>
-            </div>
-        """, unsafe_allow_html=True)
-else:
-
-    # Group by Pokémon to consolidate encounters
-    grouped = (
-        filtered.groupby("Pokemon")
-        .apply(lambda x: list(zip(x["Location"], x["LevelRange"])))
-        .reset_index(name="Encounters")
-    )
-
-    # Render cards
-    for _, row in grouped.iterrows():
-        pokemon = row["Pokemon"]
-        encounters = row["Encounters"]
-
-        encounter_list = ""
-        for loc, lvl in encounters:
-            encounter_list += f"<li><strong>{loc}</strong> — Level {lvl}</li>"
-
-        st.markdown(f"""
-            <div style="
-                background-color: #2b2b2b;
-                border: 1px solid #444;
-                border-radius: 6px;
-                padding: 1.2em;
-                margin-bottom: 1.2em;
-                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-                color: #f0f0f0;
-                font-family: 'Segoe UI', sans-serif;
-            ">
-                <h4 style="margin-bottom: 0.6em; color: #ffffff; font-size: 1.2em;">{pokemon}</h4>
-                <ul style="margin: 0.5em 0; padding-left: 1.2em; list-style-type: disc;">
-                    {encounter_list}
-                </ul>
-            </div>
-        """, unsafe_allow_html=True)
+    # When Day/Night Encounters exist
+    if times == {"Day","Night"}:
+        #Makes list of day encounters with location/levels
+        day_encounters = list(zip(
+            group[group["Time"] == "Day"]["Location"],
+            group[group["Time"] == "Day"]["LevelRange"]
+        ))
+        # Same for night
+        night_encounters = list(zip(
+            group[group["Time"] == "Night"]["Location"],
+            group[group["Time"] == "Night"]["LevelRange"]
+        ))
+        # Render using dual column layout
+        time_icon = rn.time_icons.get(frozenset(times), "")
+        rn.render_dual_column_card(pokemon, day_encounters, night_encounters, time_icon)
+    
+    # When both day and night encounters don't exist
+    else:
+        encounters = list(zip(
+            group["Location"],
+            group["LevelRange"]
+        ))
+        # Render using single column layout
+        time_icon = rn.time_icons.get(frozenset(times), "")
+        rn.render_single_column_card(pokemon, encounters, time_icon)
