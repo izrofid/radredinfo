@@ -133,28 +133,20 @@ grouped = filtered.groupby("Pokemon") #Group by pokemon to consolidate encounter
 for pokemon, group in grouped:
     times = set(group["Time"].unique())
 
-    # When Day/Night Encounters exist
-    if times == {"Day","Night"}:
-        #Makes list of day encounters with location/levels
-        day_encounters = list(zip(
-            group[group["Time"] == "Day"]["Location"],
-            group[group["Time"] == "Day"]["LevelRange"]
-        ))
-        # Same for night
-        night_encounters = list(zip(
-            group[group["Time"] == "Night"]["Location"],
-            group[group["Time"] == "Night"]["LevelRange"]
-        ))
-        # Render using dual column layout
+    # Break up group by time
+    day_group = group[group["Time"] == "Day"]
+    night_group = group[group["Time"] == "Night"]
+    all_group = group[group["Time"] == "All"]
+
+    # Turn into encounter lists
+    day_encounters = list(zip(day_group["Location"], day_group["LevelRange"]))
+    night_encounters = list(zip(night_group["Location"], night_group["LevelRange"]))
+    all_encounters = list(zip(all_group["Location"], all_group["LevelRange"]))
+
+    if day_encounters or night_encounters:
         time_icon = rn.time_icons.get(frozenset(times), "")
         rn.render_dual_column_card(pokemon, day_encounters, night_encounters, time_icon)
     
-    # When both day and night encounters don't exist
-    else:
-        encounters = list(zip(
-            group["Location"],
-            group["LevelRange"]
-        ))
-        # Render using single column layout
+    if all_encounters:
         time_icon = rn.time_icons.get(frozenset(times), "")
-        rn.render_single_column_card(pokemon, encounters, time_icon)
+        rn.render_single_column_card(pokemon, all_encounters, time_icon)
