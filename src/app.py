@@ -42,20 +42,20 @@ col3, col4 = st.columns(2)
 with col3:
     location_type = st.radio(
         "Land or Water?",
-        options=["Land", "Water"],
-        format_func=lambda t: {"Land": "🗾 Land", "Water": "💧 Water"}[t],
+        options=["Land", "Water", "Both"],
+        format_func=lambda t: {"Land": "🗾 Land", "Water": "💧 Water", "Both": "🌏 Both"}[t],
         horizontal=True
     )
 
 with col4:
-    if location_type is not "Land":
+    if location_type == "Water":
         time_choice = st.radio(
             "Time of Day",
             options=["All"],
             format_func=lambda t: {"All": "🌓 All"}[t],
             horizontal=True
         )
-        
+       
     else:
         time_choice = st.radio(
             "Time of Day",
@@ -66,16 +66,20 @@ with col4:
 
 df["Method"] = df["Method"].str.strip()
 water_methods = sorted([m for m in df["Method"].unique() if m != "Grass"])
+all_methods = sorted([m for m in df["Method"].unique()])
 method_options = ["All"] + water_methods
-
+all_method_options = ["All"] + all_methods
 
 col5, col6 = st.columns(2)
 
 with col5:
     if location_type == "Land":
         selected_method = st.selectbox("Method", "Grass")
-    else:
+    elif location_type == "Water":
         selected_method = st.selectbox("Method", method_options, index=0)
+    else:
+        selected_method = st.selectbox("Method", all_method_options, index=0)
+
 with col6:
     selected_label = st.selectbox("Level Cap", list(level_caps.keys()))
     selected_level_cap = level_caps[selected_label]
@@ -94,14 +98,15 @@ if search_location != "All":
 if time_choice != "All":
     filtered = filtered[filtered["Time"] == time_choice]
 
-if selected_method == "All":
+if selected_method == "All" and location_type == "Water":
     filtered = filtered[filtered["Method"].isin(water_methods)]
+elif selected_method == "All" and location_type =="Both":
+    filtered = filtered[filtered["Method"].isin(all_methods)]
 else:
     filtered = filtered[filtered["Method"] == selected_method]
 
 if selected_level_cap != 0:
     filtered = filtered[filtered["MaxLevel"] <= selected_level_cap]
-
 
 
 
