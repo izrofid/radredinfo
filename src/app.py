@@ -2,9 +2,6 @@ import pandas as pd
 import streamlit as st
 from forms import strip_form_suffix
 
-water_methods = {"Surf", "Old Rod", "Good Rod", "Super Rod"}
-
-
 # Load data
 df = pd.read_csv("flat_encounters.csv")
 pokemon_df = pd.read_csv("pokemon.csv")
@@ -39,11 +36,15 @@ col3, col4 = st.columns(2)
 
 
 with col3:
-    method_options = sorted(df["Method"].unique())
-    selected_method = st.selectbox("Method", method_options, index=method_options.index("Grass"))
+    location_type = st.radio(
+        "Land or Water?",
+        options=["Land", "Water"],
+        format_func=lambda t: {"Land": "🗾 Land", "Water": "💧 Water"}[t],
+        horizontal=True
+    )
 
 with col4:
-    if selected_method in water_methods:
+    if location_type is not "Land":
         time_choice = st.radio(
             "Time of Day",
             options=["All"],
@@ -59,6 +60,15 @@ with col4:
             horizontal=True
         )
 
+df["Method"] = df["Method"].str.strip()
+water_methods = sorted([m for m in df["Method"].unique() if m != "Grass"])
+method_options = ["All"] + water_methods
+
+if location_type == "Land":
+    selected_method = st.selectbox("Method", "Grass")
+else:
+    selected_method = st.selectbox("Method", method_options, index=0)
+
 # Filter data
 df["BasePokemon"] = df["Pokemon"].apply(strip_form_suffix)
 filtered = df.copy()
@@ -72,8 +82,12 @@ if search_location != "All":
 if time_choice != "All":
     filtered = filtered[filtered["Time"] == time_choice]
 
-if selected_method != "All":
+if selected_method == "All":
+    filtered = filtered[filtered["Method"].isin(water_methods)]
+else:
     filtered = filtered[filtered["Method"] == selected_method]
+
+
 
 # Keep only the essential display columns
 filtered = filtered[["Pokemon", "Location", "LevelRange", "Time", "Method"]].dropna()
@@ -84,7 +98,7 @@ if filtered.empty:
     st.warning("No encounters found. Try adjusting your search.")
 # Show Results
 
-elif time_choice == "All" and selected_method not in water_methods:
+elif time_choice == "All" and selected_method not in method_options:
     # 🌓 COMBINED LAYOUT
     # 1. Group Day and Night separately
     day_grouped = (
