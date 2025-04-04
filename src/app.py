@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-from forms import strip_form_suffix
+from utils import strip_form_suffix
 import render as rn
 
 # Load data
@@ -15,7 +15,11 @@ levelcap_df['Level Cap'] = levelcap_df['Level Cap'].astype(int)
 level_caps = levelcap_df.set_index('Point')['Level Cap'].to_dict()
 
 # Prepare level range as a combined string
-df["LevelRange"] = df["MinLevel"].astype(str) + "–" + df["MaxLevel"].astype(str)
+df["LevelRange"] = df.apply(
+    lambda row: str(row["MinLevel"]) if row["MinLevel"] == row["MaxLevel"] 
+    else f"{row['MinLevel']}–{row['MaxLevel']}",
+    axis=1
+)
 
 # Page title
 st.title("Radical Red Pokemon Locations")
@@ -66,20 +70,22 @@ with col4:
         )
 
 df["Method"] = df["Method"].str.strip()
-water_methods = sorted([m for m in df["Method"].unique() if m != "Grass"])
-all_methods = sorted([m for m in df["Method"].unique()])
-method_options = ["All"] + water_methods
-all_method_options = ["All"] + all_methods
+land_methods = ["Grass", "Game Corner"]
+land_options = ["All"] + land_methods
+water_methods = sorted([m for m in df["Method"].unique() if m not in land_methods])
+all_methods = sorted(df["Method"].unique())
+water_options = ["All"] + land_methods + water_methods
+method_options = ["All"] + all_methods
 
 col5, col6 = st.columns(2)
 
 with col5:
     if location_type == "Land":
-        selected_method = st.selectbox("Method", "Grass")
+        selected_method = st.selectbox("Method", land_options, index=0)
     elif location_type == "Water":
-        selected_method = st.selectbox("Method", method_options, index=0)
+        selected_method = st.selectbox("Method", water_options, index=0)
     else:
-        selected_method = st.selectbox("Method", all_method_options, index=0)
+        selected_method = st.selectbox("Method", method_options, index=0)
 
 with col6:
     selected_label = st.selectbox("Level Cap", list(level_caps.keys()))
@@ -103,6 +109,8 @@ if selected_method == "All" and location_type == "Water":
     filtered = filtered[filtered["Method"].isin(water_methods)]
 elif selected_method == "All" and location_type =="Both":
     filtered = filtered[filtered["Method"].isin(all_methods)]
+elif selected_method == "All" and location_type =="Land":
+    filtered = filtered[filtered["Method"].isin(land_methods)]
 else:
     filtered = filtered[filtered["Method"] == selected_method]
 
