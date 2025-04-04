@@ -47,8 +47,8 @@ col3, col4 = st.columns(2)
 with col3:
     location_type = st.radio(
         "Land or Water?",
-        options=["Land", "Water", "Both"],
-        format_func=lambda t: {"Land": "🗾 Land", "Water": "💧 Water", "Both": "🌏 Both"}[t],
+        options=["Both","Land", "Water"],
+        format_func=lambda t: {"Both": "🌏 Both", "Land": "🗾 Land", "Water": "💧 Water"}[t],
         horizontal=True
     )
 
