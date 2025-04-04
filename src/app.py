@@ -119,7 +119,7 @@ if filtered.empty:
     st.warning("No encounters found. Try adjusting your search.")
 # Show Results
 
-elif time_choice == "All" and selected_method not in method_options:
+elif time_choice == "All" and selected_method == 'Grass' and location_type != 'Water':
     # 🌓 COMBINED LAYOUT
     # 1. Group Day and Night separately
     day_grouped = (
