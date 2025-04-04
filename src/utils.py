@@ -10,3 +10,4 @@ def strip_form_suffix(name):
         if name.endswith(f"-{suffix}"):
             return name.rsplit(f"-{suffix}", 1)[0]
     return name
+
