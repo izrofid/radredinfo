@@ -1,8 +1,21 @@
 """Module providing helper functions"""
 
 import re
+import pandas as pd
 from collections import defaultdict
 from constants import FORM_SUFFIXES
+
+
+def prep_level_range(df):
+    df["LevelRange"] = df.apply(
+        lambda row: (
+            str(row["MinLevel"])
+            if row["MinLevel"] == row["MaxLevel"]
+            else f"{row['MinLevel']}–{row['MaxLevel']}"
+        ),
+        axis=1,
+    )
+    return df
 
 
 def strip_form_suffix(name):
@@ -24,7 +37,8 @@ def parse_range(range_str):
 
 def merge_ranges(ranges):
     """Merge overlapping or adjacent ranges"""
-    parsed = sorted([parse_range(r) for r in ranges])  # Sorts the level range tuples
+    levels = [lvl for lvl, _, _ in ranges]
+    parsed = sorted([parse_range(r) for r in levels])  # Sorts the level range tuples
     merged = []
 
     for start, end in parsed:
@@ -40,23 +54,59 @@ def merge_ranges(ranges):
 
 
 def consolidate_by_location(subgroup):
-    """Consolidate the same pokemon by location"""
-    by_location = defaultdict(list)
+    """Consolidate the same Pokémon by (location, method) to support mixed encounters"""
+    by_location_and_method = defaultdict(list)
 
     for _, row in subgroup.iterrows():
-        by_location[row["Location"]].append(row["LevelRange"])
+        key = (row["Location"], row["Method"])
+        by_location_and_method[key].append(
+            (row["LevelRange"], row["Method"], row["Star"])
+        )
 
     output = []
-    for location, levels in by_location.items():
-        merged_levels = merge_ranges(levels)
-        output.append((location, ", ".join(merged_levels)))
+    for (location, method), entries in by_location_and_method.items():
+        if method == "Raid":
+            stars = sorted({int(star) for _, _, star in entries if pd.notna(star)})
+            val_string = ", ".join(f"{s}* Raid" for s in stars)
+        else:
+            val_string = f"Level {', '.join(merge_ranges(entries))}"
 
+        output.append((location, val_string))
+    output.sort(key=lambda x: "z" if "*" in x[1] else x[0])
     return output
 
 
-def apply_common_filters(df, selected_pokemon, search_location):
+def apply_common_filters(
+    df,
+    selected_pokemon,
+    search_location,
+    location_type,
+    selected_method,
+    selected_level_cap,
+    methods,
+):
     if selected_pokemon != "All":
         df = df[df["Pokemon"] == selected_pokemon]
+
     if search_location != "All":
         df = df[df["Location"] == search_location]
+
+    # if time_choice != "All":
+    #     df = df[df["Time"] == time_choice]
+
+    if selected_method == "All" and location_type == "Water":
+        df = df[df["Method"].isin(methods[0])]
+
+    elif selected_method == "All" and location_type == "Both":
+        df = df[df["Method"].isin(methods[1])]
+
+    elif selected_method == "All" and location_type == "Land":
+        df = df[df["Method"].isin(methods[2])]
+
+    else:
+        df = df[df["Method"] == selected_method]
+
+    if selected_level_cap != 0:
+        df = df[df["MaxLevel"] <= selected_level_cap]
+
     return df

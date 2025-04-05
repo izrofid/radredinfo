@@ -13,3 +13,5 @@ TIME_ICONS = {
     frozenset({"Day", "Night"}): "🌓",
     frozenset({"All"}): "🌓",
 }
+
+REQUIRED_FIELDS = ["Pokemon", "Location", "LevelRange", "Time", "Method"]
