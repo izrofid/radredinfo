@@ -198,7 +198,7 @@ for pokemon in all_pokemon:
         if both_encounters or all_encounters:
             time_icon = TIME_ICONS.get(frozenset({"All"}), "")
             rn.render_single_column_card(
-                pokemon, both_encounters + all_encounters + both_encounters, time_icon
+                pokemon, both_encounters + all_encounters + raid_encounters, time_icon
             )
 
         if day_encounters:
@@ -224,7 +224,7 @@ for pokemon in all_pokemon:
                 time_icon = TIME_ICONS.get(frozenset({"All"}), "")
                 rn.render_single_column_card(
                     pokemon,
-                    both_encounters + all_encounters + both_encounters,
+                    both_encounters + all_encounters + raid_encounters,
                     time_icon,
                 )
 
@@ -240,7 +240,7 @@ for pokemon in all_pokemon:
                 time_icon = TIME_ICONS.get(frozenset({"All"}), "")
                 rn.render_single_column_card(
                     pokemon,
-                    both_encounters + all_encounters + both_encounters,
+                    both_encounters + all_encounters + raid_encounters,
                     time_icon,
                 )
             if raid_encounters and not (both_encounters or all_encounters):
