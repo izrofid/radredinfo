@@ -2,14 +2,15 @@ import streamlit as st
 
 
 def _render_encounter_list(encounters):
-    """Render a list of (location, level) tuples into HTML list items."""
+    """Render a list of (location, value) tuples into HTML list items."""
     if not encounters:
         return "<p style='color: #888;'>—</p>"
+
     html = "<ul style='margin: 0.5em 0; padding-left: 1.2em;'>"
+
     for loc, val in encounters:
-        # Show "Level" only if val looks like a level range
-        prefix = "Level " if "★" not in val and "Raid" not in val else ""
-        html += f"<li><strong>{loc}</strong> — {prefix}{val}</li>"
+        html += f"<li><strong>{loc}</strong> — {val}</li>"
+
     html += "</ul>"
     return html
 

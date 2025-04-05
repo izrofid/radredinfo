@@ -1,36 +1,33 @@
 """Main module containing code for the webapp display"""
 
-import sys
-import os
 import pandas as pd
 import streamlit as st
-from utils import strip_form_suffix, consolidate_by_location, apply_common_filters
 import render as rn
-from constants import TIME_ICONS
+import paths
+from utils import (
+    strip_form_suffix,
+    consolidate_by_location,
+    apply_common_filters,
+    prep_level_range,
+)
 
-sys.path.append(os.path.dirname(__file__))
+from constants import TIME_ICONS, REQUIRED_FIELDS
 
 # Load data
-df = pd.read_csv("flat_encounters.csv")
-raid_df = pd.read_csv("raid_encounters.csv")
+df = pd.read_csv(paths.encounters)
 
-pokemon_df = pd.read_csv("pokemondata.csv")
+pokemon_df = pd.read_csv(paths.pokemon)
 pokemon_names = sorted(pokemon_df["Name"].unique())
 
-levelcap_df = pd.read_csv("levelcap.csv", keep_default_na=False)
+levelcap_df = pd.read_csv(paths.levels, keep_default_na=False)
 levelcap_df.columns = levelcap_df.columns.str.strip()
 levelcap_df["Level Cap"] = levelcap_df["Level Cap"].astype(int)
 level_caps = levelcap_df.set_index("Point")["Level Cap"].to_dict()
 
+
 # Prepare level range as a combined string
-df["LevelRange"] = df.apply(
-    lambda row: (
-        str(row["MinLevel"])
-        if row["MinLevel"] == row["MaxLevel"]
-        else f"{row['MinLevel']}–{row['MaxLevel']}"
-    ),
-    axis=1,
-)
+df = prep_level_range(df)
+
 
 # Page title
 st.title("Radical Red Pokemon Locations")
@@ -89,12 +86,14 @@ with col4:
         )
 
 df["Method"] = df["Method"].str.strip()
-land_methods = ["Grass", "Game Corner"]
+land_methods = ["Grass", "Game Corner", "Raid"]
 land_options = ["All"] + land_methods
 water_methods = sorted([m for m in df["Method"].unique() if m not in land_methods])
 all_methods = sorted(df["Method"].unique())
 water_options = ["All"] + land_methods + water_methods
 method_options = ["All"] + all_methods
+
+methods = [water_methods, all_methods, land_methods]
 
 col5, col6 = st.columns(2)
 
@@ -114,48 +113,28 @@ with col6:
 # Filter data
 df["BasePokemon"] = df["Pokemon"].apply(strip_form_suffix)
 filtered = df.copy()
-filtered_raid_df = raid_df.copy()
 
-filtered = apply_common_filters(filtered, selected_pokemon, search_location)
-if location_type != "Water":
-    filtered_raid_df = apply_common_filters(
-        filtered_raid_df, selected_pokemon, search_location
-    )
-else:
-    filtered_raid_df = pd.DataFrame(columns=raid_df.columns)
-
-if time_choice != "All":
-    filtered = filtered[filtered["Time"] == time_choice]
-
-if selected_method == "All" and location_type == "Water":
-    filtered = filtered[filtered["Method"].isin(water_methods)]
-elif selected_method == "All" and location_type == "Both":
-    filtered = filtered[filtered["Method"].isin(all_methods)]
-elif selected_method == "All" and location_type == "Land":
-    filtered = filtered[filtered["Method"].isin(land_methods)]
-else:
-    filtered = filtered[filtered["Method"] == selected_method]
-
-if selected_level_cap != 0:
-    filtered = filtered[filtered["MaxLevel"] <= selected_level_cap]
-
+filtered = apply_common_filters(
+    filtered,
+    selected_pokemon,
+    search_location,
+    location_type,
+    selected_method,
+    selected_level_cap,
+    methods,
+)
 
 # Keep only the essential display columns
-filtered = filtered[["Pokemon", "Location", "LevelRange", "Time", "Method"]].dropna()
-
+filtered = filtered.dropna(subset=REQUIRED_FIELDS)
 
 # Check if any results
-if filtered.empty and filtered_raid_df.empty:
+if filtered.empty:
     st.warning("No encounters found. Try adjusting your search.")
 
 # Show Results
-wild_pokemon = set(filtered["Pokemon"].unique())
-raid_pokemon = set(filtered_raid_df["Pokemon"].unique())
-all_pokemon = sorted(wild_pokemon | raid_pokemon)  # Union of both
+grouped = filtered.groupby("Pokemon")
 
-# Loop to go through each pokemon
-for pokemon in all_pokemon:
-    group = filtered[filtered["Pokemon"] == pokemon]
+for pokemon, group in grouped:
     times = set(group["Time"].unique())
 
     # Break up group by time
@@ -187,23 +166,51 @@ for pokemon in all_pokemon:
     day_encounters = consolidate_by_location(day_group)
     night_encounters = consolidate_by_location(night_group)
     all_encounters = consolidate_by_location(all_group)
+    both_encounters = consolidate_by_location(both_group)
 
-    # Make encounter list for raids
-    raid_entries = raid_df[raid_df["Pokemon"] == pokemon]
-    raid_encounters = [
-        (row["Location"], f'{int(row["Star"])}★ Raid')
-        for _, row in raid_entries.iterrows()
-    ]
+    if time_choice == "All":
+        # All encounters (combined card, dual layout if needed)
+        if both_encounters or all_encounters:
+            all_encounters = all_encounters if all_encounters else both_encounters
+            time_icon = TIME_ICONS.get(frozenset({"All"}), "")
+            rn.render_single_column_card(
+                pokemon, all_encounters, time_icon
+            )
 
-    if time_choice == "Day":
-        encounters = day_encounters + raid_encounters
+        if day_encounters:
+            time_icon = TIME_ICONS.get(frozenset({"Day"}), "")
+            rn.render_single_column_card(pokemon, day_encounters, time_icon)
 
-    elif time_choice == "Night":
-        encounters = night_encounters + raid_encounters
+        if night_encounters:
+            time_icon = TIME_ICONS.get(frozenset({"Night"}), "")
+            rn.render_single_column_card(pokemon, night_encounters, time_icon)
 
-    elif time_choice == "All":
-        encounters = all_encounters + raid_encounters
+    else:
+        # Day/Night filter
+        if time_choice == "Day":
+            if day_encounters:
+                time_icon = TIME_ICONS.get(frozenset({"Day"}), "")
+                rn.render_single_column_card(pokemon, day_encounters, time_icon)
 
-    if encounters:  # show only if there's something
-        time_icon = TIME_ICONS.get(frozenset({time_choice}), "")
-        rn.render_single_column_card(pokemon, encounters, time_icon)
+            if both_encounters or all_encounters:
+                all_encounters = all_encounters if all_encounters else both_encounters
+                time_icon = TIME_ICONS.get(frozenset({"All"}), "")
+                rn.render_single_column_card(
+                    pokemon,
+                    all_encounters,
+                    time_icon,
+                )
+
+        elif time_choice == "Night":
+            if night_encounters:
+                time_icon = TIME_ICONS.get(frozenset({"Night"}), "")
+                rn.render_single_column_card(pokemon, night_encounters, time_icon)
+
+            if both_encounters or all_encounters:
+                all_encounters = all_encounters if all_encounters else both_encounters
+                time_icon = TIME_ICONS.get(frozenset({"All"}), "")
+                rn.render_single_column_card(
+                    pokemon,
+                    all_encounters,
+                    time_icon,
+                )
