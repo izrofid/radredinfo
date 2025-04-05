@@ -195,10 +195,10 @@ for pokemon in all_pokemon:
 
     if time_choice == "All":
         # All encounters (combined card, dual layout if needed)
-        if both_encounters:
+        if both_encounters or all_encounters:
             time_icon = TIME_ICONS.get(frozenset({"All"}), "")
             rn.render_single_column_card(
-                pokemon, both_encounters + raid_encounters, time_icon
+                pokemon, both_encounters + all_encounters + both_encounters, time_icon
             )
 
         if day_encounters:
@@ -209,7 +209,7 @@ for pokemon in all_pokemon:
             time_icon = TIME_ICONS.get(frozenset({"Night"}), "")
             rn.render_single_column_card(pokemon, night_encounters, time_icon)
 
-        if raid_encounters and not both_encounters:
+        if raid_encounters and not (both_encounters or all_encounters):
             time_icon = TIME_ICONS.get(frozenset({"All"}), "")
             rn.render_single_column_card(pokemon, raid_encounters, time_icon)
 
@@ -220,13 +220,15 @@ for pokemon in all_pokemon:
                 time_icon = TIME_ICONS.get(frozenset({"Day"}), "")
                 rn.render_single_column_card(pokemon, day_encounters, time_icon)
 
-            if both_encounters:
+            if both_encounters or all_encounters:
                 time_icon = TIME_ICONS.get(frozenset({"All"}), "")
                 rn.render_single_column_card(
-                    pokemon, both_encounters + raid_encounters, time_icon
+                    pokemon,
+                    both_encounters + all_encounters + both_encounters,
+                    time_icon,
                 )
 
-            if raid_encounters and not both_encounters:
+            if raid_encounters and not (both_encounters or all_encounters):
                 time_icon = TIME_ICONS.get(frozenset({"All"}), "")
                 rn.render_single_column_card(pokemon, raid_encounters, time_icon)
 
@@ -234,11 +236,13 @@ for pokemon in all_pokemon:
             if night_encounters:
                 time_icon = TIME_ICONS.get(frozenset({"Night"}), "")
                 rn.render_single_column_card(pokemon, night_encounters, time_icon)
-            if both_encounters:
+            if both_encounters or all_encounters:
                 time_icon = TIME_ICONS.get(frozenset({"All"}), "")
                 rn.render_single_column_card(
-                    pokemon, both_encounters + raid_encounters, time_icon
+                    pokemon,
+                    both_encounters + all_encounters + both_encounters,
+                    time_icon,
                 )
-            if raid_encounters and not both_encounters:
+            if raid_encounters and not (both_encounters or all_encounters):
                 time_icon = TIME_ICONS.get(frozenset({"All"}), "")
                 rn.render_single_column_card(pokemon, raid_encounters, time_icon)
