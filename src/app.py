@@ -1,13 +1,18 @@
 """Main module containing code for the webapp display"""
 
+import sys
+import os
 import pandas as pd
 import streamlit as st
-from utils import strip_form_suffix, consolidate_by_location
+from utils import strip_form_suffix, consolidate_by_location, apply_common_filters
 import render as rn
 from constants import TIME_ICONS
 
+sys.path.append(os.path.dirname(__file__))
+
 # Load data
 df = pd.read_csv("flat_encounters.csv")
+raid_df = pd.read_csv("raid_encounters.csv")
 
 pokemon_df = pd.read_csv("pokemondata.csv")
 pokemon_names = sorted(pokemon_df["Name"].unique())
@@ -109,12 +114,15 @@ with col6:
 # Filter data
 df["BasePokemon"] = df["Pokemon"].apply(strip_form_suffix)
 filtered = df.copy()
+filtered_raid_df = raid_df.copy()
 
-if selected_pokemon != "All":
-    filtered = filtered[filtered["BasePokemon"] == selected_pokemon]
-
-if search_location != "All":
-    filtered = filtered[filtered["Location"] == search_location]
+filtered = apply_common_filters(filtered, selected_pokemon, search_location)
+if location_type != "Water":
+    filtered_raid_df = apply_common_filters(
+        filtered_raid_df, selected_pokemon, search_location
+    )
+else:
+    filtered_raid_df = pd.DataFrame(columns=raid_df.columns)
 
 if time_choice != "All":
     filtered = filtered[filtered["Time"] == time_choice]
@@ -137,13 +145,17 @@ filtered = filtered[["Pokemon", "Location", "LevelRange", "Time", "Method"]].dro
 
 
 # Check if any results
-if filtered.empty:
+if filtered.empty and filtered_raid_df.empty:
     st.warning("No encounters found. Try adjusting your search.")
 
 # Show Results
-grouped = filtered.groupby("Pokemon")  # Group by pokemon to consolidate encounters
+wild_pokemon = set(filtered["Pokemon"].unique())
+raid_pokemon = set(filtered_raid_df["Pokemon"].unique())
+all_pokemon = sorted(wild_pokemon | raid_pokemon)  # Union of both
 
-for pokemon, group in grouped:
+# Loop to go through each pokemon
+for pokemon in all_pokemon:
+    group = filtered[filtered["Pokemon"] == pokemon]
     times = set(group["Time"].unique())
 
     # Break up group by time
@@ -176,14 +188,22 @@ for pokemon, group in grouped:
     night_encounters = consolidate_by_location(night_group)
     all_encounters = consolidate_by_location(all_group)
 
-    if day_encounters:
-        time_icon = TIME_ICONS.get(frozenset(times), "")
-        rn.render_single_column_card(pokemon, day_encounters, time_icon)
+    # Make encounter list for raids
+    raid_entries = raid_df[raid_df["Pokemon"] == pokemon]
+    raid_encounters = [
+        (row["Location"], f'{int(row["Star"])}★ Raid')
+        for _, row in raid_entries.iterrows()
+    ]
 
-    if night_encounters:
-        time_icon = TIME_ICONS.get(frozenset(times), "")
-        rn.render_single_column_card(pokemon, night_encounters, time_icon)
+    if time_choice == "Day":
+        encounters = day_encounters + raid_encounters
 
-    if all_encounters:
-        time_icon = TIME_ICONS.get(frozenset({"All"}), "")
-        rn.render_single_column_card(pokemon, all_encounters, time_icon)
+    elif time_choice == "Night":
+        encounters = night_encounters + raid_encounters
+
+    elif time_choice == "All":
+        encounters = all_encounters + raid_encounters
+
+    if encounters:  # show only if there's something
+        time_icon = TIME_ICONS.get(frozenset({time_choice}), "")
+        rn.render_single_column_card(pokemon, encounters, time_icon)

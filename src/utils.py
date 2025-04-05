@@ -52,3 +52,11 @@ def consolidate_by_location(subgroup):
         output.append((location, ", ".join(merged_levels)))
 
     return output
+
+
+def apply_common_filters(df, selected_pokemon, search_location):
+    if selected_pokemon != "All":
+        df = df[df["Pokemon"] == selected_pokemon]
+    if search_location != "All":
+        df = df[df["Location"] == search_location]
+    return df
