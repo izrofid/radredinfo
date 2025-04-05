@@ -13,6 +13,11 @@ from utils import (
 
 from constants import TIME_ICONS, REQUIRED_FIELDS
 
+# Page Config
+st.set_page_config(
+    page_title="RR Locations",
+    page_icon="https://raw.githubusercontent.com/JwowSquared/Radical-Red-Pokedex/master/favicon.ico",  # noqa: E501
+)
 # Load data
 df = pd.read_csv(paths.encounters)
 
@@ -173,9 +178,7 @@ for pokemon, group in grouped:
         if both_encounters or all_encounters:
             all_encounters = all_encounters if all_encounters else both_encounters
             time_icon = TIME_ICONS.get(frozenset({"All"}), "")
-            rn.render_single_column_card(
-                pokemon, all_encounters, time_icon
-            )
+            rn.render_single_column_card(pokemon, all_encounters, time_icon)
 
         if day_encounters:
             time_icon = TIME_ICONS.get(frozenset({"Day"}), "")
