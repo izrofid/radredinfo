@@ -6,8 +6,10 @@ def _render_encounter_list(encounters):
     if not encounters:
         return "<p style='color: #888;'>—</p>"
     html = "<ul style='margin: 0.5em 0; padding-left: 1.2em;'>"
-    for loc, lvl in encounters:
-        html += f"<li><strong>{loc}</strong> — Level {lvl}</li>"
+    for loc, val in encounters:
+        # Show "Level" only if val looks like a level range
+        prefix = "Level " if "★" not in val and "Raid" not in val else ""
+        html += f"<li><strong>{loc}</strong> — {prefix}{val}</li>"
     html += "</ul>"
     return html
 
