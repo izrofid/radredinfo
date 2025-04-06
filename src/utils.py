@@ -2,8 +2,9 @@
 
 import re
 import pandas as pd
+import requests
 from collections import defaultdict
-from constants import FORM_SUFFIXES
+from constants import FORM_SUFFIXES, SPRITE_FIXES
 
 
 def prep_level_range(df):
@@ -67,12 +68,14 @@ def consolidate_by_location(subgroup):
     for (location, method), entries in by_location_and_method.items():
         if method == "Raid":
             stars = sorted({int(star) for _, _, star in entries if pd.notna(star)})
-            val_string = ", ".join(f"{s}* Raid" for s in stars)
+            val_string = ", ".join(
+                f"{s}" for s in stars
+            )  # just the star number, e.g. "5"
         else:
-            val_string = f"Level {', '.join(merge_ranges(entries))}"
+            val_string = ", ".join(merge_ranges(entries))  # e.g. "12–14"
 
-        output.append((location, val_string))
-    output.sort(key=lambda x: "z" if "*" in x[1] else x[0])
+        output.append((location, val_string, method))
+    output.sort(key=lambda x: (x[0], "z" if x[2] == "Raid" else "a"))
     return output
 
 
@@ -86,7 +89,7 @@ def apply_common_filters(
     methods,
 ):
     if selected_pokemon != "All":
-        df = df[df["Pokemon"] == selected_pokemon]
+        df = df[df["BasePokemon"] == selected_pokemon]
 
     if search_location != "All":
         df = df[df["Location"] == search_location]
@@ -110,3 +113,16 @@ def apply_common_filters(
         df = df[df["MaxLevel"] <= selected_level_cap]
 
     return df
+
+
+def get_pokemon_sprite(pokemon_name):
+    corrected_name = SPRITE_FIXES.get(pokemon_name.lower(), pokemon_name.lower())
+    url = f"https://pokeapi.co/api/v2/pokemon/{corrected_name}"
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        data = response.json()
+        sprite_url = data["sprites"]["front_default"]
+        return sprite_url
+    else:
+        return "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png"

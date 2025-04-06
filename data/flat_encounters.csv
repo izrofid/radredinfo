@@ -162,7 +162,7 @@ Route 4,4,Grass,Day,Pachirisu,13,15,
 Route 4,5,Grass,Day,Glameow,13,15,
 Route 4,6,Grass,Day,Tandemaus,13,15,
 Route 4,7,Grass,Day,Pumpkaboo,13,15,
-Route 4,8,Grass,Day,Flab??b??,13,15,
+Route 4,8,Grass,Day,Flabebe,13,15,
 Route 4,9,Grass,Day,Pumpkaboo-Sm,13,15,
 Route 4,10,Grass,Day,Pumpkaboo-Sm,13,15,
 Route 4,11,Grass,Day,Yanma,13,15,
@@ -2044,9 +2044,9 @@ Route 10,3,Raid,All,Uxie,68,100,4
 Route 25,1,Raid,All,Necrozma,68,100,4
 Route 25,2,Raid,All,Calyrex,68,100,4
 Route 25,3,Raid,All,Celebi,68,100,4
-Safari Zone Far-western Area,1,Raid,All,Munkidori,68,100,4
-Safari Zone Far-western Area,2,Raid,All,Fezandipiti,68,100,4
-Safari Zone Far-western Area,3,Raid,All,Okidogi,68,100,4
+Safari Zone Far West,1,Raid,All,Munkidori,68,100,4
+Safari Zone Far West,2,Raid,All,Fezandipiti,68,100,4
+Safari Zone Far West,3,Raid,All,Okidogi,68,100,4
 Power Plant,1,Raid,All,Dracozolt,68,100,4
 Power Plant,2,Raid,All,Arctozolt,68,100,4
 Power Plant,3,Raid,All,Heliolisk,68,100,4
