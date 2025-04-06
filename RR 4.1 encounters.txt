@@ -1,0 +1,6084 @@
+[
+    "Pallet Town",
+    [
+        "surf encounters",
+        [
+            "60% Tentacool         56-58",
+            "30% Tentacool         56-58",
+            " 5% Tentacruel        56-58",
+            " 4% Tentacruel        56-58",
+            " 1% Tentacruel        56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Tentacool         2-4",
+            "30% Binacle           2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Barboach          27-29",
+            "20% Carvanha          27-29",
+            "20% Qwilfish          27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Luvdisc           53-55",
+            "40% Luvdisc           53-55",
+            "15% Clamperl          53-55",
+            " 4% Whiscash          53-55",
+            " 1% Whiscash          53-55"
+        ]
+    ],
+    "Pallet Town Oak's Lab",
+    [
+        "gift pokemon",
+        [
+            "Charmander",
+            "Squirtle",
+            "Fuecoco",
+            "Quaxly",
+            "Sprigatito",
+            "Scorbunny",
+            "Sobble",
+            "Grookey",
+            "Litten",
+            "Popplio",
+            "Rowlet",
+            "Fennekin",
+            "Froakie",
+            "Chespin",
+            "Tepig",
+            "Oshawott",
+            "Snivy",
+            "Chimchar",
+            "Piplup",
+            "Turtwig",
+            "Torchic",
+            "Mudkip",
+            "Treecko",
+            "Cyndaquil",
+            "Totodile",
+            "Chikorita",
+            "Bulbasaur"
+        ]
+    ],
+    "Route 1",
+    [
+        "day encounters",
+        [
+            "20% Bidoof            2-4",
+            "20% Zigzagoon         2-4",
+            "10% Rattata           2-4",
+            "10% Mienfoo           2-4",
+            "10% Meowth            2-4",
+            "10% Yungoos           2-4",
+            " 5% Pidgey            3-5",
+            " 5% Pidgey            3-5",
+            " 4% Smoliv            2-4",
+            " 4% Smoliv            2-4",
+            " 1% Pansear           2-4",
+            " 1% Pansear           2-4"
+        ],
+        "night encounters",
+        [
+            "20% Poochyena         2-4",
+            "20% Zigzagoon-Galar   2-4",
+            "10% Rattata-Alola     2-4",
+            "10% Scraggy           2-4",
+            "10% Meowth-Galar      2-4",
+            "10% Hoothoot          2-4",
+            " 5% Pidgey            3-5",
+            " 5% Pidgey            3-5",
+            " 4% Seedot            2-4",
+            " 4% Seedot            2-4",
+            " 1% Pansear           2-4",
+            " 1% Pansear           2-4"
+        ]
+    ],
+    "Viridian City",
+    [
+        "day encounters",
+        [
+            "20% Shinx             3-5",
+            "20% Wooloo            3-5",
+            "10% Poochyena         3-5",
+            "10% Spearow           3-5",
+            "10% Patrat            3-5",
+            "10% Cubchoo           4-6",
+            " 5% Deerling          3-5",
+            " 5% Greavard          3-5",
+            " 4% Pikipek           3-5",
+            " 4% Pikipek           3-5",
+            " 1% Snover            3-5",
+            " 1% Snover            3-5"
+        ],
+        "night encounters",
+        [
+            "20% Pawmi             3-5",
+            "20% Mareep            3-5",
+            "10% Poochyena         3-5",
+            "10% Spearow           3-5",
+            "10% Patrat            3-5",
+            "10% Cubchoo           4-6",
+            " 5% Deerling          3-5",
+            " 5% Shuppet           3-5",
+            " 4% Wattrel           3-5",
+            " 4% Wattrel           3-5",
+            " 1% Swinub            3-5",
+            " 1% Swinub            3-5"
+        ],
+        "surf encounters",
+        [
+            "60% Lanturn           56-58",
+            "30% Lanturn           56-58",
+            " 5% Lanturn           56-58",
+            " 4% Lanturn           56-58",
+            " 1% Lanturn           56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Marill            3-4",
+            "30% Clamperl          3-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Clauncher         27-29",
+            "20% Remoraid          27-29",
+            "20% Corsola           27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Luvdisc           53-55",
+            "40% Luvdisc           53-55",
+            "15% Bruxish           53-55",
+            " 4% Clawitzer         53-55",
+            " 1% Clawitzer         53-55"
+        ],
+        "roaming pokemon",
+        [
+            "Terapagos-Terastal",
+            "Chi-Yu",
+            "Tornadus",
+            "Thundurus",
+            "Landorus",
+            "Latios",
+            "Latias",
+            "Ting-Lu",
+            "Wo-Chien",
+            "Chien-Pao"
+        ]
+    ],
+    "Route 21 North",
+    [
+        "day encounters",
+        [
+            "20% Wooper            4-6",
+            "20% Lechonk           4-6",
+            "10% Wiglett           4-6",
+            "10% Wiglett           4-6",
+            "10% Dwebble           4-6",
+            "10% Snubbull          4-6",
+            " 5% Wingull           4-6",
+            " 5% Wingull           4-6",
+            " 4% Fidough           4-6",
+            " 4% Fidough           4-6",
+            " 1% Capsakid          4-6",
+            " 1% Capsakid          4-6"
+        ],
+        "night encounters",
+        [
+            "20% Wooper-Paldea     4-6",
+            "20% Lechonk           4-6",
+            "10% Wiglett           4-6",
+            "10% Wiglett           4-6",
+            "10% Dwebble           4-6",
+            "10% Snubbull          4-6",
+            " 5% Wingull           4-6",
+            " 5% Wingull           4-6",
+            " 4% Maschiff          4-6",
+            " 4% Maschiff          4-6",
+            " 1% Lotad             4-6",
+            " 1% Lotad             4-6"
+        ],
+        "surf encounters",
+        [
+            "60% Tentacruel        56-58",
+            "30% Barraskewda       56-58",
+            " 5% Lumineon          56-58",
+            " 4% Cramorant         56-58",
+            " 1% Cramorant         56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Magikarp          2-4",
+            "30% Shellder          2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Krabby            27-29",
+            "20% Qwilfish          27-29",
+            "20% Corsola-Galar     27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Octillery         53-55",
+            "40% Lumineon          53-55",
+            "15% Kingler           53-55",
+            " 4% Relicanth         53-55",
+            " 1% Relicanth         53-55"
+        ]
+    ],
+    "Route 22",
+    [
+        "day encounters",
+        [
+            "20% Starly            3-5",
+            "20% Budew             3-5",
+            "10% Mankey            3-5",
+            "10% Morelull          3-5",
+            "10% Snubbull          3-5",
+            "10% Lillipup          3-5",
+            " 5% Oddish            3-5",
+            " 5% Sandygast         3-5",
+            " 4% Bellsprout        3-5",
+            " 4% Rockruff          3-5",
+            " 1% Panpour           3-5",
+            " 1% Panpour           3-5"
+        ],
+        "night encounters",
+        [
+            "20% Starly            3-5",
+            "20% Sandshrew-Alola   3-5",
+            "10% Mankey            3-5",
+            "10% Morelull          3-5",
+            "10% Flabébé         3-5",
+            "10% Skwovet           3-5",
+            " 5% Applin            3-5",
+            " 5% Sandygast         3-5",
+            " 4% Paras             3-5",
+            " 4% Rockruff          3-5",
+            " 1% Panpour           3-5",
+            " 1% Panpour           3-5"
+        ],
+        "surf encounters",
+        [
+            "60% Psyduck           56-58",
+            "30% Psyduck           56-58",
+            " 5% Slowpoke          56-58",
+            " 4% Poliwhirl         56-58",
+            " 1% Poliwhirl         56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Psyduck           2-4",
+            "30% Corphish          2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Clobbopus         27-29",
+            "20% Mantyke           27-29",
+            "20% Mareanie          27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Luvdisc           53-55",
+            "40% Luvdisc           53-55",
+            "15% Basculin-Blue-Striped 53-55",
+            " 4% Wailord           53-55",
+            " 1% Wailord           53-55"
+        ]
+    ],
+    "Route 2",
+    [
+        "day encounters",
+        [
+            "20% Bidoof            3-5",
+            "20% Sentret           3-5",
+            "10% Ponyta            3-5",
+            "10% Phanpy            3-5",
+            "10% Meditite          3-5",
+            "10% Shinx             3-5",
+            " 5% Mareep            3-5",
+            " 5% Litleo            4-6",
+            " 4% Zigzagoon         3-5",
+            " 4% Abra              3-5",
+            " 1% Pansage           3-5",
+            " 1% Pansage           3-5"
+        ],
+        "night encounters",
+        [
+            "20% Poochyena         3-5",
+            "20% Sentret           3-5",
+            "10% Ponyta-Galar      3-5",
+            "10% Phanpy            3-5",
+            "10% Meditite          3-5",
+            "10% Shinx             3-5",
+            " 5% Mareep            3-5",
+            " 5% Houndour          4-6",
+            " 4% Zigzagoon-Galar   3-5",
+            " 4% Abra              3-5",
+            " 1% Pansage           3-5",
+            " 1% Pansage           3-5"
+        ],
+        "1 star raid",
+        [
+            "Pinsir",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Stardust",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Leppa Berry",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Koffing",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Stardust",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Leppa Berry",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Impidimp",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Stardust",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Leppa Berry",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Shellos",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Stardust",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Leppa Berry",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Spritzee",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Stardust",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Leppa Berry",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ]
+        ],
+        "4 star raid",
+        [
+            "Entei",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Salac Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Suicune",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Salac Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Raikou",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Salac Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ]
+        ]
+    ],
+    "Viridian Forest",
+    [
+        "day encounters",
+        [
+            "20% Caterpie          4-6",
+            "20% Weedle            4-6",
+            "10% Pikachu           4-6",
+            "10% Burmy             4-6",
+            "10% Sewaddle          4-6",
+            "10% Scatterbug        4-6",
+            " 5% Ledyba            4-6",
+            " 5% Surskit           4-6",
+            " 4% Shroomish         4-6",
+            " 4% Shroomish         4-6",
+            " 1% Joltik            5-7",
+            " 1% Joltik            4-6"
+        ],
+        "night encounters",
+        [
+            "20% Spinarak          4-6",
+            "20% Wurmple           4-6",
+            "10% Pikachu           4-6",
+            "10% Burmy             4-6",
+            "10% Nincada           4-6",
+            "10% Kricketot         4-6",
+            " 5% Ledyba            4-6",
+            " 5% Rellor            4-6",
+            " 4% Toedscool         4-6",
+            " 4% Toedscool         4-6",
+            " 1% Snom              4-6",
+            " 1% Snom              4-6"
+        ]
+    ],
+    "Viridian Forest Heart",
+    [
+        "day encounters",
+        [
+            "20% Caterpie          4-6",
+            "20% Weedle            4-6",
+            "10% Natu              4-6",
+            "10% Burmy             4-6",
+            "10% Combee            4-6",
+            "10% Kricketot         4-6",
+            " 5% Slakoth           4-6",
+            " 5% Grubbin           4-6",
+            " 4% Bramblin          4-6",
+            " 4% Pumpkaboo         4-6",
+            " 1% Nymble            5-7",
+            " 1% Nymble            4-6"
+        ],
+        "night encounters",
+        [
+            "20% Tarountula        4-6",
+            "20% Blipbug           4-6",
+            "10% Chingling         4-6",
+            "10% Burmy             4-6",
+            "10% Nincada           4-6",
+            "10% Kricketot         4-6",
+            " 5% Slakoth           4-6",
+            " 5% Rellor            4-6",
+            " 4% Bramblin          4-6",
+            " 4% Phantump          4-6",
+            " 1% Nymble            4-6",
+            " 1% Nymble            4-6"
+        ],
+        "overworld pokemon",
+        [
+            "Virizion"
+        ],
+        "3 star raid",
+        [
+            "Gourgeist",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Dusk Ball",
+                "30% Salac Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% Dream Patch",
+                "  5% PP Max",
+                "  4% PP Max",
+                "  1% PP Max"
+            ],
+            "Golurk",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Dusk Ball",
+                "30% Salac Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% Dream Patch",
+                "  5% PP Max",
+                "  4% PP Max",
+                "  1% PP Max"
+            ],
+            "Granbull",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Dusk Ball",
+                "30% Salac Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% Dream Patch",
+                "  5% PP Max",
+                "  4% PP Max",
+                "  1% PP Max"
+            ]
+        ],
+        "5 star raid",
+        [
+            "Flutter Mane",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Ultra Ball",
+                "50% Wish Piece",
+                "30% Salac Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% PP Max",
+                "  5% PP Max",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Zarude",
+            [
+                "100% Star Piece",
+                "80% Big Nugget",
+                "80% Ultra Ball",
+                "50% Wish Piece",
+                "30% Salac Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% PP Max",
+                "  5% PP Max",
+                "  4% PP Max",
+                "  1% PP Max"
+            ],
+            "Shaymin",
+            [
+                "100% Star Piece",
+                "80% Big Nugget",
+                "80% Ultra Ball",
+                "50% Wish Piece",
+                "30% Salac Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% PP Max",
+                "  5% PP Max",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ]
+        ],
+        "6 star raid",
+        [
+            "Tapu Bulu",
+            [
+                "100% Star Piece",
+                "80% Big Nugget",
+                "80% Ultra Ball",
+                "50% Wish Piece",
+                "30% Salac Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% PP Max",
+                "  5% Eviolite",
+                "  4% Choice Scarf",
+                "  1% Choice Scarf"
+            ]
+        ]
+    ],
+    "Diglett's Cave 1F",
+    [
+        "day encounters",
+        [
+            "20% Diglett           7-9",
+            "20% Nacli             7-9",
+            "10% Numel             7-9",
+            "10% Yamask            7-9",
+            "10% Sandshrew         7-9",
+            "10% Geodude           7-9",
+            " 5% Trapinch          7-9",
+            " 5% Silicobra         7-9",
+            " 4% Bronzor           7-9",
+            " 4% Machop            7-9",
+            " 1% Noibat            7-9",
+            " 1% Noibat            7-9"
+        ],
+        "night encounters",
+        [
+            "20% Diglett-Alola     7-9",
+            "20% Nacli             7-9",
+            "10% Numel             7-9",
+            "10% Yamask-Galar      7-9",
+            "10% Sandshrew         7-9",
+            "10% Geodude-Alola     7-9",
+            " 5% Trapinch          7-9",
+            " 5% Sandile           7-9",
+            " 4% Bronzor           7-9",
+            " 4% Pancham           7-9",
+            " 1% Noibat            7-9",
+            " 1% Noibat            7-9"
+        ]
+    ],
+    "Pewter City",
+    [
+        "day encounters",
+        [
+            "20% Grimer            7-9",
+            "20% Starly            7-9",
+            "10% Exeggcute         7-9",
+            "10% Spoink            7-9",
+            "10% Hoppip            7-9",
+            "10% Numel             7-9",
+            " 5% Cutiefly          7-9",
+            " 5% Sinistea          7-9",
+            " 4% Ekans             7-9",
+            " 4% Phanpy            7-9",
+            " 1% Axew              7-9",
+            " 1% Bonsly            7-9"
+        ],
+        "night encounters",
+        [
+            "20% Grimer-Alola      7-9",
+            "20% Starly            7-9",
+            "10% Exeggcute         7-9",
+            "10% Espurr            7-9",
+            "10% Skiddo            7-9",
+            "10% Numel             7-9",
+            " 5% Gastly            7-9",
+            " 5% Poltchageist      7-9",
+            " 4% Ekans             7-9",
+            " 4% Phanpy            7-9",
+            " 1% Axew              7-9",
+            " 1% Bonsly            7-9"
+        ],
+        "gift pokemon",
+        [
+            "Mudkip",
+            "Mudkip"
+        ]
+    ],
+    "Route 3",
+    [
+        "day encounters",
+        [
+            "20% Fletchling        10-12",
+            "20% Ekans             10-12",
+            "10% Spearow           10-12",
+            "10% Nidoran-M         10-12",
+            "10% Nickit            10-12",
+            "10% Shroomish         10-12",
+            " 5% Buneary           10-12",
+            " 5% Buneary           10-12",
+            " 4% Litleo            10-12",
+            " 4% Stunky            10-12",
+            " 1% Jigglypuff        10-12",
+            " 1% Meowth-Alola      10-12"
+        ],
+        "night encounters",
+        [
+            "20% Fletchling        10-12",
+            "20% Ekans             10-12",
+            "10% Spearow           10-12",
+            "10% Nidoran-F         10-12",
+            "10% Nickit            10-12",
+            "10% Skiddo            10-12",
+            " 5% Shroodle          10-12",
+            " 5% Shroodle          10-12",
+            " 4% Litleo            10-12",
+            " 4% Glameow           10-12",
+            " 1% Jigglypuff        10-12",
+            " 1% Meowth-Alola      10-12"
+        ],
+        "1 star raid",
+        [
+            "Meowth-Galar",
+            [
+                "100% Oran Berry",
+                "80% Stardust",
+                "80% Muscle Wing",
+                "50% Chesto Berry",
+                "50% Coba Berry",
+                "30% Berry Juice",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Protein",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Fletchling",
+            [
+                "100% Oran Berry",
+                "80% Stardust",
+                "80% Muscle Wing",
+                "50% Chesto Berry",
+                "50% Coba Berry",
+                "30% Berry Juice",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Protein",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Nidoran-M",
+            [
+                "100% Oran Berry",
+                "80% Stardust",
+                "80% Muscle Wing",
+                "50% Chesto Berry",
+                "50% Coba Berry",
+                "30% Berry Juice",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Protein",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Capsakid",
+            [
+                "100% Oran Berry",
+                "80% Stardust",
+                "80% Muscle Wing",
+                "50% Chesto Berry",
+                "50% Coba Berry",
+                "30% Berry Juice",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Protein",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Tandemaus",
+            [
+                "100% Oran Berry",
+                "80% Stardust",
+                "80% Muscle Wing",
+                "50% Coba Berry",
+                "30% Sitrus Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Protein",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ]
+        ]
+    ],
+    "Route 4",
+    [
+        "day encounters",
+        [
+            "20% Pidove            13-15",
+            "20% Bellsprout        13-15",
+            "10% Shinx             13-15",
+            "10% Pachirisu         13-15",
+            "10% Glameow           13-15",
+            "10% Tandemaus         13-15",
+            " 5% Pumpkaboo         13-15",
+            " 5% Flabébé         13-15",
+            " 4% Pumpkaboo         13-15",
+            " 4% Pumpkaboo         13-15",
+            " 1% Yanma             13-15",
+            " 1% Rookidee          13-15"
+        ],
+        "night encounters",
+        [
+            "20% Pidove            13-15",
+            "20% Oddish            13-15",
+            "10% Mareep            13-15",
+            "10% Pachirisu         13-15",
+            "10% Stunky            13-15",
+            "10% Tandemaus         13-15",
+            " 5% Phantump          13-15",
+            " 5% Flabébé         13-15",
+            " 4% Pumpkaboo         13-15",
+            " 4% Pumpkaboo         13-15",
+            " 1% Yanma             13-15",
+            " 1% Rookidee          13-15"
+        ],
+        "1 star raid",
+        [
+            "Pawmi",
+            [
+                "80% Stardust",
+                "80% Genius Wing",
+                "50% Chesto Berry",
+                "50% Colbur Berry",
+                "30% Sitrus Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Calcium",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Tatsugiri",
+            [
+                "80% Stardust",
+                "80% Genius Wing",
+                "50% Chesto Berry",
+                "50% Colbur Berry",
+                "30% Sitrus Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Calcium",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Pansear",
+            [
+                "80% Stardust",
+                "80% Genius Wing",
+                "50% Chesto Berry",
+                "50% Colbur Berry",
+                "30% Sitrus Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Calcium",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Pansage",
+            [
+                "80% Stardust",
+                "80% Genius Wing",
+                "50% Chesto Berry",
+                "50% Colbur Berry",
+                "30% Sitrus Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Calcium",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Panpour",
+            [
+                "80% Stardust",
+                "80% Genius Wing",
+                "50% Chesto Berry",
+                "50% Colbur Berry",
+                "30% Sitrus Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Calcium",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ]
+        ]
+    ],
+    "Route 4 Poke Center",
+    [
+        "gift pokemon",
+        [
+            "Magikarp",
+            "Magikarp"
+        ]
+    ],
+    "Mt. Moon 1F",
+    [
+        "day encounters",
+        [
+            "20% Geodude           12-14",
+            "20% Zubat             12-14",
+            "10% Rockruff          12-14",
+            "10% Timburr           12-14",
+            "10% Woobat            12-14",
+            "10% Chewtle           12-14",
+            " 5% Makuhita          12-14",
+            " 5% Makuhita          12-14",
+            " 4% Tyrogue           12-14",
+            " 4% Clefairy          12-14",
+            " 1% Elgyem            12-14",
+            " 1% Throh             12-14"
+        ],
+        "night encounters",
+        [
+            "20% Geodude-Alola     12-14",
+            "20% Zubat             12-14",
+            "10% Rockruff          12-14",
+            "10% Machop            12-14",
+            "10% Noibat            10-11",
+            "10% Tympole           12-14",
+            " 5% Dunsparce         12-14",
+            " 5% Dunsparce         12-14",
+            " 4% Tyrogue           12-14",
+            " 4% Clefairy          12-14",
+            " 1% Elgyem            12-14",
+            " 1% Sawk              12-14"
+        ],
+        "1 star raid",
+        [
+            "Cetoddle",
+            [
+                "80% Swift Wing",
+                "80% Stardust",
+                "50% Charti Berry",
+                "50% Swift Wing",
+                "30% Sitrus Berry",
+                "30% Moon Stone",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Carbos",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Cufant",
+            [
+                "80% Swift Wing",
+                "80% Stardust",
+                "50% Charti Berry",
+                "50% Swift Wing",
+                "30% Sitrus Berry",
+                "30% Moon Stone",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Carbos",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Lunatone",
+            [
+                "80% Swift Wing",
+                "80% Stardust",
+                "50% Charti Berry",
+                "50% Swift Wing",
+                "30% Sitrus Berry",
+                "30% Moon Stone",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Carbos",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Magnemite",
+            [
+                "80% Swift Wing",
+                "80% Stardust",
+                "50% Charti Berry",
+                "50% Swift Wing",
+                "30% Sitrus Berry",
+                "30% Moon Stone",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Carbos",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Varoom",
+            [
+                "80% Swift Wing",
+                "80% Stardust",
+                "50% Charti Berry",
+                "50% Swift Wing",
+                "30% Sitrus Berry",
+                "30% Moon Stone",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Carbos",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ]
+        ],
+        "3 star raid",
+        [
+            "Regirock",
+            [
+                "80% Swift Wing",
+                "80% Stardust",
+                "50% Charti Berry",
+                "50% Swift Wing",
+                "30% Sitrus Berry",
+                "30% Moon Stone",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Carbos",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Registeel",
+            [
+                "80% Swift Wing",
+                "80% Stardust",
+                "50% Charti Berry",
+                "50% Swift Wing",
+                "30% Sitrus Berry",
+                "30% Moon Stone",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Carbos",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Regice",
+            [
+                "80% Swift Wing",
+                "80% Stardust",
+                "50% Charti Berry",
+                "50% Swift Wing",
+                "30% Sitrus Berry",
+                "30% Moon Stone",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Carbos",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ]
+        ],
+        "6 star raid",
+        [
+            "Regigigas",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Protein",
+                "50% Calcium",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Wish Piece",
+                "25% Rocky Helmet",
+                "  5% Eviolite",
+                "  4% Choice Band",
+                "  1% Choice Band"
+            ]
+        ]
+    ],
+    "Mt. Moon B1F",
+    [
+        "day encounters",
+        [
+            "20% Paras             12-14",
+            "20% Nacli             12-14",
+            "10% Rolycoly          12-14",
+            "10% Slugma            12-14",
+            "10% Torkoal           12-14",
+            "10% Teddiursa         12-14",
+            " 5% Tinkatink         12-14",
+            " 5% Baltoy            12-14",
+            " 4% Shuppet           12-14",
+            " 4% Shuppet           12-14",
+            " 1% Tinkatink         12-14",
+            " 1% Riolu             12-14"
+        ],
+        "night encounters",
+        [
+            "20% Paras             12-14",
+            "20% Nacli             12-14",
+            "10% Roggenrola        12-14",
+            "10% Slugma            12-14",
+            "10% Torkoal           12-14",
+            "10% Teddiursa         12-14",
+            " 5% Tinkatink         12-14",
+            " 5% Sandile           12-14",
+            " 4% Misdreavus        12-14",
+            " 4% Misdreavus        12-14",
+            " 1% Tinkatink         12-14",
+            " 1% Riolu             12-14"
+        ]
+    ],
+    "Mt. Moon B2F",
+    [
+        "day encounters",
+        [
+            "20% Varoom            12-14",
+            "20% Zubat             12-14",
+            "10% Pawniard          12-14",
+            "10% Numel             12-14",
+            "10% Cranidos          12-14",
+            "10% Drilbur           12-14",
+            " 5% Mudbray           12-14",
+            " 5% Smoochum          12-14",
+            " 4% Smoochum          12-14",
+            " 4% Solrock           12-14",
+            " 1% Onix              12-14",
+            " 1% Onix              12-14"
+        ],
+        "night encounters",
+        [
+            "20% Mawile            12-14",
+            "20% Zubat             12-14",
+            "10% Pawniard          12-14",
+            "10% Rolycoly          12-14",
+            "10% Shieldon          12-14",
+            "10% Drilbur           12-14",
+            " 5% Mudbray           12-14",
+            " 5% Munna             12-14",
+            " 4% Munna             12-14",
+            " 4% Lunatone          12-14",
+            " 1% Onix              12-14",
+            " 1% Onix              12-14"
+        ],
+        "overworld pokemon",
+        [
+            "Cobalion"
+        ]
+    ],
+    "Cerulean City",
+    [
+        "surf encounters",
+        [
+            "60% Golduck           56-58",
+            "30% Golduck           56-58",
+            " 5% Golduck           56-58",
+            " 4% Dondozo           56-58",
+            " 1% Dondozo           56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Chewtle           2-4",
+            "30% Clauncher         2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Wishiwashi        27-29",
+            "20% Tatsugiri         27-29",
+            "20% Remoraid          27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Luvdisc           53-55",
+            "40% Luvdisc           53-55",
+            "15% Sharpedo          53-55",
+            " 4% Octillery         53-55",
+            " 1% Octillery         53-55"
+        ]
+    ],
+    "Cerulean City Wonder Egg House",
+    [
+        "trade pokemon",
+        [
+            "Carnivine"
+        ]
+    ],
+    "Route 24",
+    [
+        "day encounters",
+        [
+            "20% Snubbull          14-16",
+            "20% Petilil           14-16",
+            "10% Yamper            14-16",
+            "10% Charcadet         14-16",
+            "10% Elekid            14-16",
+            "10% Volbeat           14-16",
+            " 5% Marill            14-16",
+            " 5% Farfetch’d        14-16",
+            " 4% Ralts             14-16",
+            " 4% Abra              14-16",
+            " 1% Klawf             14-16",
+            " 1% Klawf             14-16"
+        ],
+        "night encounters",
+        [
+            "20% Snubbull          14-16",
+            "20% Cottonee          14-16",
+            "10% Yamper            14-16",
+            "10% Charcadet         14-16",
+            "10% Magby             14-16",
+            "10% Illumise          14-16",
+            " 5% Buizel            14-16",
+            " 5% Murkrow           14-16",
+            " 4% Ralts             14-16",
+            " 4% Abra              14-16",
+            " 1% Klawf             14-16",
+            " 1% Klawf             14-16"
+        ],
+        "surf encounters",
+        [
+            "60% Golduck           56-58",
+            "30% Golduck           56-58",
+            " 5% Golduck           56-58",
+            " 4% Golduck           56-58",
+            " 1% Golduck           56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Carvanha          2-4",
+            "30% Lotad             2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Wailmer           27-29",
+            "20% Wishiwashi        27-29",
+            "20% Clobbopus         27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Luvdisc           53-55",
+            "40% Luvdisc           53-55",
+            "15% Sharpedo          53-55",
+            " 4% Octillery         53-55",
+            " 1% Octillery         53-55"
+        ],
+        "1 star raid",
+        [
+            "Shroodle",
+            [
+                "80% Stardust",
+                "80% Health Wing",
+                "50% Wish Piece",
+                "30% Sitrus Berry",
+                "30% Passho Berry",
+                "25% Leppa Berry",
+                "25% Nugget",
+                "  5% HP Up",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Abra",
+            [
+                "80% Stardust",
+                "80% Health Wing",
+                "50% Wish Piece",
+                "30% Sitrus Berry",
+                "30% Passho Berry",
+                "25% Leppa Berry",
+                "25% Nugget",
+                "  5% HP Up",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Charcadet",
+            [
+                "80% Stardust",
+                "80% Health Wing",
+                "50% Wish Piece",
+                "30% Sitrus Berry",
+                "30% Passho Berry",
+                "25% Leppa Berry",
+                "25% Nugget",
+                "  5% HP Up",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Applin",
+            [
+                "80% Stardust",
+                "80% Health Wing",
+                "50% Wish Piece",
+                "30% Sitrus Berry",
+                "30% Passho Berry",
+                "25% Leppa Berry",
+                "25% Nugget",
+                "  5% HP Up",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Lotad",
+            [
+                "80% Stardust",
+                "80% Health Wing",
+                "50% Wish Piece",
+                "30% Sitrus Berry",
+                "30% Passho Berry",
+                "25% Leppa Berry",
+                "25% Nugget",
+                "  5% HP Up",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ]
+        ]
+    ],
+    "Route 25",
+    [
+        "day encounters",
+        [
+            "20% Swablu            16-18",
+            "20% Taillow           16-18",
+            "10% Pineco            16-18",
+            "10% Tadbulb           16-18",
+            "10% Karrablast        16-18",
+            "10% Doduo             16-18",
+            " 5% Aipom             16-18",
+            " 5% Whismur           16-18",
+            " 4% Squawkabilly      16-18",
+            " 4% Audino            16-18",
+            " 1% Zangoose          16-18",
+            " 1% Zangoose          16-18"
+        ],
+        "night encounters",
+        [
+            "20% Swablu            16-18",
+            "20% Taillow           16-18",
+            "10% Venonat           16-18",
+            "10% Tadbulb           16-18",
+            "10% Karrablast        16-18",
+            "10% Doduo             16-18",
+            " 5% Aipom             16-18",
+            " 5% Purrloin          16-18",
+            " 4% Squawkabilly-White 16-18",
+            " 4% Audino            16-18",
+            " 1% Seviper           16-18",
+            " 1% Seviper           16-18"
+        ],
+        "surf encounters",
+        [
+            "60% Psyduck           56-58",
+            "30% Psyduck           56-58",
+            " 5% Psyduck           56-58",
+            " 4% Psyduck           56-58",
+            " 1% Psyduck           56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Magikarp          2-4",
+            "30% Chinchou          2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Dewpider          27-29",
+            "20% Mantyke           27-29",
+            "20% Goldeen           27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Poliwag           53-55",
+            "40% Poliwhirl         53-55",
+            "15% Gyarados          53-55",
+            " 4% Psyduck           53-55",
+            " 1% Psyduck           53-55"
+        ],
+        "1 star raid",
+        [
+            "Tadbulb",
+            [
+                "100% Quick Ball",
+                "80% Stardust",
+                "80% Swift Wing",
+                "50% Wish Piece",
+                "30% Sitrus Berry",
+                "30% Tanga Berry",
+                "25% Leppa Berry",
+                "25% Nugget",
+                "  5% Carbos",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Psyduck",
+            [
+                "100% Quick Ball",
+                "80% Stardust",
+                "80% Swift Wing",
+                "50% Wish Piece",
+                "30% Sitrus Berry",
+                "30% Tanga Berry",
+                "25% Leppa Berry",
+                "25% Nugget",
+                "  5% Carbos",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Klawf",
+            [
+                "100% Quick Ball",
+                "80% Stardust",
+                "80% Swift Wing",
+                "50% Wish Piece",
+                "30% Sitrus Berry",
+                "30% Tanga Berry",
+                "25% Leppa Berry",
+                "25% Nugget",
+                "  5% Carbos",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Milcery",
+            [
+                "100% Quick Ball",
+                "80% Stardust",
+                "80% Swift Wing",
+                "50% Wish Piece",
+                "30% Sitrus Berry",
+                "30% Tanga Berry",
+                "25% Leppa Berry",
+                "25% Nugget",
+                "  5% Carbos",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Clauncher",
+            [
+                "100% Quick Ball",
+                "80% Stardust",
+                "80% Swift Wing",
+                "50% Wish Piece",
+                "30% Sitrus Berry",
+                "30% Tanga Berry",
+                "25% Leppa Berry",
+                "25% Nugget",
+                "  5% Carbos",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ]
+        ],
+        "4 star raid",
+        [
+            "Necrozma",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Salac Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Calyrex",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Liechi Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Celebi",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Liechi Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ]
+        ]
+    ],
+    "Cerulean City Gym",
+    [
+        "gift pokemon",
+        [
+            "Drednaw"
+        ]
+    ],
+    "Route 5",
+    [
+        "day encounters",
+        [
+            "20% Meowth            18-20",
+            "20% Hatenna           18-20",
+            "10% Solosis           18-20",
+            "10% Growlithe         18-20",
+            "10% Swirlix           18-20",
+            "10% Morelull          18-20",
+            " 5% Vulpix            18-20",
+            " 5% Solosis           18-20",
+            " 4% Grimer            18-20",
+            " 4% Grimer            18-20",
+            " 1% Drifloon          18-20",
+            " 1% Drifloon          18-20"
+        ],
+        "night encounters",
+        [
+            "20% Meowth-Galar      18-20",
+            "20% Hatenna           18-20",
+            "10% Gothita           18-20",
+            "10% Vulpix-Alola      18-20",
+            "10% Spritzee          18-20",
+            "10% Morelull          18-20",
+            " 5% Growlithe-Hisui   18-20",
+            " 5% Gothita           18-20",
+            " 4% Grimer-Alola      18-20",
+            " 4% Grimer-Alola      18-20",
+            " 1% Drifloon          18-20",
+            " 1% Drifloon          18-20"
+        ],
+        "1 star raid",
+        [
+            "Hatenna",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Resist Wing",
+                "50% Wacan Berry",
+                "30% Nugget",
+                "30% Sitrus Berry",
+                "25% Ability Pill",
+                "25% Wish Piece",
+                "  5% Iron",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Flamigo",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Resist Wing",
+                "50% Wacan Berry",
+                "30% Nugget",
+                "30% Sitrus Berry",
+                "25% Ability Pill",
+                "25% Wish Piece",
+                "  5% Iron",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Flittle",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Resist Wing",
+                "50% Wacan Berry",
+                "30% Nugget",
+                "30% Sitrus Berry",
+                "25% Ability Pill",
+                "25% Wish Piece",
+                "  5% Iron",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Rhyhorn",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Resist Wing",
+                "50% Wacan Berry",
+                "30% Nugget",
+                "30% Sitrus Berry",
+                "25% Ability Pill",
+                "25% Wish Piece",
+                "  5% Iron",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ],
+            "Oricorio",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Resist Wing",
+                "50% Wacan Berry",
+                "30% Nugget",
+                "30% Sitrus Berry",
+                "25% Ability Pill",
+                "25% Wish Piece",
+                "  5% Iron",
+                "  4% PP Up",
+                "  1% Lucky Egg"
+            ]
+        ]
+    ],
+    "Route 5 Daycare",
+    [
+        "gift pokemon",
+        [
+            "Eevee"
+        ]
+    ],
+    "Underground Path Route 5 Entrance",
+    [
+        "trade pokemon",
+        [
+            "Eiscue"
+        ]
+    ],
+    "Route 6",
+    [
+        "day encounters",
+        [
+            "20% Sunkern           16-18",
+            "20% Cherubi           16-18",
+            "10% Gulpin            16-18",
+            "10% Furfrou           16-18",
+            "10% Sizzlipede        16-18",
+            "10% Dedenne           16-18",
+            " 5% Lickitung         16-18",
+            " 5% Lickitung         16-18",
+            " 4% Flittle           16-18",
+            " 4% Flittle           16-18",
+            " 1% Togepi            16-18",
+            " 1% Togepi            16-18"
+        ],
+        "night encounters",
+        [
+            "20% Bounsweet         16-18",
+            "20% Gossifleur        16-18",
+            "10% Trubbish          16-18",
+            "10% Furfrou           16-18",
+            "10% Sizzlipede        16-18",
+            "10% Dedenne           16-18",
+            " 5% Komala            16-18",
+            " 5% Komala            16-18",
+            " 4% Meditite          16-18",
+            " 4% Meditite          16-18",
+            " 1% Togepi            16-18",
+            " 1% Togepi            16-18"
+        ],
+        "surf encounters",
+        [
+            "60% Psyduck           56-58",
+            "30% Psyduck           56-58",
+            " 5% Psyduck           56-58",
+            " 4% Psyduck           56-58",
+            " 1% Psyduck           56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Chinchou          2-4",
+            "30% Shellder          2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Slowpoke-Galar    27-29",
+            "20% Skrelp            27-29",
+            "20% Basculin          27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Slowbro-Galar     53-55",
+            "40% Lanturn           53-55",
+            "15% Gyarados          53-55",
+            " 4% Psyduck           53-55",
+            " 1% Golduck           53-55"
+        ],
+        "1 star raid",
+        [
+            "Applin",
+            [
+                "100% Quick Ball",
+                "80% Haban Berry",
+                "80% Clever Wing",
+                "50% Chilan Berry",
+                "30% Nugget",
+                "30% Sitrus Berry",
+                "25% Ability Pill",
+                "25% Wish Piece",
+                "  5% Zinc",
+                "  4% Dream Patch",
+                "  1% Lucky Egg"
+            ],
+            "Litleo",
+            [
+                "100% Quick Ball",
+                "80% Haban Berry",
+                "80% Clever Wing",
+                "50% Chilan Berry",
+                "30% Nugget",
+                "30% Sitrus Berry",
+                "25% Ability Pill",
+                "25% Wish Piece",
+                "  5% Zinc",
+                "  4% Dream Patch",
+                "  1% Lucky Egg"
+            ],
+            "Mienfoo",
+            [
+                "100% Quick Ball",
+                "80% Haban Berry",
+                "80% Clever Wing",
+                "50% Chilan Berry",
+                "30% Nugget",
+                "30% Sitrus Berry",
+                "25% Ability Pill",
+                "25% Wish Piece",
+                "  5% Zinc",
+                "  4% Dream Patch",
+                "  1% Lucky Egg"
+            ],
+            "Blitzle",
+            [
+                "100% Quick Ball",
+                "80% Haban Berry",
+                "80% Clever Wing",
+                "50% Chilan Berry",
+                "30% Nugget",
+                "30% Sitrus Berry",
+                "25% Ability Pill",
+                "25% Wish Piece",
+                "  5% Zinc",
+                "  4% Dream Patch",
+                "  1% Lucky Egg"
+            ],
+            "Squawkabilly",
+            [
+                "100% Quick Ball",
+                "80% Haban Berry",
+                "80% Clever Wing",
+                "50% Chilan Berry",
+                "30% Nugget",
+                "30% Sitrus Berry",
+                "25% Ability Pill",
+                "25% Wish Piece",
+                "  5% Zinc",
+                "  4% Dream Patch",
+                "  1% Lucky Egg"
+            ]
+        ]
+    ],
+    "Vermilion City",
+    [
+        "surf encounters",
+        [
+            "60% Tentacool         56-58",
+            "30% Pelipper          56-58",
+            " 5% Cramorant         56-58",
+            " 4% Cramorant         56-58",
+            " 1% Cramorant         56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Arrokuda          2-4",
+            "30% Finneon           2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Frillish          27-29",
+            "20% Staryu            27-29",
+            "20% Wimpod            27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Luvdisc           53-55",
+            "40% Luvdisc           53-55",
+            "15% Alomomola         53-55",
+            " 4% Seadra            53-55",
+            " 1% Gyarados          53-55"
+        ],
+        "gift pokemon",
+        [
+            "Gastly",
+            "Gastly"
+        ]
+    ],
+    "Vermilion City Pokemon Fan Club",
+    [
+        "gift pokemon",
+        [
+            "Aerodactyl",
+            "Kabuto",
+            "Omanyte",
+            "Amaura",
+            "Tyrunt",
+            "Tirtouga",
+            "Archen",
+            "Shieldon",
+            "Cranidos",
+            "Anorith",
+            "Lileep",
+            "Kabuto",
+            "Omanyte"
+        ]
+    ],
+    "Vermilion City Central House",
+    [
+        "trade pokemon",
+        [
+            "Farfetch’d-Galar"
+        ]
+    ],
+    "Diglett's Cave B1F",
+    [
+        "day encounters",
+        [
+            "20% Diglett           23-25",
+            "20% Diglett           23-25",
+            "10% Stunfisk          23-25",
+            "10% Silicobra         23-25",
+            "10% Golett            23-25",
+            "10% Sandile           23-25",
+            " 5% Drilbur           23-25",
+            " 5% Gligar            23-25",
+            " 4% Golett            23-25",
+            " 4% Dugtrio           23-25",
+            " 1% Hippopotas        23-25",
+            " 1% Hippopotas        23-25"
+        ],
+        "night encounters",
+        [
+            "20% Diglett-Alola     23-25",
+            "20% Diglett-Alola     23-25",
+            "10% Stunfisk-Galar    23-25",
+            "10% Silicobra         23-25",
+            "10% Shellos           23-25",
+            "10% Sandile           23-25",
+            " 5% Drilbur           23-25",
+            " 5% Gligar            23-25",
+            " 4% Sandygast         23-25",
+            " 4% Dugtrio-Alola     23-25",
+            " 1% Hippopotas        23-25",
+            " 1% Hippopotas        23-25"
+        ],
+        "1 star raid",
+        [
+            "Gligar",
+            [
+                "100% Quick Ball",
+                "80% Great Ball",
+                "80% Star Piece",
+                "50% Yellow Shard",
+                "50% Shuca Berry",
+                "30% Nugget",
+                "30% Sitrus Berry",
+                "25% Ability Pill",
+                "25% Wish Piece",
+                "  5% PP Up",
+                "  4% Dream Patch",
+                "  1% Dream Patch"
+            ],
+            "Sandile",
+            [
+                "100% Quick Ball",
+                "80% Great Ball",
+                "80% Star Piece",
+                "50% Green Shard",
+                "50% Shuca Berry",
+                "30% Nugget",
+                "30% Sitrus Berry",
+                "25% Ability Pill",
+                "25% Wish Piece",
+                "  5% PP Up",
+                "  4% Dream Patch",
+                "  1% Dream Patch"
+            ],
+            "Stonjourner",
+            [
+                "100% Quick Ball",
+                "80% Great Ball",
+                "80% Star Piece",
+                "50% Red Shard",
+                "50% Shuca Berry",
+                "30% Nugget",
+                "30% Sitrus Berry",
+                "25% Ability Pill",
+                "25% Wish Piece",
+                "  5% PP Up",
+                "  4% Dream Patch",
+                "  1% Dream Patch"
+            ],
+            "Misdreavus",
+            [
+                "100% Quick Ball",
+                "80% Great Ball",
+                "80% Star Piece",
+                "50% Yellow Shard",
+                "50% Shuca Berry",
+                "30% Nugget",
+                "30% Sitrus Berry",
+                "25% Ability Pill",
+                "25% Wish Piece",
+                "  5% PP Up",
+                "  4% Dream Patch",
+                "  1% Dream Patch"
+            ],
+            "Klink",
+            [
+                "100% Quick Ball",
+                "80% Great Ball",
+                "80% Star Piece",
+                "50% Blue Shard",
+                "50% Shuca Berry",
+                "30% Nugget",
+                "30% Sitrus Berry",
+                "25% Ability Pill",
+                "25% Wish Piece",
+                "  5% PP Up",
+                "  4% Dream Patch",
+                "  1% Dream Patch"
+            ]
+        ]
+    ],
+    "Route 2 House",
+    [
+        "trade pokemon",
+        [
+            "Mr. Mime-Galar"
+        ]
+    ],
+    "Route 11",
+    [
+        "day encounters",
+        [
+            "20% Stufful           23-25",
+            "20% Ducklett          23-25",
+            "10% Drowzee           23-25",
+            "10% Baltoy            23-25",
+            "10% Maractus          23-25",
+            "10% Bunnelby          23-25",
+            " 5% Crabrawler        23-25",
+            " 5% Crabrawler        23-25",
+            " 4% Flamigo           23-25",
+            " 4% Flamigo           23-25",
+            " 1% Sigilyph          23-25",
+            " 1% Sigilyph          23-25"
+        ],
+        "night encounters",
+        [
+            "20% Pancham           23-25",
+            "20% Ducklett          23-25",
+            "10% Drowzee           23-25",
+            "10% Baltoy            23-25",
+            "10% Cacnea            23-25",
+            "10% Bunnelby          23-25",
+            " 5% Scraggy           23-25",
+            " 5% Scraggy           23-25",
+            " 4% Bombirdier        23-25",
+            " 4% Bombirdier        23-25",
+            " 1% Sigilyph          23-25",
+            " 1% Sigilyph          23-25"
+        ],
+        "oldRod encounters",
+        [
+            "70% Krabby            2-4",
+            "30% Horsea            2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Bruxish           27-29",
+            "20% Frillish          27-29",
+            "20% Relicanth         27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Luvdisc           53-55",
+            "40% Luvdisc           53-55",
+            "15% Alomomola         53-55",
+            " 4% Seadra            53-55",
+            " 1% Gyarados          53-55"
+        ],
+        "1 star raid",
+        [
+            "Scraggy",
+            [
+                "100% Quick Ball",
+                "80% Chilan Berry",
+                "80% Clever Wing",
+                "50% Wish Piece",
+                "50% Roseli Berry",
+                "30% Nugget",
+                "30% Ability Pill",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Calcium",
+                "  4% Dream Patch",
+                "  1% Lucky Egg"
+            ],
+            "Veluza",
+            [
+                "100% Quick Ball",
+                "80% Chilan Berry",
+                "80% Clever Wing",
+                "50% Wish Piece",
+                "50% Roseli Berry",
+                "30% Nugget",
+                "30% Ability Pill",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Calcium",
+                "  4% Dream Patch",
+                "  1% Lucky Egg"
+            ],
+            "Drowzee",
+            [
+                "100% Quick Ball",
+                "80% Chilan Berry",
+                "80% Clever Wing",
+                "50% Wish Piece",
+                "50% Roseli Berry",
+                "30% Nugget",
+                "30% Ability Pill",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Calcium",
+                "  4% Dream Patch",
+                "  1% Lucky Egg"
+            ],
+            "Misdreavus",
+            [
+                "100% Quick Ball",
+                "80% Chilan Berry",
+                "80% Clever Wing",
+                "50% Wish Piece",
+                "50% Roseli Berry",
+                "30% Nugget",
+                "30% Ability Pill",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Calcium",
+                "  4% Dream Patch",
+                "  1% Lucky Egg"
+            ],
+            "Swadloon",
+            [
+                "100% Quick Ball",
+                "80% Chilan Berry",
+                "80% Clever Wing",
+                "50% Wish Piece",
+                "50% Roseli Berry",
+                "30% Nugget",
+                "30% Ability Pill",
+                "25% Leppa Berry",
+                "25% Wish Piece",
+                "  5% Calcium",
+                "  4% Dream Patch",
+                "  1% Lucky Egg"
+            ]
+        ]
+    ],
+    "Route 11 Gatehouse 2F",
+    [
+        "trade pokemon",
+        [
+            "Floette-Eternal"
+        ]
+    ],
+    "S.S. Anne Port",
+    [
+        "surf encounters",
+        [
+            "60% Tentacool         56-58",
+            "30% Tentacool         56-58",
+            " 5% Tentacruel        56-58",
+            " 4% Barraskewda       56-58",
+            " 1% Barraskewda       56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Wimpod            2-4",
+            "30% Finneon           2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Veluza            27-29",
+            "20% Staryu            27-29",
+            "20% Krabby            27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Luvdisc           53-55",
+            "40% Luvdisc           53-55",
+            "15% Alomomola         53-55",
+            " 4% Seadra            53-55",
+            " 1% Gyarados          53-55"
+        ]
+    ],
+    "Route 9",
+    [
+        "day encounters",
+        [
+            "20% Shelmet           25-27",
+            "20% Exeggcute         25-27",
+            "10% Darumaka          25-27",
+            "10% Dewpider          25-27",
+            "10% Indeedee          25-27",
+            "10% Rufflet           25-27",
+            " 5% Mime Jr.          25-27",
+            " 5% Mime Jr.          25-27",
+            " 4% Tropius           25-27",
+            " 4% Tropius           25-27",
+            " 1% Skorupi           25-27",
+            " 1% Skorupi           25-27"
+        ],
+        "night encounters",
+        [
+            "20% Shelmet           25-27",
+            "20% Exeggcute         25-27",
+            "10% Salandit          25-27",
+            "10% Dewpider          25-27",
+            "10% Indeedee-F        25-27",
+            "10% Rufflet           25-27",
+            " 5% Espurr            25-27",
+            " 5% Espurr            25-27",
+            " 4% Tropius           25-27",
+            " 4% Tropius           25-27",
+            " 1% Skorupi           25-27",
+            " 1% Skorupi           25-27"
+        ],
+        "1 star raid",
+        [
+            "Shelmet",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Chople Berry",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Chesto Berry",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Dream Patch",
+                "  1% Dream Patch"
+            ],
+            "Electrode-Hisui",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Chople Berry",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Chesto Berry",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Dream Patch",
+                "  1% Dream Patch"
+            ],
+            "Falinks",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Chople Berry",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Chesto Berry",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Dream Patch",
+                "  1% Dream Patch"
+            ],
+            "Turtonator",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Chople Berry",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Chesto Berry",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Dream Patch",
+                "  1% Dream Patch"
+            ],
+            "Tangela",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Chople Berry",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Chesto Berry",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Dream Patch",
+                "  1% Dream Patch"
+            ]
+        ]
+    ],
+    "Route 10",
+    [
+        "day encounters",
+        [
+            "20% Voltorb           27-29",
+            "20% Helioptile        27-29",
+            "10% Blitzle           27-29",
+            "10% Pincurchin        27-29",
+            "10% Plusle            27-29",
+            "10% Skitty            27-29",
+            " 5% Tadbulb           27-29",
+            " 5% Tadbulb           27-29",
+            " 4% Magnemite         27-29",
+            " 4% Magnemite         27-29",
+            " 1% Sneasel-Hisui     27-29",
+            " 1% Sneasel-Hisui     27-29"
+        ],
+        "night encounters",
+        [
+            "20% Voltorb-Hisui     27-29",
+            "20% Electrike         27-29",
+            "10% Blitzle           27-29",
+            "10% Pincurchin        27-29",
+            "10% Minun             27-29",
+            "10% Skitty            27-29",
+            " 5% Emolga            27-29",
+            " 5% Emolga            27-29",
+            " 4% Magnemite         27-29",
+            " 4% Magnemite         27-29",
+            " 1% Croagunk          27-29",
+            " 1% Croagunk          27-29"
+        ],
+        "surf encounters",
+        [
+            "60% Tentacool         56-58",
+            "30% Tentacool         56-58",
+            " 5% Tentacool         56-58",
+            " 4% Wingull           56-58",
+            " 1% Wingull           56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Wooper            2-4",
+            "30% Tynamo            2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Barboach          27-29",
+            "20% Shellos           27-29",
+            "20% Corsola-Galar     27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Whiscash          53-55",
+            "40% Whiscash          53-55",
+            "15% Basculin-Blue-Striped 53-55",
+            " 4% Seadra            53-55",
+            " 1% Seadra            53-55"
+        ],
+        "1 star raid",
+        [
+            "Zorua-Hisui",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Kasib Berry",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Ability Pill",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Zorua",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Kasib Berry",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Ability Pill",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Eevee",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Kasib Berry",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Ability Pill",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Heracross",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Kasib Berry",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Ability Pill",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Toxel",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Kasib Berry",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Ability Pill",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ]
+        ],
+        "4 star raid",
+        [
+            "Azelf",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Salac Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Mesprit",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Salac Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Uxie",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Salac Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ]
+        ]
+    ],
+    "Rock Tunnel 1F",
+    [
+        "day encounters",
+        [
+            "20% Graveler          29-31",
+            "20% Aron              29-31",
+            "10% Shuckle           29-31",
+            "10% Solrock           29-31",
+            "10% Carkol            29-31",
+            "10% Carbink           29-31",
+            " 5% Minior-Meteor     29-31",
+            " 5% Ferroseed         29-31",
+            " 4% Stonjourner       29-31",
+            " 4% Heatmor           29-31",
+            " 1% Durant            29-31",
+            " 1% Durant            29-31"
+        ],
+        "night encounters",
+        [
+            "20% Graveler-Alola    29-31",
+            "20% Aron              29-31",
+            "10% Dwebble           29-31",
+            "10% Lunatone          29-31",
+            "10% Onix              29-31",
+            "10% Carbink           29-31",
+            " 5% Minior-Meteor     29-31",
+            " 5% Ferroseed         29-31",
+            " 4% Stonjourner       29-31",
+            " 4% Heatmor           29-31",
+            " 1% Durant            29-31",
+            " 1% Durant            29-31"
+        ]
+    ],
+    "Rock Tunnel B1F",
+    [
+        "day encounters",
+        [
+            "20% Sandslash         30-32",
+            "20% Boldore           30-32",
+            "10% Swinub            30-32",
+            "10% Snorunt           30-32",
+            "10% Bronzor           30-32",
+            "10% Bonsly            30-32",
+            " 5% Cetoddle          30-32",
+            " 5% Cetoddle          30-32",
+            " 4% Cubchoo           30-32",
+            " 4% Cubchoo           30-32",
+            " 1% Glimmet           30-32",
+            " 1% Glimmet           30-32"
+        ],
+        "night encounters",
+        [
+            "20% Bergmite          30-32",
+            "20% Rhyhorn           30-32",
+            "10% Swinub            30-32",
+            "10% Cubone            30-32",
+            "10% Nosepass          30-32",
+            "10% Cryogonal         30-32",
+            " 5% Cetoddle          30-32",
+            " 5% Cetoddle          30-32",
+            " 4% Sneasel           30-32",
+            " 4% Sneasel           30-32",
+            " 1% Glimmet           30-32",
+            " 1% Glimmet           30-32"
+        ],
+        "overworld pokemon",
+        [
+            "Terrakion"
+        ],
+        "1 star raid",
+        [
+            "Delibird",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Babiri Berry",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Ability Pill",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Tinkatuff",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Babiri Berry",
+                "50% Red Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Ability Pill",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Ferroseed",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Babiri Berry",
+                "50% Red Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Ability Pill",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Sandshrew-Alola",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Babiri Berry",
+                "50% Blue Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Ability Pill",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Orthworm",
+            [
+                "100% Quick Ball",
+                "80% Ultra Ball",
+                "80% Babiri Berry",
+                "50% Green Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% Ability Pill",
+                "25% Dream Ball",
+                "  5% PP Up",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ]
+        ],
+        "5 star raid",
+        [
+            "Iron Boulder",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Ultra Ball",
+                "50% Wish Piece",
+                "30% Salac Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% PP Max",
+                "  5% PP Max",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Iron Leaves",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Ultra Ball",
+                "50% Wish Piece",
+                "30% Salac Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% PP Max",
+                "  5% PP Max",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Iron Crown",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Ultra Ball",
+                "50% Wish Piece",
+                "30% Salac Berry",
+                "30% Heal Ball",
+                "25% Leppa Berry",
+                "25% PP Max",
+                "  5% PP Max",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ]
+        ]
+    ],
+    "Route 12",
+    [
+        "day encounters",
+        [
+            "20% Sneasel           50-52",
+            "20% Dewgong           50-52",
+            "10% Walrein           50-52",
+            "10% Glalie            50-52",
+            "10% Throh             50-52",
+            "10% Cetitan           50-52",
+            " 5% Avalugg           50-52",
+            " 5% Avalugg           50-52",
+            " 4% Mr. Mime-Galar    50-52",
+            " 4% Mr. Mime-Galar    50-52",
+            " 1% Arctovish         50-52",
+            " 1% Arctozolt         50-52"
+        ],
+        "night encounters",
+        [
+            "20% Sneasel           50-52",
+            "20% Dewgong           50-52",
+            "10% Walrein           50-52",
+            "10% Froslass          50-52",
+            "10% Sawk              50-52",
+            "10% Cetitan           50-52",
+            " 5% Avalugg-Hisui     50-52",
+            " 5% Avalugg-Hisui     50-52",
+            " 4% Mr. Mime-Galar    50-52",
+            " 4% Mr. Mime-Galar    50-52",
+            " 1% Arctovish         50-52",
+            " 1% Arctozolt         50-52"
+        ],
+        "surf encounters",
+        [
+            "60% Tentacool         56-58",
+            "30% Tentacool         56-58",
+            " 5% Tentacruel        56-58",
+            " 4% Finneon           56-58",
+            " 1% Finneon           56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Spheal            2-4",
+            "30% Seel              2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Shellder          27-29",
+            "20% Sealeo            27-29",
+            "20% Veluza            27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Dondozo           53-55",
+            "40% Dondozo           53-55",
+            "15% Dewgong           53-55",
+            " 4% Bruxish           53-55",
+            " 1% Drednaw           53-55"
+        ],
+        "overworld pokemon",
+        [
+            "Snorlax"
+        ],
+        "1 star raid",
+        [
+            "Corsola-Galar",
+            [
+                "100% Stardust",
+                "80% Dive Ball",
+                "80% Star Piece",
+                "50% Blue Shard",
+                "50% Yache Berry",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Slowpoke-Galar",
+            [
+                "100% Stardust",
+                "80% Dive Ball",
+                "80% Star Piece",
+                "50% Blue Shard",
+                "50% Yache Berry",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Sliggoo-Hisui",
+            [
+                "100% Stardust",
+                "80% Dive Ball",
+                "80% Star Piece",
+                "50% Blue Shard",
+                "50% Yache Berry",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Luvdisc",
+            [
+                "100% Stardust",
+                "80% Dive Ball",
+                "80% Star Piece",
+                "50% Blue Shard",
+                "50% Yache Berry",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Tauros",
+            [
+                "100% Stardust",
+                "80% Dive Ball",
+                "80% Star Piece",
+                "50% Blue Shard",
+                "50% Yache Berry",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ]
+        ]
+    ],
+    "Route 8",
+    [
+        "day encounters",
+        [
+            "20% Fomantis          33-35",
+            "20% Minccino          33-35",
+            "10% Vanillite         33-35",
+            "10% Bouffalant        33-35",
+            "10% Bouffalant        33-35",
+            "10% Venipede          33-35",
+            " 5% Comfey            33-35",
+            " 5% Comfey            33-35",
+            " 4% Girafarig         33-35",
+            " 4% Girafarig         33-35",
+            " 1% Miltank           33-35",
+            " 1% Miltank           33-35"
+        ],
+        "night encounters",
+        [
+            "20% Foongus           33-35",
+            "20% Minccino          33-35",
+            "10% Vanillite         33-35",
+            "10% Absol             33-35",
+            "10% Absol             33-35",
+            "10% Venipede          33-35",
+            " 5% Morgrem           33-35",
+            " 5% Morgrem           33-35",
+            " 4% Stantler          33-35",
+            " 4% Stantler          33-35",
+            " 1% Drampa            33-35",
+            " 1% Drampa            33-35"
+        ],
+        "1 star raid",
+        [
+            "Venipede",
+            [
+                "100% Stardust",
+                "80% Dusk Ball",
+                "80% Rindo Berry",
+                "50% Blue Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Girafarig",
+            [
+                "100% Stardust",
+                "80% Dusk Ball",
+                "80% Rindo Berry",
+                "50% Red Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Yanma",
+            [
+                "100% Stardust",
+                "80% Dusk Ball",
+                "80% Rindo Berry",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Drampa",
+            [
+                "100% Stardust",
+                "80% Dusk Ball",
+                "80% Rindo Berry",
+                "50% Blue Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Basculegion",
+            [
+                "100% Stardust",
+                "80% Dusk Ball",
+                "80% Rindo Berry",
+                "50% Green Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ]
+        ]
+    ],
+    "Route 7",
+    [
+        "day encounters",
+        [
+            "20% Deerling          36-38",
+            "20% Inkay             36-38",
+            "10% Rufflet           36-38",
+            "10% Rufflet           36-38",
+            "10% Cutiefly          36-38",
+            "10% Applin            36-38",
+            " 5% Passimian         36-38",
+            " 5% Passimian         36-38",
+            " 4% Mienfoo           36-38",
+            " 4% Mienfoo           36-38",
+            " 1% Porygon           36-38",
+            " 1% Porygon           36-38"
+        ],
+        "night encounters",
+        [
+            "20% Deerling          36-38",
+            "20% Inkay             36-38",
+            "10% Vullaby           36-38",
+            "10% Vullaby           36-38",
+            "10% Cutiefly          36-38",
+            "10% Applin            36-38",
+            " 5% Oranguru          36-38",
+            " 5% Oranguru          36-38",
+            " 4% Mienfoo           36-38",
+            " 4% Mienfoo           36-38",
+            " 1% Porygon           36-38",
+            " 1% Porygon           36-38"
+        ]
+    ],
+    "Celadon City",
+    [
+        "surf encounters",
+        [
+            "60% Poliwhirl         56-58",
+            "30% Poliwhirl         56-58",
+            " 5% Poliwhirl         56-58",
+            " 4% Poliwhirl         56-58",
+            " 1% Poliwhirl         56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Magikarp          2-4",
+            "30% Arrokuda          2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Poliwag           27-29",
+            "20% Slowpoke-Galar    27-29",
+            "20% Slowpoke          27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Psyduck           53-55",
+            "40% Mareanie          53-55",
+            "15% Mareanie          53-55",
+            " 4% Muk               53-55",
+            " 1% Muk-Alola         53-55"
+        ]
+    ],
+    "Celadon City Mansion 1F",
+    [
+        "gift pokemon",
+        [
+            "Sprigatito",
+            "Snivy",
+            "Bulbasaur",
+            "Treecko",
+            "Rowlet",
+            "Grookey",
+            "Chespin",
+            "Turtwig",
+            "Chikorita",
+            "Froakie",
+            "Quaxly",
+            "Mudkip",
+            "Squirtle",
+            "Popplio",
+            "Sobble",
+            "Oshawott",
+            "Piplup",
+            "Totodile",
+            "Torchic",
+            "Fuecoco",
+            "Charmander",
+            "Litten",
+            "Scorbunny",
+            "Fennekin",
+            "Tepig",
+            "Chimchar",
+            "Cyndaquil",
+            "Pikachu-PhD",
+            "Pikachu-Belle",
+            "Pikachu-Rock-Star",
+            "Pikachu-Pop-Star",
+            "Pikachu-Libre",
+            "Pikachu-Flying",
+            "Pikachu-Surfing"
+        ]
+    ],
+    "Celadon City Mansion Roof House",
+    [
+        "gift pokemon",
+        [
+            "Eevee"
+        ]
+    ],
+    "Celadon City Restaurant",
+    [
+        "trade pokemon",
+        [
+            "Chatot"
+        ]
+    ],
+    "Route 16",
+    [
+        "day encounters",
+        [
+            "20% Heracross         36-38",
+            "20% Yanma             36-38",
+            "10% Rhyhorn           36-38",
+            "10% Skorupi           36-38",
+            "10% Cufant            36-38",
+            "10% Durant            36-38",
+            " 5% Togedemaru        36-38",
+            " 5% Skarmory          36-38",
+            " 4% Orthworm          36-38",
+            " 4% Orthworm          36-38",
+            " 1% Escavalier        36-38",
+            " 1% Cufant            36-38"
+        ],
+        "night encounters",
+        [
+            "20% Scyther           36-38",
+            "20% Forretress        36-38",
+            "10% Rhyhorn           36-38",
+            "10% Falinks           36-38",
+            "10% Cufant            36-38",
+            "10% Durant            36-38",
+            " 5% Togedemaru        36-38",
+            " 5% Skarmory          36-38",
+            " 4% Orthworm          36-38",
+            " 4% Orthworm          36-38",
+            " 1% Escavalier        36-38",
+            " 1% Cufant            36-38"
+        ],
+        "overworld pokemon",
+        [
+            "Snorlax"
+        ],
+        "1 star raid",
+        [
+            "Porygon",
+            [
+                "100% Stardust",
+                "80% Dusk Ball",
+                "80% Payapa Berry",
+                "50% Blue Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Passimian",
+            [
+                "100% Stardust",
+                "80% Dusk Ball",
+                "80% Payapa Berry",
+                "50% Green Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Oranguru",
+            [
+                "100% Stardust",
+                "80% Dusk Ball",
+                "80% Payapa Berry",
+                "50% Yellow Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Cramorant",
+            [
+                "100% Stardust",
+                "80% Dusk Ball",
+                "80% Payapa Berry",
+                "50% Red Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Kleavor",
+            [
+                "100% Stardust",
+                "80% Dusk Ball",
+                "80% Payapa Berry",
+                "50% Blue Shard",
+                "50% Star Piece",
+                "30% Nugget",
+                "30% Wish Piece",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ]
+        ],
+        "4 star raid",
+        [
+            "Zygarde-10%",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Protein",
+                "50% Calcium",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Wish Piece",
+                "25% Dream Patch",
+                "  5% Lucky Egg",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Diancie",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Protein",
+                "50% Calcium",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Star Piece",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Pecharunt",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Protein",
+                "50% Calcium",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Star Piece",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ]
+        ]
+    ],
+    "Celadon City Gym",
+    [
+        "gift pokemon",
+        [
+            "Ogerpon"
+        ]
+    ],
+    "Celadon City Game Corner Exchange",
+    [
+        "gift pokemon",
+        [
+            "Frigibax",
+            "Toxel",
+            "Honedge",
+            "Dreepy",
+            "Jangmo-o",
+            "Goomy",
+            "Deino",
+            "Larvesta",
+            "Gible",
+            "Rotom",
+            "Riolu",
+            "Bagon",
+            "Beldum",
+            "Larvitar",
+            "Dratini"
+        ]
+    ],
+    "Saffron City Gian's House 1F",
+    [
+        "gift pokemon",
+        [
+            "Cosmog"
+        ]
+    ],
+    "Saffron City Fighting Dojo",
+    [
+        "gift pokemon",
+        [
+            "Tauros-Paldea-Blaze",
+            "Tauros-Paldea-Aqua"
+        ]
+    ],
+    "Silph Co. 7F",
+    [
+        "gift pokemon",
+        [
+            "Lapras"
+        ]
+    ],
+    "Pokemon Tower 3F",
+    [
+        "day encounters",
+        [
+            "20% Haunter           45-47",
+            "20% Cofagrigus        45-47",
+            "10% Dusclops          45-47",
+            "10% Mismagius         45-47",
+            "10% Mismagius         45-47",
+            "10% Cubone            45-47",
+            " 5% Spiritomb         45-47",
+            " 5% Sableye           45-47",
+            " 4% Polteageist       45-47",
+            " 4% Polteageist       45-47",
+            " 1% Lampent           45-47",
+            " 1% Lampent           45-47"
+        ],
+        "night encounters",
+        [
+            "20% Haunter           45-47",
+            "20% Runerigus         45-47",
+            "10% Dusclops          45-47",
+            "10% Mismagius         45-47",
+            "10% Mismagius         45-47",
+            "10% Cubone            45-47",
+            " 5% Spiritomb         45-47",
+            " 5% Sableye           45-47",
+            " 4% Polteageist       45-47",
+            " 4% Polteageist       45-47",
+            " 1% Lampent           45-47",
+            " 1% Lampent           45-47"
+        ]
+    ],
+    "Pokemon Tower 4F",
+    [
+        "day encounters",
+        [
+            "20% Haunter           45-47",
+            "20% Cofagrigus        45-47",
+            "10% Dusclops          45-47",
+            "10% Mismagius         45-47",
+            "10% Mismagius         45-47",
+            "10% Cubone            45-47",
+            " 5% Spiritomb         45-47",
+            " 5% Sableye           45-47",
+            " 4% Houndstone        45-47",
+            " 4% Houndstone        45-47",
+            " 1% Lampent           45-47",
+            " 1% Lampent           45-47"
+        ],
+        "night encounters",
+        [
+            "20% Haunter           45-47",
+            "20% Runerigus         45-47",
+            "10% Dusclops          45-47",
+            "10% Mismagius         45-47",
+            "10% Mismagius         45-47",
+            "10% Cubone            45-47",
+            " 5% Spiritomb         45-47",
+            " 5% Sableye           45-47",
+            " 4% Houndstone        45-47",
+            " 4% Houndstone        45-47",
+            " 1% Lampent           45-47",
+            " 1% Lampent           45-47"
+        ]
+    ],
+    "Pokemon Tower 5F",
+    [
+        "day encounters",
+        [
+            "20% Haunter           45-47",
+            "20% Cofagrigus        45-47",
+            "10% Dusclops          45-47",
+            "10% Mismagius         45-47",
+            "10% Mismagius         45-47",
+            "10% Cubone            45-47",
+            " 5% Spiritomb         45-47",
+            " 5% Sableye           45-47",
+            " 4% Polteageist       45-47",
+            " 4% Polteageist       45-47",
+            " 1% Lampent           45-47",
+            " 1% Lampent           45-47"
+        ],
+        "night encounters",
+        [
+            "20% Haunter           45-47",
+            "20% Runerigus         45-47",
+            "10% Dusclops          45-47",
+            "10% Mismagius         45-47",
+            "10% Mismagius         45-47",
+            "10% Cubone            45-47",
+            " 5% Spiritomb         45-47",
+            " 5% Sableye           45-47",
+            " 4% Polteageist       45-47",
+            " 4% Polteageist       45-47",
+            " 1% Lampent           45-47",
+            " 1% Lampent           45-47"
+        ]
+    ],
+    "Pokemon Tower 6F",
+    [
+        "day encounters",
+        [
+            "20% Haunter           45-47",
+            "20% Cofagrigus        45-47",
+            "10% Dusclops          45-47",
+            "10% Annihilape        45-47",
+            "10% Annihilape        45-47",
+            "10% Cubone            45-47",
+            " 5% Spiritomb         45-47",
+            " 5% Sableye           45-47",
+            " 4% Polteageist       45-47",
+            " 4% Polteageist       45-47",
+            " 1% Lampent           45-47",
+            " 1% Lampent           45-47"
+        ],
+        "night encounters",
+        [
+            "20% Haunter           45-47",
+            "20% Runerigus         45-47",
+            "10% Dusclops          45-47",
+            "10% Annihilape        45-47",
+            "10% Annihilape        45-47",
+            "10% Cubone            45-47",
+            " 5% Spiritomb         45-47",
+            " 5% Sableye           45-47",
+            " 4% Polteageist       45-47",
+            " 4% Polteageist       45-47",
+            " 1% Lampent           45-47",
+            " 1% Lampent           45-47"
+        ]
+    ],
+    "Pokemon Tower 7F",
+    [
+        "day encounters",
+        [
+            "20% Haunter           45-47",
+            "20% Cofagrigus        45-47",
+            "10% Dusclops          45-47",
+            "10% Mismagius         45-47",
+            "10% Mismagius         45-47",
+            "10% Cubone            45-47",
+            " 5% Spiritomb         45-47",
+            " 5% Sableye           45-47",
+            " 4% Polteageist       45-47",
+            " 4% Polteageist       45-47",
+            " 1% Rotom             45-47",
+            " 1% Rotom             45-47"
+        ],
+        "night encounters",
+        [
+            "20% Haunter           45-47",
+            "20% Runerigus         45-47",
+            "10% Dusclops          45-47",
+            "10% Mismagius         45-47",
+            "10% Mismagius         45-47",
+            "10% Cubone            45-47",
+            " 5% Spiritomb         45-47",
+            " 5% Sableye           45-47",
+            " 4% Polteageist       45-47",
+            " 4% Polteageist       45-47",
+            " 1% Rotom             45-47",
+            " 1% Rotom             45-47"
+        ]
+    ],
+    "Route 17",
+    [
+        "day encounters",
+        [
+            "20% Weezing           46-48",
+            "20% Cyclizar          46-48",
+            "10% Muk               46-48",
+            "10% Zebstrika         46-48",
+            "10% Grumpig           46-48",
+            "10% Torkoal           46-48",
+            " 5% Skarmory          46-48",
+            " 5% Skarmory          46-48",
+            " 4% Drampa            46-48",
+            " 4% Drampa            46-48",
+            " 1% Dracozolt         46-48",
+            " 1% Dracozolt         46-48"
+        ],
+        "night encounters",
+        [
+            "20% Weezing-Galar     46-48",
+            "20% Cyclizar          46-48",
+            "10% Muk-Alola         46-48",
+            "10% Zebstrika         46-48",
+            "10% Grumpig           46-48",
+            "10% Torkoal           46-48",
+            " 5% Skarmory          46-48",
+            " 5% Skarmory          46-48",
+            " 4% Turtonator        46-48",
+            " 4% Turtonator        46-48",
+            " 1% Dracozolt         46-48",
+            " 1% Dracozolt         46-48"
+        ]
+    ],
+    "Route 18",
+    [
+        "day encounters",
+        [
+            "20% Xatu              49-51",
+            "20% Vikavolt          49-51",
+            "10% Poliwrath         49-51",
+            "10% Abomasnow         49-51",
+            "10% Altaria           49-51",
+            "10% Parasect          49-51",
+            " 5% Toxicroak         49-51",
+            " 5% Toxicroak         49-51",
+            " 4% Kabutops          49-51",
+            " 4% Kabutops          49-51",
+            " 1% Arctovish         49-51",
+            " 1% Dracovish         49-51"
+        ],
+        "night encounters",
+        [
+            "20% Xatu              49-51",
+            "20% Vikavolt          49-51",
+            "10% Politoed          49-51",
+            "10% Abomasnow         49-51",
+            "10% Altaria           49-51",
+            "10% Jynx              49-51",
+            " 5% Heliolisk         49-51",
+            " 5% Heliolisk         49-51",
+            " 4% Omastar           49-51",
+            " 4% Omastar           49-51",
+            " 1% Arctovish         49-51",
+            " 1% Dracovish         49-51"
+        ]
+    ],
+    "Route 18 Gatehouse 2F",
+    [
+        "trade pokemon",
+        [
+            "Morpeko"
+        ]
+    ],
+    "Route 13",
+    [
+        "day encounters",
+        [
+            "20% Tangrowth         48-50",
+            "20% Exeggutor         48-50",
+            "10% Roselia           48-50",
+            "10% Lurantis          48-50",
+            "10% Simisage          48-50",
+            "10% Jumpluff          48-50",
+            " 5% Bulbasaur         48-50",
+            " 5% Bulbasaur         48-50",
+            " 4% Exeggutor-Alola   48-50",
+            " 4% Duraludon         48-50",
+            " 1% Charmander        48-50",
+            " 1% Charmander        48-50"
+        ],
+        "night encounters",
+        [
+            "20% Talonflame        48-50",
+            "20% Pyroar            48-50",
+            "10% Arcanine          48-50",
+            "10% Magmar            48-50",
+            "10% Simisear          48-50",
+            "10% Oricorio          48-50",
+            " 5% Charmander        48-50",
+            " 5% Charmander        48-50",
+            " 4% Turtonator        48-50",
+            " 4% Duraludon         48-50",
+            " 1% Centiskorch       48-50",
+            " 1% Centiskorch       48-50"
+        ],
+        "surf encounters",
+        [
+            "60% Tentacool         56-58",
+            "30% Tentacool         56-58",
+            " 5% Buizel            56-58",
+            " 4% Buizel            56-58",
+            " 1% Buizel            56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Skrelp            2-4",
+            "30% Tatsugiri         2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Qwilfish-Hisui    27-29",
+            "20% Dewpider          27-29",
+            "20% Skrelp            27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Dragalge          53-55",
+            "40% Veluza            53-55",
+            "15% Toxapex           53-55",
+            " 4% Mantine           53-55",
+            " 1% Mantine           53-55"
+        ],
+        "3 star raid",
+        [
+            "Indeedee",
+            [
+                "100% Star Piece",
+                "80% Dusk Ball",
+                "80% Protein",
+                "50% Muscle Wing",
+                "50% Kebia Berry",
+                "30% Nugget",
+                "30% Liechi Berry",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Duraludon",
+            [
+                "100% Star Piece",
+                "80% Dusk Ball",
+                "80% Protein",
+                "50% Muscle Wing",
+                "50% Kebia Berry",
+                "30% Nugget",
+                "30% Liechi Berry",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Qwilfish-Hisui",
+            [
+                "100% Star Piece",
+                "80% Dusk Ball",
+                "80% Protein",
+                "50% Muscle Wing",
+                "50% Kebia Berry",
+                "30% Nugget",
+                "30% Liechi Berry",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Breloom",
+            [
+                "100% Star Piece",
+                "80% Dusk Ball",
+                "80% Protein",
+                "50% Muscle Wing",
+                "50% Kebia Berry",
+                "30% Nugget",
+                "30% Liechi Berry",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Torkoal",
+            [
+                "100% Star Piece",
+                "80% Dusk Ball",
+                "80% Protein",
+                "50% Muscle Wing",
+                "50% Kebia Berry",
+                "30% Nugget",
+                "30% Liechi Berry",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ]
+        ],
+        "5 star raid",
+        [
+            "Victini",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Salac Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Volcanion",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Liechi Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Cresselia",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Liechi Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ]
+        ]
+    ],
+    "Route 14",
+    [
+        "day encounters",
+        [
+            "20% Pelipper          48-50",
+            "20% Swadloon          48-50",
+            "10% Torkoal           48-50",
+            "10% Torkoal           48-50",
+            "10% Whirlipede        48-50",
+            "10% Whirlipede        48-50",
+            " 5% Charjabug         48-50",
+            " 5% Charjabug         48-50",
+            " 4% Durant            48-50",
+            " 4% Durant            48-50",
+            " 1% Golisopod         48-50",
+            " 1% Golisopod         48-50"
+        ],
+        "night encounters",
+        [
+            "20% Pelipper          48-50",
+            "20% Swadloon          48-50",
+            "10% Torkoal           48-50",
+            "10% Torkoal           48-50",
+            "10% Palossand         48-50",
+            "10% Palossand         48-50",
+            " 5% Charjabug         48-50",
+            " 5% Charjabug         48-50",
+            " 4% Durant            48-50",
+            " 4% Durant            48-50",
+            " 1% Golisopod         48-50",
+            " 1% Golisopod         48-50"
+        ],
+        "3 star raid",
+        [
+            "Pelipper",
+            [
+                "100% Star Piece",
+                "80% Quick Ball",
+                "80% Genius Wing",
+                "50% Calcium",
+                "30% Nugget",
+                "30% Petaya Berry",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Amoonguss",
+            [
+                "100% Star Piece",
+                "80% Quick Ball",
+                "80% Genius Wing",
+                "50% Calcium",
+                "30% Nugget",
+                "30% Petaya Berry",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Sneasel-Hisui",
+            [
+                "100% Star Piece",
+                "80% Quick Ball",
+                "80% Genius Wing",
+                "50% Calcium",
+                "30% Nugget",
+                "30% Petaya Berry",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Dedenne",
+            [
+                "100% Star Piece",
+                "80% Quick Ball",
+                "80% Genius Wing",
+                "50% Calcium",
+                "30% Nugget",
+                "30% Petaya Berry",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Weezing-Galar",
+            [
+                "100% Star Piece",
+                "80% Quick Ball",
+                "80% Genius Wing",
+                "50% Calcium",
+                "30% Nugget",
+                "30% Petaya Berry",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ]
+        ]
+    ],
+    "Route 15",
+    [
+        "day encounters",
+        [
+            "20% Amoonguss         49-51",
+            "20% Ambipom           49-51",
+            "10% Tsareena          49-51",
+            "10% Galvantula        49-51",
+            "10% Simipour          49-51",
+            "10% Oricorio          49-51",
+            " 5% Sigilyph          49-51",
+            " 5% Sigilyph          49-51",
+            " 4% Ferrothorn        49-51",
+            " 4% Ferrothorn        49-51",
+            " 1% Ditto             49-51",
+            " 1% Ditto             49-51"
+        ],
+        "night encounters",
+        [
+            "20% Amoonguss         49-51",
+            "20% Ambipom           49-51",
+            "10% Tsareena          49-51",
+            "10% Galvantula        49-51",
+            "10% Simipour          49-51",
+            "10% Oricorio          49-51",
+            " 5% Sigilyph          49-51",
+            " 5% Sigilyph          49-51",
+            " 4% Ferrothorn        49-51",
+            " 4% Ferrothorn        49-51",
+            " 1% Ditto             49-51",
+            " 1% Ditto             49-51"
+        ],
+        "3 star raid",
+        [
+            "Sigilyph",
+            [
+                "100% Star Piece",
+                "80% Quick Ball",
+                "80% Health Wing",
+                "50% HP Up",
+                "50% Nugget",
+                "30% Nugget",
+                "30% Salac Berry",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Exploud",
+            [
+                "100% Star Piece",
+                "80% Quick Ball",
+                "80% Health Wing",
+                "50% HP Up",
+                "50% Nugget",
+                "30% Nugget",
+                "30% Salac Berry",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Dusclops",
+            [
+                "100% Star Piece",
+                "80% Quick Ball",
+                "80% Health Wing",
+                "50% HP Up",
+                "50% Nugget",
+                "30% Nugget",
+                "30% Salac Berry",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Persian-Alola",
+            [
+                "100% Star Piece",
+                "80% Quick Ball",
+                "80% Health Wing",
+                "50% HP Up",
+                "50% Nugget",
+                "30% Nugget",
+                "30% Salac Berry",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Pincurchin",
+            [
+                "100% Star Piece",
+                "80% Quick Ball",
+                "80% Health Wing",
+                "50% HP Up",
+                "50% Nugget",
+                "30% Nugget",
+                "30% Salac Berry",
+                "25% PP Up",
+                "25% Dream Ball",
+                "  5% Big Nugget",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ]
+        ]
+    ],
+    "Safari Zone Area 1",
+    [
+        "day encounters",
+        [
+            "20% Kecleon           50-52",
+            "20% Spinda            50-52",
+            "10% Iron Hands        50-52",
+            "10% Iron Hands        50-52",
+            "10% Meltan            50-52",
+            "10% Meltan            50-52",
+            " 5% Porygon           50-52",
+            " 5% Porygon           50-52",
+            " 4% Scyther           50-52",
+            " 4% Scyther           50-52",
+            " 1% Chansey           50-52",
+            " 1% Chansey           50-52"
+        ],
+        "night encounters",
+        [
+            "20% Kecleon           50-52",
+            "20% Spinda            50-52",
+            "10% Iron Moth         50-52",
+            "10% Iron Moth         50-52",
+            "10% Meltan            50-52",
+            "10% Meltan            50-52",
+            " 5% Porygon           50-52",
+            " 5% Porygon           50-52",
+            " 4% Heracross         50-52",
+            " 4% Heracross         50-52",
+            " 1% Chansey           50-52",
+            " 1% Chansey           50-52"
+        ],
+        "surf encounters",
+        [
+            "60% Frillish          56-58",
+            "30% Golduck           56-58",
+            " 5% Jellicent         56-58",
+            " 4% Golduck           56-58",
+            " 1% Golduck           56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Magikarp          2-4",
+            "30% Krabby            2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Qwilfish          27-29",
+            "20% Mareanie          27-29",
+            "20% Mantyke           27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Alomomola         53-55",
+            "40% Basculin          53-55",
+            "15% Sharpedo          53-55",
+            " 4% Feebas            53-55",
+            " 1% Feebas            53-55"
+        ]
+    ],
+    "Safari Zone Area 2",
+    [
+        "day encounters",
+        [
+            "20% Hawlucha          50-52",
+            "20% Castform          50-52",
+            "10% Tauros            50-52",
+            "10% Tauros-Paldea-Combat 50-52",
+            "10% Wobbuffet         50-52",
+            "10% Wobbuffet         50-52",
+            " 5% Zorua             50-52",
+            " 5% Zorua             50-52",
+            " 4% Pinsir            50-52",
+            " 4% Pinsir            50-52",
+            " 1% Kangaskhan        50-52",
+            " 1% Kangaskhan        50-52"
+        ],
+        "night encounters",
+        [
+            "20% Hawlucha          50-52",
+            "20% Castform          50-52",
+            "10% Tauros-Paldea-Blaze 50-52",
+            "10% Tauros-Paldea-Aqua 50-52",
+            "10% Wobbuffet         50-52",
+            "10% Wobbuffet         50-52",
+            " 5% Zorua-Hisui       50-52",
+            " 5% Zorua-Hisui       50-52",
+            " 4% Pinsir            50-52",
+            " 4% Pinsir            50-52",
+            " 1% Kangaskhan        50-52",
+            " 1% Kangaskhan        50-52"
+        ],
+        "surf encounters",
+        [
+            "60% Wimpod            56-58",
+            "30% Lanturn           56-58",
+            " 5% Araquanid         56-58",
+            " 4% Seismitoad        56-58",
+            " 1% Seismitoad        56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Magikarp          2-4",
+            "30% Arrokuda          2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Corsola           27-29",
+            "20% Seadra            27-29",
+            "20% Remoraid          27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Gorebyss          53-55",
+            "40% Huntail           53-55",
+            "15% Starmie           53-55",
+            " 4% Dhelmise          53-55",
+            " 1% Dhelmise          53-55"
+        ]
+    ],
+    "Safari Zone Area 3",
+    [
+        "day encounters",
+        [
+            "20% Klefki            50-52",
+            "20% Sandy Shocks      50-52",
+            "10% Screamtail        50-52",
+            "10% Screamtail        50-52",
+            "10% Bisharp           50-52",
+            "10% Bisharp           50-52",
+            " 5% Skarmory          50-52",
+            " 5% Skarmory          50-52",
+            " 4% Gimmighoul        50-52",
+            " 4% Gimmighoul        50-52",
+            " 1% Axew              50-52",
+            " 1% Axew              50-52"
+        ],
+        "night encounters",
+        [
+            "20% Klefki            50-52",
+            "20% Sandy Shocks      50-52",
+            "10% Brute Bonnet      50-52",
+            "10% Brute Bonnet      50-52",
+            "10% Bisharp           50-52",
+            "10% Bisharp           50-52",
+            " 5% Corviknight       50-52",
+            " 5% Corviknight       50-52",
+            " 4% Gimmighoul        50-52",
+            " 4% Gimmighoul        50-52",
+            " 1% Axew              50-52",
+            " 1% Axew              50-52"
+        ],
+        "surf encounters",
+        [
+            "60% Dewpider          56-58",
+            "30% Toxapex           56-58",
+            " 5% Golisopod         56-58",
+            " 4% Golisopod         56-58",
+            " 1% Golisopod         56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Magikarp          2-4",
+            "30% Poliwag           2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Pyukumuku         27-29",
+            "20% Krabby            27-29",
+            "20% Wailmer           27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Kingler           53-55",
+            "40% Bruxish           53-55",
+            "15% Tatsugiri         53-55",
+            " 4% Skrelp            53-55",
+            " 1% Skrelp            53-55"
+        ]
+    ],
+    "Safari Zone Area 4",
+    [
+        "day encounters",
+        [
+            "20% Druddigon         50-52",
+            "20% Druddigon         50-52",
+            "10% Iron Thorns       50-52",
+            "10% Iron Thorns       50-52",
+            "10% Hippowdon         50-52",
+            "10% Hippowdon         50-52",
+            " 5% Slither Wing      50-52",
+            " 5% Slither Wing      50-52",
+            " 4% Crabominable      50-52",
+            " 4% Crabominable      50-52",
+            " 1% Smeargle          50-52",
+            " 1% Smeargle          50-52"
+        ],
+        "night encounters",
+        [
+            "20% Druddigon         50-52",
+            "20% Druddigon         50-52",
+            "10% Iron Jugulis      50-52",
+            "10% Iron Jugulis      50-52",
+            "10% Hippowdon         50-52",
+            "10% Hippowdon         50-52",
+            " 5% Slither Wing      50-52",
+            " 5% Slither Wing      50-52",
+            " 4% Crabominable      50-52",
+            " 4% Crabominable      50-52",
+            " 1% Smeargle          50-52",
+            " 1% Smeargle          50-52"
+        ],
+        "surf encounters",
+        [
+            "60% Lumineon          56-58",
+            "30% Floatzel          56-58",
+            " 5% Relicanth         56-58",
+            " 4% Golduck           56-58",
+            " 1% Milotic           56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Magikarp          2-4",
+            "30% Horsea            2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Qwilfish          27-29",
+            "20% Seadra            27-29",
+            "20% Wailmer           27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Crawdaunt         53-55",
+            "40% Seaking           53-55",
+            "15% Basculin          53-55",
+            " 4% Relicanth         53-55",
+            " 1% Relicanth         53-55"
+        ]
+    ],
+    "Route 19",
+    [
+        "surf encounters",
+        [
+            "60% Lumineon          56-58",
+            "30% Jellicent         56-58",
+            " 5% Basculin-Blue-Striped 56-58",
+            " 4% Clawitzer         56-58",
+            " 1% Clawitzer         56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Clamperl          2-4",
+            "30% Horsea            2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Shellder          27-29",
+            "20% Slowpoke          27-29",
+            "20% Slowpoke          27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Seadra            53-55",
+            "40% Huntail           53-55",
+            "15% Gorebyss          53-55",
+            " 4% Mantine           53-55",
+            " 1% Mantine           53-55"
+        ]
+    ],
+    "Route 20",
+    [
+        "surf encounters",
+        [
+            "60% Tentacruel        56-58",
+            "30% Sharpedo          56-58",
+            " 5% Wailord           56-58",
+            " 4% Lanturn           56-58",
+            " 1% Lanturn           56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Magikarp          2-4",
+            "30% Chinchou          2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Wailmer           27-29",
+            "20% Clauncher         27-29",
+            "20% Corsola-Galar     27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Seadra            53-55",
+            "40% Basculin-Blue-Striped 53-55",
+            "15% Clawitzer         53-55",
+            " 4% Bruxish           53-55",
+            " 1% Bruxish           53-55"
+        ]
+    ],
+    "Seafoam Islands B1F",
+    [
+        "day encounters",
+        [
+            "20% Piloswine         62-64",
+            "20% Snorunt           62-64",
+            "10% Beartic           62-64",
+            "10% Beartic           62-64",
+            "10% Slowbro           62-64",
+            "10% Slowbro           62-64",
+            " 5% Golbat            62-64",
+            " 5% Golbat            62-64",
+            " 4% Avalugg           62-64",
+            " 4% Avalugg           62-64",
+            " 1% Jynx              62-64",
+            " 1% Jynx              62-64"
+        ],
+        "night encounters",
+        [
+            "20% Sandslash-Alola   62-64",
+            "20% Snorunt           62-64",
+            "10% Beartic           62-64",
+            "10% Beartic           62-64",
+            "10% Walrein           62-64",
+            "10% Walrein           62-64",
+            " 5% Golbat            62-64",
+            " 5% Golbat            62-64",
+            " 4% Avalugg           62-64",
+            " 4% Avalugg           62-64",
+            " 1% Jynx              62-64",
+            " 1% Jynx              62-64"
+        ],
+        "4 star raid",
+        [
+            "Dracovish",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Calcium",
+                "50% Carbos",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Star Piece",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Arctovish",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Calcium",
+                "50% Carbos",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Star Piece",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Basculegion",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Calcium",
+                "50% Carbos",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Star Piece",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ]
+        ],
+        "5 star raid",
+        [
+            "Dracovish",
+            [
+                "100% Nugget",
+                "80% Protein",
+                "80% Big Nugget",
+                "50% Calcium",
+                "50% Carbos",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Star Piece",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Arctovish",
+            [
+                "100% Nugget",
+                "80% Protein",
+                "80% Big Nugget",
+                "50% Calcium",
+                "50% Carbos",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Star Piece",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% PP Max",
+                "  1% PP Max"
+            ],
+            "Glastrier",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Protein",
+                "50% Calcium",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Wish Piece",
+                "25% Star Piece",
+                "  5% Lucky Egg",
+                "  4% PP Max",
+                "  1% PP Max"
+            ]
+        ],
+        "6 star raid",
+        [
+            "Kyurem",
+            [
+                "100% Nugget",
+                "80% Protein",
+                "80% Big Nugget",
+                "50% Calcium",
+                "50% Carbos",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Star Piece",
+                "25% Wish Piece",
+                "  5% Eviolite",
+                "  4% Choice Scarf",
+                "  1% Choice Scarf"
+            ],
+            "Tapu Fini",
+            [
+                "100% Nugget",
+                "80% Protein",
+                "80% Big Nugget",
+                "50% Calcium",
+                "50% Carbos",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Star Piece",
+                "25% Wish Piece",
+                "  5% Eviolite",
+                "  4% Choice Band",
+                "  1% Choice Band"
+            ],
+            "Manaphy",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Protein",
+                "50% Calcium",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Wish Piece",
+                "25% Rocky Helmet",
+                "  5% Eviolite",
+                "  4% Choice Scarf",
+                "  1% Choice Scarf"
+            ]
+        ]
+    ],
+    "Seafoam Islands B2F",
+    [
+        "day encounters",
+        [
+            "20% Piloswine         62-64",
+            "20% Darmanitan-Galar  62-64",
+            "10% Vanilluxe         62-64",
+            "10% Vanilluxe         62-64",
+            "10% Slowking          62-64",
+            "10% Slowking          62-64",
+            " 5% Golbat            62-64",
+            " 5% Golbat            62-64",
+            " 4% Cryogonal         62-64",
+            " 4% Cryogonal         62-64",
+            " 1% Delibird          62-64",
+            " 1% Delibird          62-64"
+        ],
+        "night encounters",
+        [
+            "20% Sandslash-Alola   62-64",
+            "20% Darmanitan-Galar  62-64",
+            "10% Vanilluxe         62-64",
+            "10% Vanilluxe         62-64",
+            "10% Golduck           62-64",
+            "10% Golduck           62-64",
+            " 5% Golbat            62-64",
+            " 5% Golbat            62-64",
+            " 4% Cryogonal         62-64",
+            " 4% Cryogonal         62-64",
+            " 1% Delibird          62-64",
+            " 1% Delibird          62-64"
+        ],
+        "overworld pokemon",
+        [
+            "Keldeo"
+        ]
+    ],
+    "Seafoam Islands B3F",
+    [
+        "day encounters",
+        [
+            "20% Abomasnow         62-64",
+            "20% Snover            62-64",
+            "10% Ninetales-Alola   62-64",
+            "10% Ninetales-Alola   62-64",
+            "10% Crawdaunt         62-64",
+            "10% Crawdaunt         62-64",
+            " 5% Golbat            62-64",
+            " 5% Golbat            62-64",
+            " 4% Sneasel           62-64",
+            " 4% Sneasel           62-64",
+            " 1% Delibird          62-64",
+            " 1% Delibird          62-64"
+        ],
+        "night encounters",
+        [
+            "20% Abomasnow         62-64",
+            "20% Snorunt           62-64",
+            "10% Ninetales-Alola   62-64",
+            "10% Ninetales-Alola   62-64",
+            "10% Kingler           62-64",
+            "10% Kingler           62-64",
+            " 5% Golbat            62-64",
+            " 5% Golbat            62-64",
+            " 4% Sneasel           62-64",
+            " 4% Sneasel           62-64",
+            " 1% Delibird          62-64",
+            " 1% Delibird          62-64"
+        ],
+        "surf encounters",
+        [
+            "60% Dewgong           56-58",
+            "30% Walrein           56-58",
+            " 5% Crawdaunt         56-58",
+            " 4% Crawdaunt         56-58",
+            " 1% Crawdaunt         56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Magikarp          2-4",
+            "30% Goldeen           2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Spheal            27-29",
+            "20% Mareanie          27-29",
+            "20% Krabby            27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Seadra            53-55",
+            "40% Seadra            53-55",
+            "15% Gyarados          53-55",
+            " 4% Crawdaunt         53-55",
+            " 1% Crawdaunt         53-55"
+        ]
+    ],
+    "Seafoam Islands B4F",
+    [
+        "day encounters",
+        [
+            "20% Piloswine         62-64",
+            "20% Darmanitan-Galar  62-64",
+            "10% Ninetales-Alola   62-64",
+            "10% Ninetales-Alola   62-64",
+            "10% Dewgong           62-64",
+            "10% Dewgong           62-64",
+            " 5% Golbat            62-64",
+            " 5% Golbat            62-64",
+            " 4% Frosmoth          62-64",
+            " 4% Frosmoth          62-64",
+            " 1% Jynx              62-64",
+            " 1% Jynx              62-64"
+        ],
+        "night encounters",
+        [
+            "20% Sandslash-Alola   62-64",
+            "20% Darmanitan-Galar  62-64",
+            "10% Ninetales-Alola   62-64",
+            "10% Ninetales-Alola   62-64",
+            "10% Golduck           62-64",
+            "10% Golduck           62-64",
+            " 5% Golbat            62-64",
+            " 5% Golbat            62-64",
+            " 4% Frosmoth          62-64",
+            " 4% Frosmoth          62-64",
+            " 1% Jynx              62-64",
+            " 1% Jynx              62-64"
+        ],
+        "surf encounters",
+        [
+            "60% Golduck           56-58",
+            "30% Slowbro           56-58",
+            " 5% Sharpedo          56-58",
+            " 4% Sharpedo          56-58",
+            " 1% Sharpedo          56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Magikarp          2-4",
+            "30% Remoraid          2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Spheal            27-29",
+            "20% Shellder          27-29",
+            "20% Carvanha          27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Seadra            53-55",
+            "40% Seadra            53-55",
+            "15% Gyarados          53-55",
+            " 4% Grapploct         53-55",
+            " 1% Grapploct         53-55"
+        ]
+    ],
+    "Seafoam Islands B5F",
+    [
+        "overworld pokemon",
+        [
+            "Articuno-Galar",
+            "Articuno"
+        ]
+    ],
+    "Cinnabar Island",
+    [
+        "surf encounters",
+        [
+            "60% Tentacruel        56-58",
+            "30% Mantine           56-58",
+            " 5% Mantine           56-58",
+            " 4% Cramorant         56-58",
+            " 1% Cramorant         56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Magikarp          2-4",
+            "30% Corsola           2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Krabby            27-29",
+            "20% Qwilfish          27-29",
+            "20% Feebas            27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Octillery         53-55",
+            "40% Lumineon          53-55",
+            "15% Sharpedo          53-55",
+            " 4% Dhelmise          53-55",
+            " 1% Dhelmise          53-55"
+        ]
+    ],
+    "Cinnabar Island Lab Meeting Room",
+    [
+        "trade pokemon",
+        [
+            "Mimikyu"
+        ]
+    ],
+    "Cinnabar Island Lab Testing Room",
+    [
+        "trade pokemon",
+        [
+            "Grimmsnarl"
+        ]
+    ],
+    "Route 21 South",
+    [
+        "surf encounters",
+        [
+            "60% Tentacruel        56-58",
+            "30% Mantine           56-58",
+            " 5% Mantine           56-58",
+            " 4% Jellicent         56-58",
+            " 1% Jellicent         56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Magikarp          2-4",
+            "30% Shellder          2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Krabby            27-29",
+            "20% Qwilfish          27-29",
+            "20% Corsola           27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Octillery         53-55",
+            "40% Lumineon          53-55",
+            "15% Sharpedo          53-55",
+            " 4% Relicanth         53-55",
+            " 1% Relicanth         53-55"
+        ]
+    ],
+    "Power Plant",
+    [
+        "day encounters",
+        [
+            "20% Magneton          63-65",
+            "20% Electrode         63-65",
+            "10% Zebstrika         63-65",
+            "10% Eelektross        63-65",
+            "10% Ampharos          63-65",
+            "10% Ampharos          63-65",
+            " 5% Dedenne           63-65",
+            " 5% Dedenne           63-65",
+            " 4% Electabuzz        63-65",
+            " 4% Electabuzz        63-65",
+            " 1% Electabuzz        63-65",
+            " 1% Electabuzz        63-65"
+        ],
+        "night encounters",
+        [
+            "20% Magneton          63-65",
+            "20% Electrode         63-65",
+            "10% Manectric         63-65",
+            "10% Vikavolt          63-65",
+            "10% Ampharos          63-65",
+            "10% Ampharos          63-65",
+            " 5% Togedemaru        63-65",
+            " 5% Togedemaru        63-65",
+            " 4% Electabuzz        63-65",
+            " 4% Electabuzz        63-65",
+            " 1% Electabuzz        63-65",
+            " 1% Electabuzz        63-65"
+        ],
+        "overworld pokemon",
+        [
+            "Zapdos-Galar",
+            "Electrode",
+            "Electrode",
+            "Zapdos"
+        ],
+        "4 star raid",
+        [
+            "Dracozolt",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Protein",
+                "50% Calcium",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Wish Piece",
+                "25% Dream Patch",
+                "  5% Lucky Egg",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Arctozolt",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Protein",
+                "50% Calcium",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Star Piece",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Heliolisk",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Protein",
+                "50% Calcium",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Star Piece",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ]
+        ],
+        "5 star raid",
+        [
+            "Zeraora",
+            [
+                "100% Nugget",
+                "80% Protein",
+                "80% Big Nugget",
+                "50% Calcium",
+                "50% Carbos",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Star Piece",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Iron Valiant",
+            [
+                "100% Nugget",
+                "80% Protein",
+                "80% Big Nugget",
+                "50% Calcium",
+                "50% Carbos",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Wish Piece",
+                "25% Dream Patch",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Regieleki",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Protein",
+                "50% Calcium",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Dream Patch",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ]
+        ],
+        "6 star raid",
+        [
+            "Tapu Koko",
+            [
+                "100% Nugget",
+                "80% Protein",
+                "80% Big Nugget",
+                "50% Calcium",
+                "50% Carbos",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Star Piece",
+                "25% Wish Piece",
+                "  5% Eviolite",
+                "  4% Choice Specs",
+                "  1% Choice Specs"
+            ]
+        ]
+    ],
+    "Pokemon Mansion 1F",
+    [
+        "day encounters",
+        [
+            "20% Raticate          63-65",
+            "20% Audino            63-65",
+            "10% Muk               63-65",
+            "10% Muk               63-65",
+            "10% Weezing           63-65",
+            "10% Liepard           63-65",
+            " 5% Arcanine          63-65",
+            " 5% Arcanine          63-65",
+            " 4% Sableye           63-65",
+            " 4% Sableye           63-65",
+            " 1% Chimecho          63-65",
+            " 1% Chimecho          63-65"
+        ],
+        "night encounters",
+        [
+            "20% Raticate-Alola    63-65",
+            "20% Audino            63-65",
+            "10% Muk-Alola         63-65",
+            "10% Muk-Alola         63-65",
+            "10% Weezing-Galar     63-65",
+            "10% Liepard           63-65",
+            " 5% Ninetales         63-65",
+            " 5% Ninetales         63-65",
+            " 4% Sableye           63-65",
+            " 4% Sableye           63-65",
+            " 1% Chimecho          63-65",
+            " 1% Chimecho          63-65"
+        ],
+        "4 star raid",
+        [
+            "Floatzel",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Salac Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Magcargo",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Liechi Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ],
+            "Noctowl",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Liechi Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Lucky Egg",
+                "  1% Lucky Egg"
+            ]
+        ],
+        "5 star raid",
+        [
+            "Spectrier",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Salac Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Hoopa",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Liechi Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Regidrago",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Liechi Berry",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ]
+        ],
+        "6 star raid",
+        [
+            "Tapu Lele",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Occa Berry",
+                "50% Dream Patch",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Liechi Berry",
+                "25% Wish Piece",
+                "  5% Eviolite",
+                "  4% Choice Band",
+                "  1% Choice Band"
+            ]
+        ]
+    ],
+    "Pokemon Mansion 2F",
+    [
+        "day encounters",
+        [
+            "20% Gumshoos          63-65",
+            "20% Garbodor          63-65",
+            "10% Weezing           63-65",
+            "10% Swalot            63-65",
+            "10% Heatmor           63-65",
+            "10% Salazzle          63-65",
+            " 5% Houndoom          63-65",
+            " 5% Houndoom          63-65",
+            " 4% Banette           63-65",
+            " 4% Banette           63-65",
+            " 1% Chimecho          63-65",
+            " 1% Chimecho          63-65"
+        ],
+        "night encounters",
+        [
+            "20% Obstagoon         63-65",
+            "20% Garbodor          63-65",
+            "10% Weezing-Galar     63-65",
+            "10% Swalot            63-65",
+            "10% Heatmor           63-65",
+            "10% Salazzle          63-65",
+            " 5% Ninetales         63-65",
+            " 5% Ninetales         63-65",
+            " 4% Banette           63-65",
+            " 4% Banette           63-65",
+            " 1% Chimecho          63-65",
+            " 1% Chimecho          63-65"
+        ]
+    ],
+    "Pokemon Mansion 3F",
+    [
+        "day encounters",
+        [
+            "20% Bewear            63-65",
+            "20% Seviper           63-65",
+            "10% Ariados           63-65",
+            "10% Ariados           63-65",
+            "10% Rapidash          63-65",
+            "10% Skuntank          63-65",
+            " 5% Armarouge         63-65",
+            " 5% Armarouge         63-65",
+            " 4% Krookodile        63-65",
+            " 4% Krookodile        63-65",
+            " 1% Chimecho          63-65",
+            " 1% Chimecho          63-65"
+        ],
+        "night encounters",
+        [
+            "20% Komala            63-65",
+            "20% Seviper           63-65",
+            "10% Ariados           63-65",
+            "10% Ariados           63-65",
+            "10% Rapidash-Galar    63-65",
+            "10% Skuntank          63-65",
+            " 5% Ceruledge         63-65",
+            " 5% Ceruledge         63-65",
+            " 4% Krookodile        63-65",
+            " 4% Krookodile        63-65",
+            " 1% Chimecho          63-65",
+            " 1% Chimecho          63-65"
+        ]
+    ],
+    "Pokemon Mansion B1F",
+    [
+        "day encounters",
+        [
+            "20% Raticate          63-65",
+            "20% Garbodor          63-65",
+            "10% Ariados           63-65",
+            "10% Ariados           63-65",
+            "10% Magmar            63-65",
+            "10% Mightyena         63-65",
+            " 5% Arcanine          63-65",
+            " 5% Arcanine          63-65",
+            " 4% Banette           63-65",
+            " 4% Banette           63-65",
+            " 1% Chimecho          63-65",
+            " 1% Chimecho          63-65"
+        ],
+        "night encounters",
+        [
+            "20% Raticate-Alola    63-65",
+            "20% Garbodor          63-65",
+            "10% Ariados           63-65",
+            "10% Ariados           63-65",
+            "10% Magmar            63-65",
+            "10% Mightyena         63-65",
+            " 5% Ninetales         63-65",
+            " 5% Ninetales         63-65",
+            " 4% Banette           63-65",
+            " 4% Banette           63-65",
+            " 1% Chimecho          63-65",
+            " 1% Chimecho          63-65"
+        ]
+    ],
+    "Cerulean Cave 1F",
+    [
+        "day encounters",
+        [
+            "20% Parasect          68-70",
+            "20% Golbat            68-70",
+            "10% Machamp           68-70",
+            "10% Machamp           68-70",
+            "10% Magneton          68-70",
+            "10% Magneton          68-70",
+            " 5% Seismitoad        68-70",
+            " 5% Seismitoad        68-70",
+            " 4% Duraludon         68-70",
+            " 4% Duraludon         68-70",
+            " 1% Type: Null        68-70",
+            " 1% Type: Null        68-70"
+        ],
+        "night encounters",
+        [
+            "20% Parasect          68-70",
+            "20% Golbat            68-70",
+            "10% Conkeldurr        68-70",
+            "10% Conkeldurr        68-70",
+            "10% Magneton          68-70",
+            "10% Magneton          68-70",
+            " 5% Seismitoad        68-70",
+            " 5% Seismitoad        68-70",
+            " 4% Duraludon         68-70",
+            " 4% Duraludon         68-70",
+            " 1% Type: Null        68-70",
+            " 1% Type: Null        68-70"
+        ],
+        "surf encounters",
+        [
+            "60% Seismitoad        56-58",
+            "30% Golduck           56-58",
+            " 5% Crawdaunt         56-58",
+            " 4% Kingler           56-58",
+            " 1% Kingler           56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Magikarp          2-4",
+            "30% Staryu            2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Carvanha          27-29",
+            "20% Pyukumuku         27-29",
+            "20% Krabby            27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Seismitoad        53-55",
+            "40% Poliwhirl         53-55",
+            "15% Crawdaunt         53-55",
+            " 4% Crawdaunt         53-55",
+            " 1% Crawdaunt         53-55"
+        ]
+    ],
+    "Cerulean Cave 2F",
+    [
+        "day encounters",
+        [
+            "20% Brute Bonnet      68-70",
+            "20% Great Tusk        68-70",
+            "10% Primeape          68-70",
+            "10% Primeape          68-70",
+            "10% Great Tusk        68-70",
+            "10% Audino            68-70",
+            " 5% Alakazam          68-70",
+            " 5% Alakazam          68-70",
+            " 4% Duraludon         68-70",
+            " 4% Duraludon         68-70",
+            " 1% Type: Null        68-70",
+            " 1% Type: Null        68-70"
+        ],
+        "night encounters",
+        [
+            "20% Brute Bonnet      68-70",
+            "20% Iron Treads       68-70",
+            "10% Pangoro           68-70",
+            "10% Pangoro           68-70",
+            "10% Iron Treads       68-70",
+            "10% Audino            68-70",
+            " 5% Reuniclus         68-70",
+            " 5% Reuniclus         68-70",
+            " 4% Duraludon         68-70",
+            " 4% Duraludon         68-70",
+            " 1% Type: Null        68-70",
+            " 1% Type: Null        68-70"
+        ],
+        "gift pokemon",
+        [
+            "Kubfu",
+            "Kubfu"
+        ],
+        "4 star raid",
+        [
+            "Xurkitree",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Calcium",
+                "50% Carbos",
+                "50% Stardust",
+                "30% Star Piece",
+                "30% PP Max",
+                "25% Beast Ball",
+                "25% Power Herb",
+                "  5% Wish Piece",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Stakataka",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Calcium",
+                "50% Carbos",
+                "50% Stardust",
+                "30% Star Piece",
+                "30% PP Max",
+                "25% Beast Ball",
+                "25% Power Herb",
+                "  5% Wish Piece",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Guzzlord",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Calcium",
+                "50% Carbos",
+                "50% Stardust",
+                "30% Star Piece",
+                "30% PP Max",
+                "25% Beast Ball",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ]
+        ],
+        "5 star raid",
+        [
+            "Buzzwole",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Calcium",
+                "50% Carbos",
+                "50% Stardust",
+                "30% Star Piece",
+                "30% PP Max",
+                "25% Beast Ball",
+                "25% Power Herb",
+                "  5% Wish Piece",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Xurkitree",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Calcium",
+                "50% Carbos",
+                "50% Stardust",
+                "30% Star Piece",
+                "30% PP Max",
+                "25% Beast Ball",
+                "25% Power Herb",
+                "  5% Wish Piece",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Stakataka",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Calcium",
+                "50% Carbos",
+                "50% Stardust",
+                "30% Star Piece",
+                "30% PP Max",
+                "25% Beast Ball",
+                "25% Power Herb",
+                "  5% Wish Piece",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Guzzlord",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Calcium",
+                "50% Carbos",
+                "50% Stardust",
+                "30% Star Piece",
+                "30% PP Max",
+                "25% Beast Ball",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Nihilego",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Calcium",
+                "50% Carbos",
+                "50% Stardust",
+                "30% Star Piece",
+                "30% PP Max",
+                "25% Beast Ball",
+                "25% Wish Piece",
+                "  5% Lucky Egg",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ]
+        ],
+        "6 star raid",
+        [
+            "Blacephalon",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Big Nugget",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Wish Piece",
+                "25% Power Herb",
+                "  5% Eviolite",
+                "  4% Choice Scarf",
+                "  1% Choice Scarf"
+            ],
+            "Kartana",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Big Nugget",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Wish Piece",
+                "25% Power Herb",
+                "  5% Eviolite",
+                "  4% Choice Band",
+                "  1% Choice Band"
+            ],
+            "Poipole",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Big Nugget",
+                "50% Big Nugget",
+                "30% PP Up",
+                "30% PP Max",
+                "25% PP Up",
+                "25% Power Herb",
+                "  5% Eviolite",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Pheromosa",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Big Nugget",
+                "30% PP Up",
+                "30% Nugget",
+                "25% PP Max",
+                "25% White Herb",
+                "  5% Eviolite",
+                "  4% Choice Scarf",
+                "  1% Choice Scarf"
+            ],
+            "Celesteela",
+            [
+                "100% Nugget",
+                "80% Big Nugget",
+                "80% Big Nugget",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Wish Piece",
+                "25% White Herb",
+                "  5% Eviolite",
+                "  4% Choice Specs",
+                "  1% Choice Specs"
+            ]
+        ]
+    ],
+    "Cerulean Cave B1F",
+    [
+        "day encounters",
+        [
+            "20% Iron Treads       68-70",
+            "20% Noivern           68-70",
+            "10% Medicham          68-70",
+            "10% Medicham          68-70",
+            "10% Lopunny           68-70",
+            "10% Iron Treads       68-70",
+            " 5% Lopunny           68-70",
+            " 5% Gardevoir         68-70",
+            " 4% Excadrill         68-70",
+            " 4% Excadrill         68-70",
+            " 1% Type: Null        68-70",
+            " 1% Type: Null        68-70"
+        ],
+        "night encounters",
+        [
+            "20% Iron Treads       68-70",
+            "20% Noivern           68-70",
+            "10% Toxicroak         68-70",
+            "10% Toxicroak         68-70",
+            "10% Lopunny           68-70",
+            "10% Iron Treads       68-70",
+            " 5% Lopunny           68-70",
+            " 5% Gardevoir         68-70",
+            " 4% Excadrill         68-70",
+            " 4% Excadrill         68-70",
+            " 1% Type: Null        68-70",
+            " 1% Type: Null        68-70"
+        ],
+        "surf encounters",
+        [
+            "60% Sharpedo          56-58",
+            "30% Slowbro           56-58",
+            " 5% Toxapex           56-58",
+            " 4% Toxapex           56-58",
+            " 1% Milotic           56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Feebas            2-4",
+            "30% Mareanie          2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Corphish          27-29",
+            "20% Krabby            27-29",
+            "20% Mareanie          27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Poliwrath         53-55",
+            "40% Crawdaunt         53-55",
+            "15% Sharpedo          53-55",
+            " 4% Gyarados          53-55",
+            " 1% Gyarados          53-55"
+        ],
+        "overworld pokemon",
+        [
+            "Mewtwo"
+        ]
+    ],
+    "Viridian City Gym",
+    [
+        "gift pokemon",
+        [
+            "Dragapult"
+        ]
+    ],
+    "Route 23",
+    [
+        "day encounters",
+        [
+            "20% Primeape          33-35",
+            "20% Fearow            33-35",
+            "10% Simisage          33-35",
+            "10% Simisear          33-35",
+            "10% Simipour          33-35",
+            "10% Simipour          33-35",
+            " 5% Seviper           33-35",
+            " 5% Seviper           33-35",
+            " 4% Golbat            33-35",
+            " 4% Golbat            33-35",
+            " 1% Staraptor         33-35",
+            " 1% Staraptor         33-35"
+        ],
+        "night encounters",
+        [
+            "20% Primeape          33-35",
+            "20% Fearow            33-35",
+            "10% Simisage          33-35",
+            "10% Simisear          33-35",
+            "10% Simipour          33-35",
+            "10% Simipour          33-35",
+            " 5% Seviper           33-35",
+            " 5% Seviper           33-35",
+            " 4% Golbat            33-35",
+            " 4% Golbat            33-35",
+            " 1% Staraptor         33-35",
+            " 1% Staraptor         33-35"
+        ],
+        "surf encounters",
+        [
+            "60% Psyduck           56-58",
+            "30% Psyduck           56-58",
+            " 5% Psyduck           56-58",
+            " 4% Psyduck           56-58",
+            " 1% Psyduck           56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Magikarp          2-4",
+            "30% Magikarp          2-4"
+        ],
+        "goodRod encounters",
+        [
+            "60% Poliwag           27-29",
+            "20% Goldeen           27-29",
+            "20% Magikarp          27-29"
+        ],
+        "superRod encounters",
+        [
+            "40% Poliwag           53-55",
+            "40% Psyduck           53-55",
+            "15% Poliwhirl         53-55",
+            " 4% Gyarados          53-55",
+            " 1% Gyarados          53-55"
+        ]
+    ],
+    "Victory Road 1F",
+    [
+        "day encounters",
+        [
+            "20% Iron Valiant      80-82",
+            "20% Metagross         80-82",
+            "10% Goodra            80-82",
+            "10% Steelix           80-82",
+            "10% Audino            80-82",
+            "10% Salamence         80-82",
+            " 5% Volcarona         80-82",
+            " 5% Aegislash         80-82",
+            " 4% Marowak           80-82",
+            " 4% Salamence         80-82",
+            " 1% Metagross         80-82",
+            " 1% Salamence         80-82"
+        ],
+        "night encounters",
+        [
+            "20% Flutter Mane      80-82",
+            "20% Metagross         80-82",
+            "10% Goodra-Hisui      80-82",
+            "10% Steelix           80-82",
+            "10% Audino            80-82",
+            "10% Salamence         80-82",
+            " 5% Volcarona         80-82",
+            " 5% Aegislash         80-82",
+            " 4% Marowak-Alola     80-82",
+            " 4% Salamence         80-82",
+            " 1% Metagross         80-82",
+            " 1% Salamence         80-82"
+        ]
+    ],
+    "Victory Road 2F",
+    [
+        "day encounters",
+        [
+            "20% Baxcalibur        80-82",
+            "20% Garchomp          80-82",
+            "10% Tyranitar         80-82",
+            "10% Machamp           80-82",
+            "10% Medicham          80-82",
+            "10% Lucario           80-82",
+            " 5% Lucario           80-82",
+            " 5% Medicham          80-82",
+            " 4% Kommo-o           80-82",
+            " 4% Kommo-o           80-82",
+            " 1% Baxcalibur        80-82",
+            " 1% Tyranitar         80-82"
+        ],
+        "night encounters",
+        [
+            "20% Baxcalibur        80-82",
+            "20% Garchomp          80-82",
+            "10% Tyranitar         80-82",
+            "10% Machamp           80-82",
+            "10% Medicham          80-82",
+            "10% Lucario           80-82",
+            " 5% Lucario           80-82",
+            " 5% Medicham          80-82",
+            " 4% Kommo-o           80-82",
+            " 4% Kommo-o           80-82",
+            " 1% Baxcalibur        80-82",
+            " 1% Tyranitar         80-82"
+        ],
+        "overworld pokemon",
+        [
+            "Walking Wake"
+        ],
+        "5 star raid",
+        [
+            "Meloetta",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Protein",
+                "50% Calcium",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Wish Piece",
+                "25% Rocky Helmet",
+                "  5% Eviolite",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Genesect",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Protein",
+                "50% Calcium",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Wish Piece",
+                "25% Rocky Helmet",
+                "  5% Eviolite",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ],
+            "Jirachi",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Protein",
+                "50% Calcium",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Wish Piece",
+                "25% Rocky Helmet",
+                "  5% Eviolite",
+                "  4% Life Orb",
+                "  1% Life Orb"
+            ]
+        ],
+        "6 star raid",
+        [
+            "Zygarde",
+            [
+                "100% Star Piece",
+                "80% Nugget",
+                "80% Big Nugget",
+                "50% Protein",
+                "50% Calcium",
+                "30% PP Up",
+                "30% PP Max",
+                "25% Wish Piece",
+                "25% Rocky Helmet",
+                "  5% Eviolite",
+                "  4% Choice Band",
+                "  1% Choice Band"
+            ]
+        ]
+    ],
+    "Victory Road 3F",
+    [
+        "day encounters",
+        [
+            "20% Dragonite         80-82",
+            "20% Iron Bundle       80-82",
+            "10% Dragapult         80-82",
+            "10% Mawile            80-82",
+            "10% Mawile            80-82",
+            "10% Toxtricity        80-82",
+            " 5% Scizor            80-82",
+            " 5% Aerodactyl        80-82",
+            " 4% Aerodactyl        80-82",
+            " 4% Dragapult         80-82",
+            " 1% Iron Bundle       80-82",
+            " 1% Dragonite         80-82"
+        ],
+        "night encounters",
+        [
+            "20% Dragonite         80-82",
+            "20% Roaring Moon      80-82",
+            "10% Dragapult         80-82",
+            "10% Mawile            80-82",
+            "10% Mawile            80-82",
+            "10% Toxtricity        80-82",
+            " 5% Scizor            80-82",
+            " 5% Aerodactyl        80-82",
+            " 4% Aerodactyl        80-82",
+            " 4% Dragapult         80-82",
+            " 1% Roaring Moon      80-82",
+            " 1% Dragonite         80-82"
+        ]
+    ],
+    "Pokemon Tower 8F",
+    [
+        "day encounters",
+        [
+            "20% Teddiursa-Sevii   85-85",
+            "20% Zoroark-Hisui     84-85",
+            "10% Ursaluna-Bloodmoon 84-85",
+            "10% Ursaluna-Bloodmoon 84-85",
+            "10% Mimikyu           84-85",
+            "10% Mimikyu           83-85",
+            " 5% Flutter Mane      83-85",
+            " 5% Flutter Mane      83-85",
+            " 4% Polteageist       83-85",
+            " 4% Sinistcha         83-85",
+            " 1% Mimikyu           83-85",
+            " 1% Mimikyu           83-85"
+        ],
+        "night encounters",
+        [
+            "20% Teddiursa-Sevii   85-85",
+            "20% Zoroark-Hisui     84-85",
+            "10% Ursaluna-Bloodmoon 84-85",
+            "10% Ursaluna-Bloodmoon 84-85",
+            "10% Mimikyu           84-85",
+            "10% Mimikyu           83-85",
+            " 5% Flutter Mane      83-85",
+            " 5% Flutter Mane      83-85",
+            " 4% Polteageist       83-85",
+            " 4% Sinistcha         83-85",
+            " 1% Mimikyu           83-85",
+            " 1% Mimikyu           83-85"
+        ]
+    ],
+    "Pokemon Tower 9F",
+    [
+        "day encounters",
+        [
+            "20% Wishiwashi-Sevii  85-85",
+            "20% Typhlosion-Hisui  84-85",
+            "10% Flutter Mane      83-85",
+            "10% Flutter Mane      83-85",
+            "10% Spiritomb         84-85",
+            "10% Spiritomb         83-85",
+            " 5% Dragapult         83-85",
+            " 5% Dragapult         83-85",
+            " 4% Cursola           83-85",
+            " 4% Cursola           83-85",
+            " 1% Spiritomb         83-85",
+            " 1% Spiritomb         83-85"
+        ],
+        "night encounters",
+        [
+            "20% Wishiwashi-Sevii  85-85",
+            "20% Typhlosion-Hisui  84-85",
+            "10% Flutter Mane      83-85",
+            "10% Flutter Mane      83-85",
+            "10% Spiritomb         84-85",
+            "10% Spiritomb         83-85",
+            " 5% Dragapult         83-85",
+            " 5% Dragapult         83-85",
+            " 4% Cursola           83-85",
+            " 4% Cursola           83-85",
+            " 1% Spiritomb         83-85",
+            " 1% Spiritomb         83-85"
+        ],
+        "overworld pokemon",
+        [
+            "Marshadow"
+        ]
+    ],
+    "Rock Tunnel Magearna's Chamber",
+    [
+        "day encounters",
+        [
+            "20% Ursaluna          85-85",
+            "20% Noibat-Sevii      84-85",
+            "10% Copperajah        84-85",
+            "10% Copperajah        84-85",
+            "10% Stunfisk-Galar    84-85",
+            "10% Stunfisk-Galar    83-85",
+            " 5% Arcanine-Hisui    83-85",
+            " 5% Arcanine-Hisui    83-85",
+            " 4% Great Tusk        83-85",
+            " 4% Great Tusk        83-85",
+            " 1% Meltan            83-85",
+            " 1% Meltan            83-85"
+        ],
+        "night encounters",
+        [
+            "20% Ursaluna          85-85",
+            "20% Noibat-Sevii      84-85",
+            "10% Aggron            84-85",
+            "10% Aggron            84-85",
+            "10% Stunfisk          84-85",
+            "10% Stunfisk          83-85",
+            " 5% Arcanine-Hisui    83-85",
+            " 5% Arcanine-Hisui    83-85",
+            " 4% Iron Treads       83-85",
+            " 4% Iron Treads       83-85",
+            " 1% Meltan            83-85",
+            " 1% Meltan            83-85"
+        ],
+        "smash encounters",
+        [
+            "60% Golem             85-85",
+            "30% Golem-Alola       84-85",
+            " 5% Probopass         84-85",
+            " 4% Probopass         84-85",
+            " 1% Carbink           84-85"
+        ],
+        "overworld pokemon",
+        [
+            "Magearna"
+        ]
+    ],
+    "Seafoam Islands Kyogre's Chamber",
+    [
+        "overworld pokemon",
+        [
+            "Kyogre"
+        ]
+    ],
+    "Treasure Beach",
+    [
+        "day encounters",
+        [
+            "20% Sirfetch’d        85-85",
+            "20% Sirfetch’d        84-85",
+            "10% Lilligant         84-85",
+            "10% Lilligant         84-85",
+            "10% Flygon            84-85",
+            "10% Flygon            83-85",
+            " 5% Klefki            83-85",
+            " 5% Klefki            83-85",
+            " 4% Kingler           83-85",
+            " 4% Kingler           83-85",
+            " 1% Meltan            83-85",
+            " 1% Meltan            83-85"
+        ],
+        "night encounters",
+        [
+            "20% Sirfetch’d        85-85",
+            "20% Sirfetch’d        84-85",
+            "10% Lilligant-Hisui   84-85",
+            "10% Lilligant-Hisui   84-85",
+            "10% Sandaconda        84-85",
+            "10% Sandaconda        83-85",
+            " 5% Klefki            83-85",
+            " 5% Klefki            83-85",
+            " 4% Crawdaunt         83-85",
+            " 4% Crawdaunt         83-85",
+            " 1% Meltan            83-85",
+            " 1% Meltan            83-85"
+        ],
+        "surf encounters",
+        [
+            "60% Mantyke-Sevii     60-65",
+            "30% Basculegion       83-85",
+            " 5% Basculegion-F     83-85",
+            " 4% Mantine-Sevii     83-85",
+            " 1% Mantine-Sevii     83-85"
+        ],
+        "oldRod encounters",
+        [
+            "70% Feebas            60-65",
+            "30% Remoraid          60-65"
+        ],
+        "goodRod encounters",
+        [
+            "60% Corsola-Galar     83-85",
+            "20% Mantyke-Sevii     60-65",
+            "20% Mantyke-Sevii     60-65"
+        ],
+        "superRod encounters",
+        [
+            "40% Basculin          83-85",
+            "40% Basculin          83-85",
+            "15% Golisopod         83-85",
+            " 4% Araquanid         83-85",
+            " 1% Araquanid         83-85"
+        ],
+        "gift pokemon",
+        [
+            "Pikachu-Libre"
+        ]
+    ],
+    "Kindle Road",
+    [
+        "day encounters",
+        [
+            "20% Absol             83-85",
+            "20% Smeargle          83-85",
+            "10% Alcremie          83-85",
+            "10% Alcremie          83-85",
+            "10% Centiskorch       83-85",
+            "10% Centiskorch       83-85",
+            " 5% Gardevoir         83-85",
+            " 5% Gardevoir         83-85",
+            " 4% Seviper           83-85",
+            " 4% Seviper           83-85",
+            " 1% Seviper           83-85",
+            " 1% Seviper           83-85"
+        ],
+        "night encounters",
+        [
+            "20% Absol             83-85",
+            "20% Smeargle          83-85",
+            "10% Alcremie          83-85",
+            "10% Alcremie          83-85",
+            "10% Centiskorch-Sevii 83-85",
+            "10% Centiskorch-Sevii 83-85",
+            " 5% Grimmsnarl        83-85",
+            " 5% Grimmsnarl        83-85",
+            " 4% Eelektross        83-85",
+            " 4% Eelektross        83-85",
+            " 1% Eelektross        83-85",
+            " 1% Eelektross        83-85"
+        ],
+        "surf encounters",
+        [
+            "60% Mantyke-Sevii     60-65",
+            "30% Pyukumuku         83-85",
+            " 5% Cramorant         83-85",
+            " 4% Mantine-Sevii     83-85",
+            " 1% Mantine-Sevii     83-85"
+        ],
+        "oldRod encounters",
+        [
+            "70% Feebas            83-85",
+            "30% Remoraid          83-85"
+        ],
+        "goodRod encounters",
+        [
+            "60% Corsola-Galar     83-85",
+            "20% Qwilfish          83-85",
+            "20% Qwilfish          83-85"
+        ],
+        "superRod encounters",
+        [
+            "40% Luvdisc           83-85",
+            "40% Luvdisc           83-85",
+            "15% Gorebyss          83-85",
+            " 4% Huntail           83-85",
+            " 1% Huntail           83-85"
+        ],
+        "gift pokemon",
+        [
+            "Pinsir"
+        ]
+    ],
+    "Mt Ember Exterior",
+    [
+        "day encounters",
+        [
+            "20% Doduo-Sevii       60-65",
+            "20% Coalossal         83-85",
+            "10% Darmanitan        83-85",
+            "10% Darmanitan        83-85",
+            "10% Pyroar            83-85",
+            "10% Dodrio-Sevii      83-85",
+            " 5% Arcanine          83-85",
+            " 5% Arcanine          83-85",
+            " 4% Volcarona         83-85",
+            " 4% Volcarona         83-85",
+            " 1% Volcarona         83-85",
+            " 1% Volcarona         83-85"
+        ],
+        "night encounters",
+        [
+            "20% Doduo-Sevii       60-65",
+            "20% Coalossal         83-85",
+            "10% Darmanitan        83-85",
+            "10% Darmanitan        83-85",
+            "10% Houndoom          83-85",
+            "10% Dodrio-Sevii      83-85",
+            " 5% Arcanine-Hisui    83-85",
+            " 5% Arcanine-Hisui    83-85",
+            " 4% Volcarona         83-85",
+            " 4% Volcarona         83-85",
+            " 1% Volcarona         83-85",
+            " 1% Volcarona         83-85"
+        ]
+    ],
+    "Mt Ember Interior",
+    [
+        "day encounters",
+        [
+            "20% Torkoal           85-85",
+            "20% Magcargo          84-85",
+            "10% Ninetales         84-85",
+            "10% Ninetales         84-85",
+            "10% Pyroar            84-85",
+            "10% Pyroar            83-85",
+            " 5% Darmanitan        83-85",
+            " 5% Darmanitan        83-85",
+            " 4% Arcanine-Hisui    83-85",
+            " 4% Arcanine-Hisui    83-85",
+            " 1% Arcanine-Hisui    83-85",
+            " 1% Arcanine-Hisui    83-85"
+        ],
+        "night encounters",
+        [
+            "20% Torkoal           85-85",
+            "20% Magcargo          84-85",
+            "10% Ninetales         84-85",
+            "10% Ninetales         84-85",
+            "10% Pyroar            84-85",
+            "10% Pyroar            83-85",
+            " 5% Darmanitan        83-85",
+            " 5% Darmanitan        83-85",
+            " 4% Arcanine-Hisui    83-85",
+            " 4% Arcanine-Hisui    83-85",
+            " 1% Arcanine-Hisui    83-85",
+            " 1% Arcanine-Hisui    83-85"
+        ]
+    ],
+    "Mt Ember Summit",
+    [
+        "overworld pokemon",
+        [
+            "Heatran"
+        ],
+        "gift pokemon",
+        [
+            "Aerodactyl"
+        ]
+    ],
+    "Two Island House",
+    [
+        "gift pokemon",
+        [
+            "Clefable"
+        ]
+    ],
+    "Cape Brink",
+    [
+        "day encounters",
+        [
+            "20% Electrode-Hisui   85-85",
+            "20% Blitzle-Sevii     84-85",
+            "10% Lilligant-Hisui   84-85",
+            "10% Lilligant-Hisui   84-85",
+            "10% Slowbro-Galar     84-85",
+            "10% Slowbro-Galar     83-85",
+            " 5% Morpeko           83-85",
+            " 5% Morpeko           83-85",
+            " 4% Grapploct         83-85",
+            " 4% Grapploct         83-85",
+            " 1% Scyther           83-85",
+            " 1% Scyther           83-85"
+        ],
+        "night encounters",
+        [
+            "20% Electrode-Hisui   85-85",
+            "20% Blitzle-Sevii     84-85",
+            "10% Shiftry           84-85",
+            "10% Shiftry           84-85",
+            "10% Slowbro           84-85",
+            "10% Slowbro           83-85",
+            " 5% Morpeko           83-85",
+            " 5% Morpeko           83-85",
+            " 4% Grapploct         83-85",
+            " 4% Grapploct         83-85",
+            " 1% Scyther           83-85",
+            " 1% Scyther           83-85"
+        ],
+        "surf encounters",
+        [
+            "60% Araquanid         60-65",
+            "30% Slowbro           83-85",
+            " 5% Cramorant         83-85",
+            " 4% Barbaracle        83-85",
+            " 1% Barbaracle        83-85"
+        ],
+        "oldRod encounters",
+        [
+            "70% Feebas            83-85",
+            "30% Remoraid          83-85"
+        ],
+        "goodRod encounters",
+        [
+            "60% Corsola-Galar     83-85",
+            "20% Barraskewda       83-85",
+            "20% Barraskewda       83-85"
+        ],
+        "superRod encounters",
+        [
+            "40% Luvdisc           83-85",
+            "40% Luvdisc           83-85",
+            "15% Wishiwashi        83-85",
+            " 4% Kingler           83-85",
+            " 1% Kingler           83-85"
+        ]
+    ],
+    "Three Isle Port",
+    [
+        "day encounters",
+        [
+            "20% Dunsparce         85-85",
+            "20% Clauncher-Sevii   84-85",
+            "10% Goodra-Hisui      84-85",
+            "10% Goodra-Hisui      84-85",
+            "10% Samurott-Hisui    84-85",
+            "10% Samurott-Hisui    83-85",
+            " 5% Sandaconda        83-85",
+            " 5% Sandaconda        83-85",
+            " 4% Smeargle          83-85",
+            " 4% Smeargle          83-85",
+            " 1% Corviknight       83-85",
+            " 1% Corviknight       83-85"
+        ],
+        "night encounters",
+        [
+            "20% Dunsparce         85-85",
+            "20% Clauncher-Sevii   84-85",
+            "10% Goodra-Hisui      84-85",
+            "10% Goodra-Hisui      84-85",
+            "10% Samurott-Hisui    84-85",
+            "10% Samurott-Hisui    83-85",
+            " 5% Sandaconda        83-85",
+            " 5% Sandaconda        83-85",
+            " 4% Smeargle          83-85",
+            " 4% Smeargle          83-85",
+            " 1% Corviknight       83-85",
+            " 1% Corviknight       83-85"
+        ]
+    ],
+    "Bond Bridge",
+    [
+        "day encounters",
+        [
+            "20% Decidueye-Hisui   85-85",
+            "20% Sneasel-Hisui     84-85",
+            "10% Hatterene         84-85",
+            "10% Hatterene         84-85",
+            "10% Crustle           84-85",
+            "10% Crustle           83-85",
+            " 5% Braviary-Hisui    83-85",
+            " 5% Braviary-Hisui    83-85",
+            " 4% Gliscor           83-85",
+            " 4% Gliscor           83-85",
+            " 1% Hawlucha          83-85",
+            " 1% Hawlucha          83-85"
+        ],
+        "night encounters",
+        [
+            "20% Decidueye-Hisui   85-85",
+            "20% Sneasel-Hisui     84-85",
+            "10% Hatterene         84-85",
+            "10% Hatterene         84-85",
+            "10% Crustle           84-85",
+            "10% Crustle           83-85",
+            " 5% Braviary-Hisui    83-85",
+            " 5% Braviary-Hisui    83-85",
+            " 4% Gliscor           83-85",
+            " 4% Gliscor           83-85",
+            " 1% Hawlucha          83-85",
+            " 1% Hawlucha          83-85"
+        ],
+        "surf encounters",
+        [
+            "60% Palafin           60-65",
+            "30% Slowking          83-85",
+            " 5% Mantine-Sevii     83-85",
+            " 4% Milotic-Sevii     83-85",
+            " 1% Milotic-Sevii     83-85"
+        ],
+        "oldRod encounters",
+        [
+            "70% Feebas            83-85",
+            "30% Remoraid          83-85"
+        ],
+        "goodRod encounters",
+        [
+            "60% Clawitzer         83-85",
+            "20% Sharpedo          83-85",
+            "20% Sharpedo          83-85"
+        ],
+        "superRod encounters",
+        [
+            "40% Alomomola         83-85",
+            "40% Alomomola         83-85",
+            "15% Dhelmise-Sevii    83-85",
+            " 4% Dhelmise-Sevii    83-85",
+            " 1% Dhelmise-Sevii    83-85"
+        ]
+    ],
+    "Berry Forest",
+    [
+        "day encounters",
+        [
+            "20% Carnivine-Sevii   85-85",
+            "20% Nymble-Sevii      84-85",
+            "10% Decidueye-Hisui   84-85",
+            "10% Decidueye-Hisui   84-85",
+            "10% Pinsir            84-85",
+            "10% Pinsir            83-85",
+            " 5% Indeedee          83-85",
+            " 5% Indeedee          83-85",
+            " 4% Roserade          83-85",
+            " 4% Roserade          83-85",
+            " 1% Durant            83-85",
+            " 1% Durant            83-85"
+        ],
+        "night encounters",
+        [
+            "20% Carnivine-Sevii   85-85",
+            "20% Nymble-Sevii      84-85",
+            "10% Decidueye-Hisui   84-85",
+            "10% Decidueye-Hisui   84-85",
+            "10% Pinsir            84-85",
+            "10% Pinsir            83-85",
+            " 5% Indeedee-F        83-85",
+            " 5% Indeedee-F        83-85",
+            " 4% Tsareena          83-85",
+            " 4% Tsareena          83-85",
+            " 1% Durant            83-85",
+            " 1% Durant            83-85"
+        ],
+        "surf encounters",
+        [
+            "60% Araquanid         56-58",
+            "30% Golisopod         56-58",
+            " 5% Masquerain        56-58",
+            " 4% Masquerain        56-58",
+            " 1% Tentacruel        56-58"
+        ],
+        "oldRod encounters",
+        [
+            "70% Staryu            83-85",
+            "30% Clauncher-Sevii   83-85"
+        ],
+        "goodRod encounters",
+        [
+            "60% Corsola-Galar     83-85",
+            "20% Feebas-Sevii      83-85",
+            "20% Feebas-Sevii      83-85"
+        ],
+        "superRod encounters",
+        [
+            "40% Sharpedo          83-85",
+            "40% Sharpedo          83-85",
+            "15% Luvdisc           83-85",
+            " 4% Crawdaunt         83-85",
+            " 1% Crawdaunt         83-85"
+        ],
+        "gift pokemon",
+        [
+            "Mew"
+        ]
+    ]
+]
