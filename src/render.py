@@ -86,3 +86,11 @@ def to_card(pokemon, encounter_list):
         card_content += build_card_content(location_badge, method_badge, range_badge)
 
     return build_card(sprite, pokemon, card_content)
+
+
+def build_multiple_cards(complete_dict):
+    all_cards = ""
+    for pokemon in complete_dict:
+        data_for_card = to_card(pokemon, complete_dict[pokemon])
+        all_cards += data_for_card
+    return all_cards

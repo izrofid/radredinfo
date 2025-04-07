@@ -113,3 +113,18 @@ def consolidate_day_night(encounter_list):
         OrderedDict((frozenset(item.items()), item) for item in encounter_list).values()
     )
     return consolidated_encounter_list
+
+
+def add_pokemon_to_dict(complete_dict, pokemon, encounter_list):
+    # updates a dictionary with pokemon, encounter_list key pairs
+    complete_dict.update({pokemon: encounter_list})
+    return complete_dict
+
+
+def consolidate_encounters_by_pokemon(pokemon_names, encounters):
+    complete_dict = {}
+    for pokemon in pokemon_names:
+        encounter_list = get_encounters_for_pokemon(pokemon, encounters)
+        day_night_list = consolidate_day_night(encounter_list)
+        complete_dict = add_pokemon_to_dict(complete_dict, pokemon, day_night_list)
+    return complete_dict
