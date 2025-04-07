@@ -2,7 +2,7 @@ import os
 
 DATA_DIR = "data"
 
-encounters = os.path.join(DATA_DIR, "flat_encounters.csv")
+encounters = os.path.join(DATA_DIR, "encounters.json")
 pokemon = os.path.join(DATA_DIR, "pokemon_data.csv")
 sprites = os.path.join(DATA_DIR, "sprites.csv")
 levels = os.path.join(DATA_DIR, "level_caps.csv")

@@ -15,7 +15,7 @@
     color: #ccc;
     border-bottom: 1px solid #444;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     height: 7ch;
 }
@@ -42,7 +42,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: left;
-    min-width: 140px;
+    min-width: 145px;
     /* equal width for all */
     height: 28px;
     /* fixed height */
@@ -103,4 +103,15 @@
     width: auto; 
     margin-right: 6px;
     vertical-align: middle;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pokemon-name {
+    font-size: 1rem;
+    color: #ccc;
 }
