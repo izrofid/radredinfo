@@ -79,10 +79,10 @@ def to_card(pokemon, encounter_list):
         color = constants.METHOD_COLORS.get(method, "#555")
 
         location_badge = f'<span class="loc-badge">{location}</span>'
-        range_badge = f'<span class="range-badge">{range_value}</span>'
         method_badge = f'<span class="method-badge" style="background-color:{color}">{method}</span>'
+        range_badge = f'<span class="range-badge">{range_value}</span>'
 
         # Append to card content
-        card_content += build_card_content(location_badge, range_badge, method_badge)
+        card_content += build_card_content(location_badge, method_badge, range_badge)
 
     return build_card(sprite, pokemon, card_content)
