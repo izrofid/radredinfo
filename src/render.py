@@ -12,7 +12,7 @@ def get_sprite(pokemon, sprite_lookup):
     Returns the HTML img tag for a given Pokémon.
     If the Pokémon is not found in sprite_lookup, uses the fallback URL.
     """
-    sprite_url = sprite_lookup.get(pokemon)
+    sprite_url = sprite_lookup.get(pokemon, constants.FALLBACK_SPRITE)
     return f"<img src='{sprite_url}' class='sprite'>"
 
 
@@ -37,12 +37,30 @@ def build_card(sprite, pokemon, content):
     Adds header with name and sprite
     Adds all encounters to it
     """
+    type1, type2 = utils.get_pokemon_types(pokemon)
+
+    # Create badge for first type
+    type1_badge = f'<span class="type-badge {type1.lower()}">{type1}</span>'
+
+    # Create badge for second type if different from first
+    type2_badge = None
+    if type1 != type2:
+        type2_badge = f'<span class="type-badge {type2.lower()}">{type2}</span>'
+
+    # Combine badges
+    if type2_badge:
+        type_badges = f"{type1_badge} {type2_badge}"
+    else:
+        type_badges = type1_badge
 
     return f"""
     <div class="card">
         <div class="card-header">
             <span>
                 {sprite}<span>{pokemon}</span>
+            </span>
+            <span class="type-badges">
+                {type_badges}
             </span>
         </div>
         <div class="card-content">
@@ -102,7 +120,7 @@ def to_card(pokemon, encounter_list, selected_location="All", selected_method="A
         # Prepare a range value based on method
 
         if method == "Raid":
-            range_value = f"{level_range or '?'} Star Raid"
+            range_value = f"{level_range or '?'} Raid"
         if method == "Gift":
             range_value = f"{level_range or '?'}"
         if method not in ["Raid", "Gift"]:
@@ -116,6 +134,7 @@ def to_card(pokemon, encounter_list, selected_location="All", selected_method="A
         range_badge = f'<span class="range-badge">{range_value}</span>'
 
         # Append to card content
+        # If none of this exists, skip it
         card_content += build_card_content(location_badge, method_badge, range_badge)
 
     return build_card(sprite, pokemon, card_content)

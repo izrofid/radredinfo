@@ -57,6 +57,31 @@ def get_all_pokemon_names(encounters_json):
     return sorted(names)
 
 
+@st.cache_data
+def get_pokemon_types(pokemon_name):
+    """Fetches the types of a given Pokémon."""
+    # Look up pokemon name in paths.pokemon
+    df = pd.read_csv(paths.rrtypes, index_col="Pokemon")
+
+    if pokemon_name in df.index:
+        try:
+            types = df.loc[pokemon_name, ["Type 1", "Type 2"]].dropna().tolist()
+            if len(types) == 0:
+                # No type data found
+                raise KeyError(f"No type data for Pokemon '{pokemon_name}'")
+            elif len(types) == 1:
+                # Only one type, duplicate it
+                return [types[0], types[0]]
+            else:
+                return types
+        except KeyError:
+            # The DataFrame doesn't have Type1/Type2 columns
+            raise KeyError(f"Type data columns not found for Pokemon '{pokemon_name}'")
+
+    # If we get here, the Pokemon isn't in any of our databases
+    raise KeyError(f"Pokemon '{pokemon_name}' not found in any type database.")
+
+
 def get_pokemon_by_location(location, encounters_json):
     """Returns a sorted list of Pokémon names for a specific location."""
 
@@ -110,19 +135,25 @@ def get_encounters_for_pokemon(pokemon_name, encounter_data):
                                 }
                             )
 
-            if isinstance(entries[0], dict) and method_sanitized not in ["Gift", "Raid"]:
+            if isinstance(entries[0], dict) and method_sanitized not in [
+                "Gift",
+                "Raid",
+            ]:
                 for entry in entries:
                     if (
                         "Pokemon" in entry
                         and entry["Pokemon"].lower() == pokemon_name.lower()
                     ):
-                        min_lvl = entry["MinLevel"]
-                        max_lvl = entry["MaxLevel"]
-                        level_range = (
-                            f"{min_lvl}"
-                            if min_lvl == max_lvl
-                            else f"{min_lvl}-{max_lvl}"
-                        )
+                        if not entry.get("MinLevel") or not entry.get("MaxLevel"):
+                            level_range = "???"
+                        else:
+                            min_lvl = entry["MinLevel"]
+                            max_lvl = entry["MaxLevel"]
+                            level_range = (
+                                f"{min_lvl}"
+                                if min_lvl == max_lvl
+                                else f"{min_lvl}-{max_lvl}"
+                            )
                         results.append(
                             {
                                 "Location": location,
@@ -138,9 +169,24 @@ def get_encounters_for_pokemon(pokemon_name, encounter_data):
 def consolidate_day_night(encounter_list):
     result = []
 
+    # First create a hash map to deduplicate identical encounters
+    unique_encounters = {}
+
+    for encounter in encounter_list:
+        # Create a key that uniquely identifies this encounter
+        encounter_key = (
+            encounter["Location"],
+            encounter["Method"],
+            encounter["LevelRange"],
+        )
+
+        # Only keep one copy of each identical encounter
+        unique_encounters[encounter_key] = encounter
+
+    # Now we have deduped identical encounters, we can apply Day/Night consolidation
     # Group encounters by location and level range
     location_groups = {}
-    for encounter in encounter_list:
+    for encounter in unique_encounters.values():
         key = (encounter["Location"], encounter["LevelRange"])
         if key not in location_groups:
             location_groups[key] = []
@@ -167,7 +213,7 @@ def consolidate_day_night(encounter_list):
                 if e["Method"] not in ["Day", "Night"]:
                     result.append(e)
         else:
-            # No consolidation needed, add all encounters as is
+            # No consolidation needed, add all unique encounters
             result.extend(encounters)
 
     return result

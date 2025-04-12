@@ -610,34 +610,34 @@
     ],
     "roaming pokemon": [
       {
-        "raw": "Terapagos-Terastal"
+        "Pokemon": "Terapagos-Terastal"
       },
       {
-        "raw": "Chi-Yu"
+        "Pokemon": "Chi-Yu"
       },
       {
-        "raw": "Tornadus"
+        "Pokemon": "Tornadus"
       },
       {
-        "raw": "Thundurus"
+        "Pokemon": "Thundurus"
       },
       {
-        "raw": "Landorus"
+        "Pokemon": "Landorus"
       },
       {
-        "raw": "Latios"
+        "Pokemon": "Latios"
       },
       {
-        "raw": "Latias"
+        "Pokemon": "Latias"
       },
       {
-        "raw": "Ting-Lu"
+        "Pokemon": "Ting-Lu"
       },
       {
-        "raw": "Wo-Chien"
+        "Pokemon": "Wo-Chien"
       },
       {
-        "raw": "Chien-Pao"
+        "Pokemon": "Chien-Pao"
       }
     ]
   },
@@ -2016,7 +2016,7 @@
     ],
     "overworld pokemon": [
       {
-        "raw": "Virizion"
+        "Pokemon": "Virizion"
       }
     ],
     "3 star raid": [
@@ -4391,7 +4391,7 @@
     ],
     "overworld pokemon": [
       {
-        "raw": "Cobalion"
+        "Pokemon": "Cobalion"
       }
     ]
   },
@@ -4495,9 +4495,12 @@
       }
     ]
   },
-  "Cerulean City Wonder Egg House": {
+  "Cerulean Egg House": {
     "trade pokemon": [
-      "Carnivine"
+      {
+      "Pokemon": "Carnivine",
+      "For": "TBA"
+      }
     ]
   },
   "Route 24": {
@@ -6044,9 +6047,12 @@
       }
     ]
   },
-  "Underground Path Route 5 Entrance": {
+  "Underground Path R5": {
     "trade pokemon": [
-      "Eiscue"
+      {
+      "Pokemon": "Eiscue",
+      "For": "TBA"
+      }
     ]
   },
   "Route 6": {
@@ -6710,9 +6716,12 @@
       }
     ]
   },
-  "Vermilion City Central House": {
+  "Vermilion House": {
     "trade pokemon": [
-      "Farfetch\u2019d-Galar"
+      {
+      "Pokemon": "Farfetch\u2019d-Galar",
+      "For": "TBA"
+      }
     ]
   },
   "Diglett's Cave B1F": {
@@ -7134,7 +7143,10 @@
   },
   "Route 2 House": {
     "trade pokemon": [
-      "Mr. Mime-Galar"
+      {
+      "Pokemon": "Mr. Mime-Galar",
+      "For": "TBA"
+      }
     ]
   },
   "Route 11": {
@@ -7620,9 +7632,12 @@
       }
     ]
   },
-  "Route 11 Gatehouse 2F": {
+  "Route 11 Gate": {
     "trade pokemon": [
-      "Floette-Eternal"
+      {
+      "Pokemon": "Floette-Eternal",
+      "For": "TBA"
+      }
     ]
   },
   "S.S. Anne Port": {
@@ -9119,7 +9134,7 @@
     ],
     "overworld pokemon": [
       {
-        "raw": "Terrakion"
+        "Pokemon": "Terrakion"
       }
     ],
     "1 star raid": [
@@ -9788,7 +9803,7 @@
     ],
     "overworld pokemon": [
       {
-        "raw": "Snorlax"
+        "Pokemon": "Snorlax"
       }
     ],
     "1 star raid": [
@@ -10876,7 +10891,10 @@
   },
   "Celadon Restaurant": {
     "trade pokemon": [
-      "Chatot"
+      {
+      "Pokemon": "Chatot",
+      "For": "TBA"
+      }
     ]
   },
   "Route 16": {
@@ -11030,7 +11048,7 @@
     ],
     "overworld pokemon": [
       {
-        "raw": "Snorlax"
+        "Pokemon": "Snorlax"
       }
     ],
     "1 star raid": [
@@ -12612,9 +12630,12 @@
       }
     ]
   },
-  "Route 18 Gatehouse 2F": {
+  "Route 18 Gate": {
     "trade pokemon": [
-      "Morpeko"
+      {
+      "Pokemon": "Morpeko",
+      "For": "TBA"
+      }
     ]
   },
   "Route 13": {
@@ -16083,7 +16104,7 @@
     ],
     "overworld pokemon": [
       {
-        "raw": "Keldeo"
+        "Pokemon": "Keldeo"
       }
     ]
   },
@@ -16586,10 +16607,10 @@
   "Seafoam Islands B5F": {
     "overworld pokemon": [
       {
-        "raw": "Articuno-Galar"
+        "Pokemon": "Articuno-Galar"
       },
       {
-        "raw": "Articuno"
+        "Pokemon": "Articuno"
       }
     ]
   },
@@ -16693,14 +16714,20 @@
       }
     ]
   },
-  "Cinnabar Island Lab Meeting Room": {
+  "Cinn. Lab Room 1": {
     "trade pokemon": [
-      "Mimikyu"
+      {
+      "Pokemon": "Mimikyu",
+      "For": "TBA"
+      }
     ]
-  },
-  "Cinnabar Island Lab Testing Room": {
+    },
+  "Cinn. Lab Room 2": {
     "trade pokemon": [
-      "Grimmsnarl"
+      {
+      "Pokemon": "Grimmsnarl",
+      "For": "TBA"
+      }
     ]
   },
   "Route 21 South": {
@@ -16954,16 +16981,16 @@
     ],
     "overworld pokemon": [
       {
-        "raw": "Zapdos-Galar"
+        "Pokemon": "Zapdos-Galar"
       },
       {
-        "raw": "Electrode"
+        "Pokemon": "Electrode"
       },
       {
-        "raw": "Electrode"
+        "Pokemon": "Electrode"
       },
       {
-        "raw": "Zapdos"
+        "Pokemon": "Zapdos"
       }
     ],
     "4 star raid": [
@@ -19637,7 +19664,7 @@
     ],
     "overworld pokemon": [
       {
-        "raw": "Mewtwo"
+        "Pokemon": "Mewtwo"
       }
     ]
   },
@@ -20198,7 +20225,7 @@
     ],
     "overworld pokemon": [
       {
-        "raw": "Walking Wake"
+        "Pokemon": "Walking Wake"
       }
     ],
     "5 star raid": [
@@ -20869,7 +20896,7 @@
     ],
     "overworld pokemon": [
       {
-        "raw": "Marshadow"
+        "Pokemon": "Marshadow"
       }
     ]
   },
@@ -21056,14 +21083,14 @@
     ],
     "overworld pokemon": [
       {
-        "raw": "Magearna"
+        "Pokemon": "Magearna"
       }
     ]
   },
-  "Seafoam Islands Kyogre's Chamber": {
+  "Seafoam Chamber": {
     "overworld pokemon": [
       {
-        "raw": "Kyogre"
+        "Pokemon": "Kyogre"
       }
     ]
   },
@@ -21878,7 +21905,7 @@
   "Mt Ember Summit": {
     "overworld pokemon": [
       {
-        "raw": "Heatran"
+        "Pokemon": "Heatran"
       }
     ],
     "gift pokemon": [

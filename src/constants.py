@@ -102,3 +102,26 @@ METHOD_COLORS = {
 FALLBACK_SPRITE = (
     "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/0.png"
 )
+
+POKEMON_TYPES = [
+    "Normal",
+    "Fire",
+    "Water",
+    "Electric",
+    "Grass",
+    "Ice",
+    "Fighting",
+    "Poison",
+    "Ground",
+    "Flying",
+    "Psychic",
+    "Bug",
+    "Rock",
+    "Ghost",
+    "Dragon",
+    "Dark",
+    "Steel",
+    "Fairy"
+]
+
+DEBUG = False  # Set to True to enable debug mode
