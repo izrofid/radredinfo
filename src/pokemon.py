@@ -1,214 +1,131 @@
-"""Main module containing code for the webapp display"""
+"""Module to display enconter data"""
 
-import pandas as pd
 import streamlit as st
 import render as rn
-import paths
-from utils import (
-    strip_form_suffix,
-    consolidate_by_location,
-    apply_common_filters,
-    prep_level_range,
-)
-
-from constants import TIME_ICONS, REQUIRED_FIELDS
-
-# Page Config
-st.markdown("<style>" + open(paths.styles).read() + "</style>", unsafe_allow_html=True)
-# Load data
-df = pd.read_csv(paths.encounters)
+import utils
+from constants import METHOD_NAMES, POKEMON_TYPES, DEBUG
 
 
-pokemon_df = pd.read_csv(paths.pokemon)
-pokemon_names = sorted(pokemon_df["Name"].unique())
+# Load encounter data
+encounters = utils.load_encounter_json()
 
-levelcap_df = pd.read_csv(paths.levels, keep_default_na=False)
-levelcap_df.columns = levelcap_df.columns.str.strip()
-levelcap_df["Level Cap"] = levelcap_df["Level Cap"].astype(int)
-level_caps = levelcap_df.set_index("Point")["Level Cap"].to_dict()
+# Variable definitions
+pokemon_names = utils.get_all_pokemon_names(encounters)
+location_names = list(encounters.keys())
+pokemon_options = ["All"] + pokemon_names
+location_options = ["All"] + location_names
+method_options = ["All"] + METHOD_NAMES
+list_of_pokemon = []
 
+# Load styles
+utils.load_styles()
 
-# Prepare level range as a combined string
-df = prep_level_range(df)
-
-
-# Page title
+# Show title
 st.title("Radical Red Pokemon Locations")
-
 st.markdown(
     "Search for a Pokémon or a Location to find where and at what levels it can be encountered."  # noqa: E501
 )
 
-# Search inputs
+# Two column layout
 col1, col2 = st.columns(2)
-
 with col1:
-    selected_pokemon = st.selectbox("Pokémon", ["All"] + pokemon_names)
-
+    selected_pokemon = st.selectbox("Search Pokémon", pokemon_options)
 with col2:
-    search_location = st.selectbox(
-        "Location", ["All"] + sorted(df["Location"].unique())
-    )
-
-time_icons = {"All": "🌓 All", "Day": "☀️ Day", "Night": "🌙 Night"}
+    selected_location = st.selectbox("Choose Location", location_options)
 
 col3, col4 = st.columns(2)
-
-
 with col3:
-    location_type = st.radio(
-        "Land or Water?",
-        options=["Both", "Land", "Water"],
-        format_func=lambda t: {
-            "Both": "🌏 Both",
-            "Land": "🗾 Land",
-            "Water": "💧 Water",
-        }[t],
-        horizontal=True,
-    )
+    selected_method = st.selectbox("Choose Method", method_options)
 
 with col4:
-    if location_type == "Water":
-        time_choice = st.radio(
-            "Time of Day",
-            options=["All"],
-            format_func=lambda t: {"All": "🌓 All"}[t],
-            horizontal=True,
-        )
+    selected_type = st.selectbox("Type", ["All"] + POKEMON_TYPES, index=0)
 
+
+# Filtering
+filtered_pokemon = set(pokemon_names)  # Start with all Pokémon
+
+# Pokémon name filter (always apply this first as it's the most specific)
+if selected_pokemon != "All":
+    filtered_pokemon = filtered_pokemon.intersection([selected_pokemon])
+
+
+# Define a function to check if a pokemon meets all selected criteria
+def meets_criteria(pokemon):
+    encounters_for_pokemon = utils.get_encounters_for_pokemon(pokemon, encounters)
+    pokemon_types = utils.get_pokemon_types(pokemon)
+
+    # Check type criteria first (if applied)
+    if selected_type != "All" and selected_type not in pokemon_types:
+        return False
+
+    # Apply location filter if needed
+    if selected_location != "All":
+        location_matches = [
+            e for e in encounters_for_pokemon if e["Location"] == selected_location
+        ]
+        if not location_matches:
+            return False
+
+        # If only location is selected, we've found at least one match
+        if selected_method == "All":
+            return True
+
+        # If location and method are both selected, check the subset of location matches
+        encounters_to_check = location_matches
     else:
-        time_choice = st.radio(
-            "Time of Day",
-            options=["All", "Day", "Night"],
-            format_func=lambda t: {
-                "All": "🌓 All",
-                "Day": "☀️ Day",
-                "Night": "🌙 Night",
-            }[t],
-            horizontal=True,
-        )
+        # If only method is selected, check all encounters
+        encounters_to_check = encounters_for_pokemon
 
-df["Method"] = df["Method"].str.strip()
-land_methods = ["Grass", "Game Corner", "Raid"]
-land_options = ["All"] + land_methods
-water_methods = sorted([m for m in df["Method"].unique() if m not in land_methods])
-all_methods = sorted(df["Method"].unique())
-water_options = ["All"] + land_methods + water_methods
-method_options = ["All"] + all_methods
+    # Apply method filter if needed
+    if selected_method != "All":
+        combined_methods = {
+            "Walk": ["Day", "Night", "Walk"],  # Include "Walk" for consolidated entries
+            "Water": ["Surf", "Old Rod", "Good Rod", "Super Rod"],
+        }
 
-methods = [water_methods, all_methods, land_methods]
+        methods_to_check = combined_methods.get(selected_method, [selected_method])
 
-col5, col6 = st.columns(2)
+        # Check if any encounter matches the method criteria
+        if not any(e["Method"] in methods_to_check for e in encounters_to_check):
+            return False
 
-with col5:
-    if location_type == "Land":
-        selected_method = st.selectbox("Method", land_options, index=0)
-    elif location_type == "Water":
-        selected_method = st.selectbox("Method", water_options, index=0)
-    else:
-        selected_method = st.selectbox("Method", method_options, index=0)
-
-with col6:
-    selected_label = st.selectbox("Level Cap", list(level_caps.keys()))
-    selected_level_cap = level_caps[selected_label]
+    return True
 
 
-# Filter data
-df["BasePokemon"] = df["Pokemon"].apply(strip_form_suffix)
-filtered = df.copy()
-
-filtered = apply_common_filters(
-    filtered,
-    selected_pokemon,
-    search_location,
-    location_type,
-    selected_method,
-    selected_level_cap,
-    methods,
+# Apply all filters at once using the criteria function
+has_filter_selected = any(
+    [selected_location != "All", selected_method != "All", selected_type != "All"]
 )
 
-# Keep only the essential display columns
-filtered = filtered.dropna(subset=REQUIRED_FIELDS)
+if has_filter_selected:
+    filtered_pokemon = {
+        pokemon for pokemon in filtered_pokemon if meets_criteria(pokemon)
+    }
 
-# Check if any results
-if filtered.empty:
-    st.warning("No encounters found. Try adjusting your search.")
+if DEBUG:
+    debug_info = st.expander("Debug Information", expanded=False)
+    with debug_info:
+        st.write(
+            f"Filter criteria: Location: {selected_location}, Method: {selected_method}, Type: {selected_type}"
+        )
+        st.write(f"Found {len(filtered_pokemon)} Pokémon matching criteria")
 
-# Show Results
-grouped = filtered.groupby("Pokemon")
+        # Show a few example Pokémon and their types
+        if list_of_pokemon:
+            sample_size = min(5, len(list_of_pokemon))
+            st.write("#### Sample Pokémon Types:")
+            for pokemon in list_of_pokemon[:sample_size]:
+                types = utils.get_pokemon_types(pokemon)
+                st.write(f"{pokemon}: {types}")
 
-card_html_list = []
+# Sort the final list for display
+list_of_pokemon = sorted(filtered_pokemon)
 
+# Sort the final list for display
+list_of_pokemon = sorted(filtered_pokemon)
 
-def add_card(encounters, label):
-    if not encounters:
-        return
-    time_icon = TIME_ICONS.get(frozenset({label}), "")
-    card_html = rn.build_fancy_card_html(pokemon, encounters, time_icon)
-    card_html_list.append(card_html)
-
-
-for pokemon, group in grouped:
-    times = set(group["Time"].unique())
-
-    # Break up group by time
-    day_group = group[group["Time"] == "Day"]
-    night_group = group[group["Time"] == "Night"]
-    any_group = group[group["Time"] == "All"]
-
-    # If both day and night encounters exist
-    day_locs = set(day_group["Location"])
-    night_locs = set(night_group["Location"])
-    both_locs = day_locs & night_locs
-
-    # Create both_group to store those
-    both_group = pd.concat(
-        [
-            day_group[day_group["Location"].isin(both_locs)],
-            night_group[night_group["Location"].isin(both_locs)],
-        ]
-    )
-
-    # Remove these from day and night groups
-    day_group = day_group[~day_group["Location"].isin(both_locs)]
-    night_group = night_group[~night_group["Location"].isin(both_locs)]
-
-    # Combine any_group with both_group to create all_group
-    all_group = pd.concat([any_group, both_group], ignore_index=True)
-
-    # Turn into encounter lists
-    day_encounters = consolidate_by_location(day_group)
-    night_encounters = consolidate_by_location(night_group)
-    all_encounters = consolidate_by_location(all_group)
-    both_encounters = consolidate_by_location(both_group)
-
-    if time_choice == "All":
-        if both_encounters or all_encounters:
-            usable = all_encounters if all_encounters else both_encounters
-            add_card(usable, "All")
-
-        if day_encounters:
-            add_card(day_encounters, "Day")
-
-        if night_encounters:
-            add_card(night_encounters, "Night")
-    else:
-        # Day/Night filter
-        if time_choice == "Day":
-            if day_encounters:
-                add_card(day_encounters, "Day")
-
-            if both_encounters or all_encounters:
-                usable = all_encounters if all_encounters else both_encounters
-                add_card(usable, "All")
-
-        elif time_choice == "Night":
-            if night_encounters:
-                add_card(night_encounters, "Night")
-
-            if both_encounters or all_encounters:
-                usable = all_encounters if all_encounters else both_encounters
-                add_card(usable, "All")
-
-if card_html_list:
-    rn.render_all_cards(card_html_list)
+complete_dict = utils.consolidate_encounters_by_pokemon(list_of_pokemon, encounters)
+if list_of_pokemon:
+    st.html(rn.build_multiple_cards(complete_dict, selected_location, selected_method))
+else:
+    st.warning("No Encounters found. Try adjusting your search")

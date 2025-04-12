@@ -39,10 +39,10 @@ Number,Name,FullName,Form,Type 1,Type 2,HP,Attack,Defense,Sp.Attack,Sp.Defense,S
 27,Sandshrew,Sandshrew-Alola,Alola,Ice,Steel,50,75,90,10,35,40
 28,Sandslash,Sandslash,,Ground,,75,100,110,45,55,65
 28,Sandslash,Sandslash-Alola,Alola,Ice,Steel,75,100,120,25,65,65
-29,NidoranF,NidoranF,,Poison,,55,47,52,40,40,41
+29,Nidoran-F,Nidoran-F,,Poison,,55,47,52,40,40,41
 30,Nidorina,Nidorina,,Poison,,70,62,67,55,55,56
 31,Nidoqueen,Nidoqueen,,Poison,Ground,90,92,87,75,85,76
-32,NidoranM,NidoranM,,Poison,,46,57,40,40,40,50
+32,Nidoran-M,Nidoran-M,,Poison,,46,57,40,40,40,50
 33,Nidorino,Nidorino,,Poison,,61,72,57,55,55,65
 34,Nidoking,Nidoking,,Poison,Ground,81,102,77,85,75,85
 35,Clefairy,Clefairy,,Fairy,,70,45,48,60,65,35
@@ -802,8 +802,9 @@ Number,Name,FullName,Form,Type 1,Type 2,HP,Attack,Defense,Sp.Attack,Sp.Defense,S
 666,Vivillon,Vivillon,,Bug,Flying,80,52,50,90,50,89
 667,Litleo,Litleo,,Fire,Normal,62,50,58,73,54,72
 668,Pyroar,Pyroar,,Fire,Normal,86,68,72,109,66,106
-669,Flabébé,Flabébé,,Fairy,,44,38,39,61,79,42
+669,Flabebe,Flabebe,,Fairy,,44,38,39,61,79,42
 670,Floette,Floette,,Fairy,,54,45,47,75,98,52
+670,Floette,Floette-Eternal,Eternal,Fairy,,74,65,67,125,112,92
 671,Florges,Florges,,Fairy,,78,65,68,112,154,75
 672,Skiddo,Skiddo,,Grass,,66,65,48,62,57,52
 673,Gogoat,Gogoat,,Grass,,123,100,62,97,81,68
