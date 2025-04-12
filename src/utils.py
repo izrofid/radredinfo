@@ -38,6 +38,7 @@ def load_sprite_lookup():
 # ---------------------
 
 
+@st.cache_data
 def get_all_pokemon_names(encounters_json):
     """loops through the ecnounters data to return a sorted list of pokemon names"""
 
@@ -53,6 +54,28 @@ def get_all_pokemon_names(encounters_json):
                     # Handle gift/trade string entries
                     elif isinstance(entry, str):
                         names.add(entry.strip())
+
+    return sorted(names)
+
+
+def get_pokemon_by_location(location, encounters_json):
+    """Returns a sorted list of Pokémon names for a specific location."""
+
+    names = set()
+
+    location_data = encounters_json.get(location)
+    if not location_data:
+        return []
+
+    for method, entries in location_data.items():
+        if isinstance(entries, list):
+            for entry in entries:
+                # Handle raid format (dict with "Pokemon")
+                if isinstance(entry, dict) and "Pokemon" in entry:
+                    names.add(entry["Pokemon"])
+                # Handle gift/trade string entries
+                elif isinstance(entry, str):
+                    names.add(entry.strip())
 
     return sorted(names)
 
@@ -102,17 +125,41 @@ def get_encounters_for_pokemon(pokemon_name, encounter_data):
 
 
 def consolidate_day_night(encounter_list):
-    # Loop through encounter list and change Day/Night to Walk
+    result = []
+
+    # Group encounters by location and level range
+    location_groups = {}
     for encounter in encounter_list:
-        if encounter["Method"] in ["Day", "Night"]:
-            encounter["Method"] = "Walk"
+        key = (encounter["Location"], encounter["LevelRange"])
+        if key not in location_groups:
+            location_groups[key] = []
+        location_groups[key].append(encounter)
 
-    # Dedeuplicates the list of dictionaries
+    # Process each location group
+    for encounters in location_groups.values():
+        methods = {e["Method"] for e in encounters}
 
-    consolidated_encounter_list = list(
-        OrderedDict((frozenset(item.items()), item) for item in encounter_list).values()
-    )
-    return consolidated_encounter_list
+        # If both Day and Night exist in this location with same level range
+        if "Day" in methods and "Night" in methods:
+            # Create a consolidated Walk encounter
+            walk_encounter = {
+                "Location": encounters[0]["Location"],
+                "Method": "Walk",
+                "LevelRange": encounters[0]["LevelRange"],
+            }
+
+            # Add the consolidated walk encounter
+            result.append(walk_encounter)
+
+            # Add all other encounters that aren't Day or Night
+            for e in encounters:
+                if e["Method"] not in ["Day", "Night"]:
+                    result.append(e)
+        else:
+            # No consolidation needed, add all encounters as is
+            result.extend(encounters)
+
+    return result
 
 
 def add_pokemon_to_dict(complete_dict, pokemon, encounter_list):

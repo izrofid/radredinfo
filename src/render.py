@@ -52,7 +52,7 @@ def build_card(sprite, pokemon, content):
     """
 
 
-def to_card(pokemon, encounter_list):
+def to_card(pokemon, encounter_list, selected_location="All", selected_method="All"):
     """
     Function that turns encounters into cards for display
     Takes pokemon name (str) and encounter list (dict)
@@ -66,6 +66,37 @@ def to_card(pokemon, encounter_list):
         # Grab location, method and level_range for each encounter
         location = encounter["Location"]
         method = encounter["Method"]
+        if selected_location != "All" and location != selected_location:
+            continue
+        if selected_method != "All":
+            if selected_method == "Walk" and encounter["Method"] not in [
+                "Day",
+                "Night",
+                "Walk",
+            ]:
+                continue
+            if selected_method == "Day" and encounter["Method"] not in ["Day", "Walk"]:
+                continue
+            if selected_method == "Night" and encounter["Method"] not in [
+                "Night",
+                "Walk",
+            ]:
+                continue
+            elif selected_method == "Water" and encounter["Method"] not in [
+                "Old Rod",
+                "Good Rod",
+                "Super Rod",
+                "Surf",
+            ]:
+                continue
+            elif (
+                selected_method != "Walk"
+                and selected_method != "Water"
+                and selected_method != "Day"
+                and selected_method != "Night"
+                and encounter["Method"] != selected_method
+            ):
+                continue
         level_range = encounter["LevelRange"]
 
         # Prepare a range value based on method
@@ -88,9 +119,11 @@ def to_card(pokemon, encounter_list):
     return build_card(sprite, pokemon, card_content)
 
 
-def build_multiple_cards(complete_dict):
+def build_multiple_cards(complete_dict, selected_location="All", selected_method="All"):
     all_cards = ""
     for pokemon in complete_dict:
-        data_for_card = to_card(pokemon, complete_dict[pokemon])
+        data_for_card = to_card(
+            pokemon, complete_dict[pokemon], selected_location, selected_method
+        )
         all_cards += data_for_card
     return all_cards

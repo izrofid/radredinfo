@@ -30,7 +30,7 @@
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 12px;
-    gap: 10%;
+    gap: clamp(1vw, 5vw, 100%);
 }
 
 .data-item {

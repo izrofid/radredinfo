@@ -48,6 +48,22 @@ SPRITE_FIXES = {
     "zygarde": "zygarde-complete",
 }
 
+METHOD_NAMES = [
+    "Walk",
+    "Day",
+    "Night",
+    "Water",
+    "Surf",
+    "Old Rod",
+    "Good Rod",
+    "Super Rod",
+    "Raid",
+    "Trade",
+    "Gift",
+    "Overworld",
+    "Roaming",
+]
+
 METHOD_MAP = {
     "day encounters": "Day",
     "night encounters": "Night",
