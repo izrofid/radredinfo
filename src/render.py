@@ -100,11 +100,13 @@ def to_card(pokemon, encounter_list, selected_location="All", selected_method="A
         level_range = encounter["LevelRange"]
 
         # Prepare a range value based on method
-        range_value = (
-            f"Level {level_range or '?'}"
-            if method != "Raid"
-            else f"{level_range or '?'} Raid"
-        )
+
+        if method == "Raid":
+            range_value = f"{level_range or '?'} Star Raid"
+        if method == "Gift":
+            range_value = f"{level_range or '?'}"
+        if method not in ["Raid", "Gift"]:
+            range_value = f"Level {level_range or '?'}"
 
         # Grab color based on method
         color = constants.METHOD_COLORS.get(method, "#555")

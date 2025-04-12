@@ -3,7 +3,6 @@ import paths
 import json
 import pandas as pd
 from constants import METHOD_MAP
-from collections import OrderedDict
 
 
 # ---------------------
@@ -99,7 +98,19 @@ def get_encounters_for_pokemon(pokemon_name, encounter_data):
                                 }
                             )
 
-            elif isinstance(entries[0], dict):
+            if method_sanitized == "Gift":
+                for entry in entries:
+                    if isinstance(entry, dict) and "Pokemon" in entry:
+                        if entry["Pokemon"].lower() == pokemon_name.lower():
+                            results.append(
+                                {
+                                    "Location": location,
+                                    "Method": "Gift",
+                                    "LevelRange": entry["Type"],
+                                }
+                            )
+
+            if isinstance(entries[0], dict) and method_sanitized not in ["Gift", "Raid"]:
                 for entry in entries:
                     if (
                         "Pokemon" in entry

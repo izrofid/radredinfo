@@ -93,7 +93,7 @@ METHOD_COLORS = {
     "Super Rod": "#4B0082",  # Indigo
     "Raid": "#9e2828",  # Dark Red
     "Game Corner": "#c95b94",  # Purple-pink
-    "Gift": "#FF8C00",  # DarkOrange
+    "Gift": "#d975af",  # DarkOrange
     "Trade": "#20B2AA",  # LightSeaGreen
     "Roaming": "#A0522D",  # Sienna
     "Overworld": "#556B2F",  # DarkOliveGreen

@@ -101,33 +101,114 @@
   },
   "Pallet Town Oak's Lab": {
     "gift pokemon": [
-      "Charmander",
-      "Squirtle",
-      "Fuecoco",
-      "Quaxly",
-      "Sprigatito",
-      "Scorbunny",
-      "Sobble",
-      "Grookey",
-      "Litten",
-      "Popplio",
-      "Rowlet",
-      "Fennekin",
-      "Froakie",
-      "Chespin",
-      "Tepig",
-      "Oshawott",
-      "Snivy",
-      "Chimchar",
-      "Piplup",
-      "Turtwig",
-      "Torchic",
-      "Mudkip",
-      "Treecko",
-      "Cyndaquil",
-      "Totodile",
-      "Chikorita",
-      "Bulbasaur"
+      {
+        "Pokemon": "Charmander",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Squirtle",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Fuecoco",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Quaxly",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Sprigatito",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Scorbunny",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Sobble",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Grookey",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Litten",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Popplio",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Rowlet",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Fennekin",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Froakie",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Chespin",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Tepig",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Oshawott",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Snivy",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Chimchar",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Piplup",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Turtwig",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Torchic",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Mudkip",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Treecko",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Cyndaquil",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Totodile",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Chikorita",
+        "Type": "Starter"
+      },
+      {
+        "Pokemon": "Bulbasaur",
+        "Type": "Starter"
+      }
     ]
   },
   "Route 1": {
@@ -2576,8 +2657,14 @@
       }
     ],
     "gift pokemon": [
-      "Mudkip",
-      "Mudkip"
+      {
+        "Pokemon": "Mudkip",
+        "Type": "Generic"
+      },
+      {
+        "Pokemon": "Mudkip",
+        "Type": "Generic"
+      }
     ]
   },
   "Route 3": {
@@ -3392,8 +3479,14 @@
   },
   "Route 4 Poke Center": {
     "gift pokemon": [
-      "Magikarp",
-      "Magikarp"
+      {
+        "Pokemon": "Magikarp",
+        "Type": "Generic"
+      },
+      {
+        "Pokemon": "Magikarp",
+        "Type": "Generic"
+      }
     ]
   },
   "Mt. Moon 1F": {
@@ -5540,7 +5633,10 @@
   },
   "Cerulean City Gym": {
     "gift pokemon": [
-      "Drednaw"
+      {
+        "Pokemon": "Drednaw",
+        "Type": "Generic"
+      }
     ]
   },
   "Route 5": {
@@ -5942,7 +6038,10 @@
   },
   "Route 5 Daycare": {
     "gift pokemon": [
-      "Eevee"
+      {
+        "Pokemon": "Eevee",
+        "Type": "Generic"
+      }
     ]
   },
   "Underground Path Route 5 Entrance": {
@@ -6545,25 +6644,70 @@
       }
     ],
     "gift pokemon": [
-      "Gastly",
-      "Gastly"
+      {
+        "Pokemon": "Gastly",
+        "Type": "Generic"
+      },
+      {
+        "Pokemon": "Gastly",
+        "Type": "Generic"
+      }
     ]
   },
-  "Vermilion City Pokemon Fan Club": {
+  "Vermilion Club": {
     "gift pokemon": [
-      "Aerodactyl",
-      "Kabuto",
-      "Omanyte",
-      "Amaura",
-      "Tyrunt",
-      "Tirtouga",
-      "Archen",
-      "Shieldon",
-      "Cranidos",
-      "Anorith",
-      "Lileep",
-      "Kabuto",
-      "Omanyte"
+      {
+        "Pokemon": "Aerodactyl",
+        "Type": "Fossil"
+      },
+      {
+        "Pokemon": "Kabuto",
+        "Type": "Fossil"
+      },
+      {
+        "Pokemon": "Omanyte",
+        "Type": "Fossil"
+      },
+      {
+        "Pokemon": "Amaura",
+        "Type": "Fossil"
+      },
+      {
+        "Pokemon": "Tyrunt",
+        "Type": "Fossil"
+      },
+      {
+        "Pokemon": "Tirtouga",
+        "Type": "Fossil"
+      },
+      {
+        "Pokemon": "Archen",
+        "Type": "Fossil"
+      },
+      {
+        "Pokemon": "Shieldon",
+        "Type": "Fossil"
+      },
+      {
+        "Pokemon": "Cranidos",
+        "Type": "Fossil"
+      },
+      {
+        "Pokemon": "Anorith",
+        "Type": "Fossil"
+      },
+      {
+        "Pokemon": "Lileep",
+        "Type": "Fossil"
+      },
+      {
+        "Pokemon": "Kabuto",
+        "Type": "Fossil"
+      },
+      {
+        "Pokemon": "Omanyte",
+        "Type": "Fossil"
+      }
     ]
   },
   "Vermilion City Central House": {
@@ -10582,50 +10726,155 @@
       }
     ]
   },
-  "Celadon City Mansion 1F": {
+  "Celadon Mansion 1F": {
     "gift pokemon": [
-      "Sprigatito",
-      "Snivy",
-      "Bulbasaur",
-      "Treecko",
-      "Rowlet",
-      "Grookey",
-      "Chespin",
-      "Turtwig",
-      "Chikorita",
-      "Froakie",
-      "Quaxly",
-      "Mudkip",
-      "Squirtle",
-      "Popplio",
-      "Sobble",
-      "Oshawott",
-      "Piplup",
-      "Totodile",
-      "Torchic",
-      "Fuecoco",
-      "Charmander",
-      "Litten",
-      "Scorbunny",
-      "Fennekin",
-      "Tepig",
-      "Chimchar",
-      "Cyndaquil",
-      "Pikachu-PhD",
-      "Pikachu-Belle",
-      "Pikachu-Rock-Star",
-      "Pikachu-Pop-Star",
-      "Pikachu-Libre",
-      "Pikachu-Flying",
-      "Pikachu-Surfing"
+      {
+        "Pokemon": "Sprigatito",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Snivy",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Bulbasaur",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Treecko",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Rowlet",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Grookey",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Chespin",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Turtwig",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Chikorita",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Froakie",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Quaxly",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Mudkip",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Squirtle",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Popplio",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Sobble",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Oshawott",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Piplup",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Totodile",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Torchic",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Fuecoco",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Charmander",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Litten",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Scorbunny",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Fennekin",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Tepig",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Chimchar",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Cyndaquil",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Pikachu-PhD",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Pikachu-Belle",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Pikachu-Rock-Star",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Pikachu-Pop-Star",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Pikachu-Libre",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Pikachu-Flying",
+        "Type": "Egg"
+      },
+      {
+        "Pokemon": "Pikachu-Surfing",
+        "Type": "Egg"
+      }
     ]
   },
-  "Celadon City Mansion Roof House": {
+  "Celadon Mansion Rf": {
     "gift pokemon": [
-      "Eevee"
+      {
+        "Pokemon": "Eevee",
+        "Type": "Generic"
+      }
     ]
   },
-  "Celadon City Restaurant": {
+  "Celadon Restaurant": {
     "trade pokemon": [
       "Chatot"
     ]
@@ -11215,42 +11464,102 @@
   },
   "Celadon City Gym": {
     "gift pokemon": [
-      "Ogerpon"
+      {
+        "Pokemon": "Ogerpon",
+        "Type": "Generic"
+      }
     ]
   },
-  "Celadon City Game Corner Exchange": {
+  "Game Corner": {
     "gift pokemon": [
-      "Frigibax",
-      "Toxel",
-      "Honedge",
-      "Dreepy",
-      "Jangmo-o",
-      "Goomy",
-      "Deino",
-      "Larvesta",
-      "Gible",
-      "Rotom",
-      "Riolu",
-      "Bagon",
-      "Beldum",
-      "Larvitar",
-      "Dratini"
+      {
+        "Pokemon": "Frigibax",
+        "Type": "Game Corner"
+      },
+      {
+        "Pokemon": "Toxel",
+        "Type": "Game Corner"
+      },
+      {
+        "Pokemon": "Honedge",
+        "Type": "Game Corner"
+      },
+      {
+        "Pokemon": "Dreepy",
+        "Type": "Game Corner"
+      },
+      {
+        "Pokemon": "Jangmo-o",
+        "Type": "Game Corner"
+      },
+      {
+        "Pokemon": "Goomy",
+        "Type": "Game Corner"
+      },
+      {
+        "Pokemon": "Deino",
+        "Type": "Game Corner"
+      },
+      {
+        "Pokemon": "Larvesta",
+        "Type": "Game Corner"
+      },
+      {
+        "Pokemon": "Gible",
+        "Type": "Game Corner"
+      },
+      {
+        "Pokemon": "Rotom",
+        "Type": "Game Corner"
+      },
+      {
+        "Pokemon": "Riolu",
+        "Type": "Game Corner"
+      },
+      {
+        "Pokemon": "Bagon",
+        "Type": "Game Corner"
+      },
+      {
+        "Pokemon": "Beldum",
+        "Type": "Game Corner"
+      },
+      {
+        "Pokemon": "Larvitar",
+        "Type": "Game Corner"
+      },
+      {
+        "Pokemon": "Dratini",
+        "Type": "Game Corner"
+      }
     ]
   },
-  "Saffron City Gian's House 1F": {
+  "Gian's House 1F": {
     "gift pokemon": [
-      "Cosmog"
+      {
+        "Pokemon": "Cosmog",
+        "Type": "Generic"
+      }
     ]
   },
-  "Saffron City Fighting Dojo": {
+  "Fighting Dojo": {
     "gift pokemon": [
-      "Tauros-Paldea-Blaze",
-      "Tauros-Paldea-Aqua"
+      {
+        "Pokemon": "Tauros-Paldea-Blaze",
+        "Type": "Generic"
+      },
+      {
+        "Pokemon": "Tauros-Paldea-Aqua",
+        "Type": "Generic"
+      }
     ]
   },
   "Silph Co. 7F": {
     "gift pokemon": [
-      "Lapras"
+      {
+        "Pokemon": "Lapras",
+        "Type": "Generic"
+      }
     ]
   },
   "Pokemon Tower 3F": {
@@ -18410,8 +18719,14 @@
       }
     ],
     "gift pokemon": [
-      "Kubfu",
-      "Kubfu"
+      {
+        "Pokemon": "Kubfu",
+        "Type": "Generic"
+      },
+      {
+        "Pokemon": "Kubfu",
+        "Type": "Generic"
+      }
     ],
     "4 star raid": [
       {
@@ -19328,7 +19643,10 @@
   },
   "Viridian City Gym": {
     "gift pokemon": [
-      "Dragapult"
+      {
+        "Pokemon": "Dragapult",
+        "Type": "Generic"
+      }
     ]
   },
   "Route 23": {
@@ -20997,7 +21315,10 @@
       }
     ],
     "gift pokemon": [
-      "Pikachu-Libre"
+      {
+        "Pokemon": "Pikachu-Libre",
+        "Type": "Generic"
+      }
     ]
   },
   "Kindle Road": {
@@ -21248,7 +21569,10 @@
       }
     ],
     "gift pokemon": [
-      "Pinsir"
+      {
+        "Pokemon": "Pinsir",
+        "Type": "Generic"
+      }
     ]
   },
   "Mt Ember Exterior": {
@@ -21558,12 +21882,18 @@
       }
     ],
     "gift pokemon": [
-      "Aerodactyl"
+      {
+        "Pokemon": "Aerodactyl",
+        "Type": "Fossil"
+      }
     ]
   },
   "Two Island House": {
     "gift pokemon": [
-      "Clefable"
+      {
+        "Pokemon": "Clefable",
+        "Type": "Generic"
+      }
     ]
   },
   "Cape Brink": {
@@ -22460,7 +22790,10 @@
       }
     ],
     "gift pokemon": [
-      "Mew"
+      {
+        "Pokemon": "Mew",
+        "Type": "Generic"
+      }
     ]
   }
 }
